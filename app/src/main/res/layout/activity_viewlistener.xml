@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="由于ButterKnife的onViewClicked 点击事件直接执行不用监听的，所以出现点击2次触发按钮的点击就见怪不怪了"/>
+    <Button
+        android:id="@+id/bt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="外部类对象" />
+
+    <Button
+        android:id="@+id/bt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内部类对象" />
+
+    <Button
+        android:id="@+id/bt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="匿名内部类对象" />
+
+    <Button
+        android:id="@+id/bt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前类对象" />
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:onClick="click"
+        android:gravity="center"
+        android:text="onClick属性设置监听器(可点击)" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多事件监听" />
+    <Button
+        android:id="@+id/bt_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开"/>
+    <Button
+        android:id="@+id/bt_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java代码修改/获取UI控件的属性"/>
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示获取的信息"/>
+    <Button
+        android:id="@+id/bt_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取信息" />
+
+</LinearLayout>

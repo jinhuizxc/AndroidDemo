@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">AndroidDemo</string>
+    <string name="textview">TextView常用属性</string>
+    <string name="button">Button常用属性</string>
+    <string name="edittext">EditText常用属性</string>
+    <string name="prograssbar">PrograssBar常用属性</string>
+    <string name="imageview">ImageView常用属性</string>
+    <string name="linearlayout">Linearlayout(线性布局)</string>
+    <string name="Relativelayout">Relativelayout(相对布局)</string>
+    <string name="Framelayout">Framelayout(帧布局)</string>
+    <string name="Tablelayout">Tablelayout(表格布局)</string>
+    <string name="Gridlayout">Gridlayout(网格布局)</string>
+    <string name="res">res资源文件</string>
+    <string name="viewlistener">View的监听事件</string>
 </resources>

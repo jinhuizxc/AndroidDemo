@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="字符串资源" />
+
+    <Button
+        android:id="@+id/bt_res_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="字符串数组资源" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="字符串数组资源xml使用"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/books"/>
+
+    <Button
+        android:id="@+id/bt_dimension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="尺寸资源" />
+    <Button
+        android:id="@+id/bt_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:text="颜色资源" />
+    <Button
+        android:id="@+id/bt_color1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="颜色资源1" />
+    <Button
+        android:id="@+id/bt_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击显示图片" />
+    <ImageView
+        android:id="@+id/bt_setImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

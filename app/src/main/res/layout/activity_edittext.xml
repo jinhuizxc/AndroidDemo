@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- 普通 -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <requestFocus />
+
+    </EditText>
+
+    <!-- 设置为密码类型 -->
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true" />
+    <EditText
+        android:id="@+id/num_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="数字密码（弹出数字输入键盘，不允许字母）"
+        android:inputType="numberPassword" />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="文本密码（弹出文本输入键盘，但可以输入数字）"
+        android:inputType="textPassword" />
+
+    <!-- 设置提示信息，输入类型为数字 -->
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="只允许数字"
+        android:inputType="number" />
+
+    <!--无光标 -->
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false" />
+
+    <!--设置最多显示2行，有光标-->
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="可见范围最多显示2行"
+        android:maxLines="2"/>
+</LinearLayout>

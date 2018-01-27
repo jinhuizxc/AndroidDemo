@@ -1,18 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.jinhui.androiddemo.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Android 合集待整理！"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/bt_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常用Widget与布局文件" />
+
+    <Button
+        android:id="@+id/bt_listener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="监听事件、资源文件" />
+
+    <Button
+        android:id="@+id/bt_day3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day3" />
+
+    <Button
+        android:id="@+id/bt_day4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day4" />
+
+    <Button
+        android:id="@+id/bt_day5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day5" />
+
+    <Button
+        android:id="@+id/bt_day6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day6" />
+
+    <Button
+        android:id="@+id/bt_day7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day7" />
+
+    <Button
+        android:id="@+id/bt_day8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day8" />
+
+    <Button
+        android:id="@+id/bt_day9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="day9" />
+</LinearLayout>

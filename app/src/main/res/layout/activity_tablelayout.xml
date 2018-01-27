@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".day1.layout.TablelayoutActivity">
+    <!-- 定义第一个表格，指定第2列允许收缩，第3列允许拉伸 -->
+    <TableLayout
+        android:id="@+id/tablelayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="2">
+        <!-- 直接添加按钮，自己占用一行 -->
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="独自一行"/>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通"/>
+
+            <Button
+                android:id="@+id/btn03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="允许被收缩允许被收缩允许被收缩允许被收缩"/>
+
+            <Button
+                android:id="@+id/btn04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="允许被拉伸"/>
+        </TableRow>
+    </TableLayout>
+    <!-- 定义第2个表格，指定第2列填满空白-->
+    <TableLayout
+        android:id="@+id/tablelayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通"/>
+
+            <Button
+                android:id="@+id/btn09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="填满剩余空白"/>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通"/>
+
+            <Button
+                android:id="@+id/btn06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="空白"/>
+        </TableRow>
+    </TableLayout>
+    <!-- 定义第3个表格，指定第2列横跨2列-->
+    <TableLayout
+        android:id="@+id/tablelayout04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item>第一本书</item>
+        <item>第二本书</item>
+        <item>第三本书</item>
+        <item>第四本书</item>
+        <item>第五本书</item>
+    </string-array>
+</resources>

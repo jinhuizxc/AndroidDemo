@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常用Widget" />
+
+    <Button
+        android:id="@+id/bt_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View的常用属性" />
+    <Button
+        android:id="@+id/bt_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView的常用属性" />
+    <Button
+        android:id="@+id/bt_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button的常用属性" />
+    <Button
+        android:id="@+id/bt_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText的常用属性" />
+    <Button
+        android:id="@+id/bt_prograssbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PrograssBar的常用属性" />
+    <Button
+        android:id="@+id/bt_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageView的常用属性" />
+    <Button
+        android:id="@+id/bt_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioGroup、RadioButton的常用属性" />
+    <Button
+        android:id="@+id/bt_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox的常用属性" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="布局文件" />
+
+    <Button
+        android:id="@+id/bt_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout" />
+
+    <Button
+        android:id="@+id/bt_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout" />
+
+    <Button
+        android:id="@+id/bt_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FrameLayout" />
+
+    <Button
+        android:id="@+id/bt_tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TableLayout" />
+    <Button
+        android:id="@+id/bt_gridlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridLayout" />
+    <Button
+        android:id="@+id/bt_absolutelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AbsoluteLayout" />
+
+</LinearLayout>

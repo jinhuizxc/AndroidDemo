@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--对邮件、电话增加链接-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web|email|phone"
+        android:text="url是http:www.baidu.com,
+        邮件是1004260403@qq.com,电话是10086"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="212e32432csdfsdfsdfszczcczsfsfsdfsdffsdfsdfsdfsdfsfsdf"
+        android:textSize="40sp"/>
+
+    <!--设置中间省略-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:text="子线程政策宣传宣传炒作炒作支持支持支持在支付电费网费"
+        android:singleLine="true"
+        android:textSize="20sp"/>
+
+    <!--设置文字颜色、大小、并使用阴影-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#0f0"
+        android:shadowDx="10.0"
+        android:shadowDy="10.0"
+        android:shadowRadius="3.0"
+        android:text="阴影文字"
+        android:textColor="#ff8000"
+        android:textSize="60sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="跑马灯跑马灯跑马灯跑马AAAAAA跑马灯跑马灯跑马灯跑马灯跑马灯BBBBBBBBBBBB"
+        android:marqueeRepeatLimit="marquee_forever"/>
+</LinearLayout>

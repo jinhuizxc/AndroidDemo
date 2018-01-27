@@ -16,6 +16,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".day1.WidgetAndLayoutActivity"/>
+        <activity android:name=".day2.ListenerActivity"/>
+        <activity android:name=".day1.TextViewActivity"
+            android:label="@string/textview"/>
+        <activity android:name=".day1.ButtonActivity"
+            android:label="@string/button"/>
+
+        <activity android:name=".day1.EditTextActivity"
+            android:label="@string/edittext"/>
+
+        <activity android:name=".day1.PrograssbarActivity"
+            android:label="@string/prograssbar"/>
+
+        <activity android:name=".day1.ImageViewActivity"
+            android:label="@string/imageview"/>
+        <activity android:name=".day1.layout.LinearlayoutActivity"
+            android:label="@string/linearlayout"/>
+        <activity android:name=".day1.layout.RelativelayoutActivity"
+            android:label="@string/Relativelayout"/>
+        <activity android:name=".day1.layout.FramelayoutActivity"
+            android:label="@string/Framelayout"/>
+        <activity android:name=".day1.layout.TablelayoutActivity"
+            android:label="@string/Tablelayout"/>
+        <activity android:name=".day1.layout.GridlayoutActivity"
+            android:label="@string/Gridlayout"/>
+        <activity android:name=".day2.ResActivity"
+            android:label="@string/res"/>
+        <activity android:name=".day2.ViewListenerActivity"
+            android:label="@string/viewlistener"/>
     </application>
 
 </manifest>
