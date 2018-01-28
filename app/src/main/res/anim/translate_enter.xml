@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:duration="2000"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:fromXDelta="100%p"
+        android:fromYDelta="0%p"
+        android:toXDelta="0%p"
+        android:toYDelta="0%p" />
+</set>
+
+    <!--android:translate动画类型的常用动画参数：-->
+    <!--android:fromXDelta：动画起始位置的横坐标-->
+    <!--android:fromYDelta：动画起始位置的纵坐标-->
+    <!--android:toXDelta：动画结束位置的横坐标-->
+    <!--android:toYDelta：动画结束位置的纵坐标-->
+    <!--android:duration：动画的持续时间-->
+    <!--android:interpolator：速度变化-->
+    <!--注：动画坐标参数可以使用浮点数表示，也可以用百分比，50%表示控件大小的50%，50%p表示屏幕大小的50%。-->

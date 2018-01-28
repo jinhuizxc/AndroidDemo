@@ -12,4 +12,13 @@
     <string name="Gridlayout">Gridlayout(网格布局)</string>
     <string name="res">res资源文件</string>
     <string name="viewlistener">View的监听事件</string>
+    <string name="interface1">界面、界面跳转</string>
+    <string name="ui">ui控件类对象创建View对象</string>
+    <string name="LayoutInflater">LayoutInflater类创建View对象</string>
+    <string name="add_remove">对界面动态增加与删除View</string>
+    <string name="example">界面——View深入</string>
+    <string name="intentaction">隐式意图</string>
+    <string name="Jump2">带值跳转</string>
+    <string name="Jump3">Activity跳转时界面切换动画</string>
+    <string name="weight">权重</string>
 </resources>

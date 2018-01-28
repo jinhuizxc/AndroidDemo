@@ -46,6 +46,45 @@
             android:label="@string/res"/>
         <activity android:name=".day2.ViewListenerActivity"
             android:label="@string/viewlistener"/>
+        <activity android:name=".day3.interface1.InterfaceActivity"
+            android:label="@string/interface1"/>
+        <activity android:name=".day3.interface1.UiActivity"
+            android:label="@string/ui"/>
+        <activity android:name=".day3.interface1.LayoutInflaterActivity"
+            android:label="@string/LayoutInflater"/>
+        <activity android:name=".day3.interface1.Add_removeActivity"
+            android:label="@string/add_remove"/>
+        <activity android:name=".day3.interface1.ExampleActivity"
+            android:label="@string/example"/>
+        <activity android:name=".day3.intent.IntentActionActivity"
+            android:label="@string/intentaction"/>
+
+        <!--隐式意图-->
+        <activity android:name=".day3.intent.OfficeActivity"
+            android:label="office">
+            <intent-filter>
+                <!--设置action-->
+                <action android:name="selector"/>
+                <!--设置类别-->
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".day3.intent.NoteActivity"
+            android:label="note">
+            <intent-filter>
+                <!--设置action-->
+                <action android:name="selector"/>
+                <!--设置类别-->
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".day3.intent.Jump2Activity"
+            android:label="@string/Jump2"/>
+        <activity android:name=".day3.intent.Jump3Activity"
+            android:label="@string/Jump3"/>
+        <activity android:name=".day1.layout.WeightActivity"
+            android:label="@string/weight"/>
     </application>
 
 </manifest>

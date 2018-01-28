@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%p"
+        android:pivotY="50%p"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:duration="2000"/>
+</set>
+
+    <!--android:fromDegrees：起始角度-->
+    <!--android:toDegrees：结束角度-->
+    <!--android:pivotX：旋转中心点x-->
+    <!--android:pivoty：旋转中心点y-->
+    <!--android:duration：播放时间-->
+    <!--android:interpolator：速度变化-->
+    <!--注：当不设置pivotX和pivotY这两条属性时，图片的旋转中心在图片左上角。-->

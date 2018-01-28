@@ -21,10 +21,10 @@
         android:text="监听事件、资源文件" />
 
     <Button
-        android:id="@+id/bt_day3"
+        android:id="@+id/bt_interface"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="day3" />
+        android:text="界面、界面跳转" />
 
     <Button
         android:id="@+id/bt_day4"

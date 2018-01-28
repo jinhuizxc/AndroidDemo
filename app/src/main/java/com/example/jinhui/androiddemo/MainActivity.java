@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.example.jinhui.androiddemo.day1.WidgetAndLayoutActivity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
+import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -22,8 +23,6 @@ import butterknife.OnClick;
 public class MainActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.bt_day3)
-    Button btDay3;
     @BindView(R.id.bt_day4)
     Button btDay4;
     @BindView(R.id.bt_day5)
@@ -40,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     Button btWidget;
     @BindView(R.id.bt_listener)
     Button btListener;
+    @BindView(R.id.bt_interface)
+    Button btInterface;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_widget, R.id.bt_listener, R.id.bt_day3, R.id.bt_day4, R.id.bt_day5, R.id.bt_day6, R.id.bt_day7, R.id.bt_day8, R.id.bt_day9})
+    @OnClick({R.id.bt_widget, R.id.bt_listener, R.id.bt_interface, R.id.bt_day4, R.id.bt_day5, R.id.bt_day6, R.id.bt_day7, R.id.bt_day8, R.id.bt_day9})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -57,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_listener:
                 startActivity(new Intent(this, ListenerActivity.class));
                 break;
-            case R.id.bt_day3:
+            case R.id.bt_interface:
+                startActivity(new Intent(this, InterfaceActivity.class));
                 break;
             case R.id.bt_day4:
                 break;

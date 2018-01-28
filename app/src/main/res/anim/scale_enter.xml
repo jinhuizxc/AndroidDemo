@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale android:duration= "1000"
+        android:fromXScale="0.1"
+        android:fromYScale="0.1"
+        android:pivotX="10%p"
+        android:pivotY="10%p"
+        android:toXScale="1.0"
+        android:toYScale="1.0">
+
+    </scale>
+
+    <!--duration：表示动画执行的时间-->
+    <!--fromXScale：宽度的起始比例-->
+    <!--fromYScale：高度的起始比例-->
+    <!--toXScale：宽度的结束比例-->
+    <!--toYScale：高度的结束比例-->
+    <!--pivotX：缩放中心的x坐标-->
+    <!--pivotY：缩放中心的y坐标-->
+    <!--注：在Android界面中，坐标的原点在屏幕的左上角-->
+</set>
