@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity带返回值跳转" />
+    <TextView
+        android:id="@+id/tv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据1是: XXX" />
+    <TextView
+        android:id="@+id/tv_back1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据2是: XXX" />
+
+
+    <Button
+        android:id="@+id/bt_intentback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取返回值1" />
+    <Button
+        android:id="@+id/bt_intentback1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取返回值2" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity界面全屏形式和对话框形式" />
+    <Button
+        android:id="@+id/bt_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity界面全屏形式" />
+    <Button
+        android:id="@+id/bt_fullscreen_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity界面全屏形式(java代码实现)" />
+    <Button
+        android:id="@+id/bt_activity_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity对话框形式" />
+    <Button
+        android:id="@+id/bt_onkeyown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="onKeyDown" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="有id号" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="无id号" />
+
+    <Button
+        android:id="@+id/bt_h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="横屏" />
+
+    <Button
+        android:id="@+id/bt_s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="竖屏" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

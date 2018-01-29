@@ -27,16 +27,16 @@
         android:text="界面、界面跳转" />
 
     <Button
-        android:id="@+id/bt_day4"
+        android:id="@+id/bt_interface2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="day4" />
+        android:text="界面跳转2" />
 
     <Button
-        android:id="@+id/bt_day5"
+        android:id="@+id/bt_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="day5" />
+        android:text="Activity生命周期/启动模式/状态保存/序列化" />
 
     <Button
         android:id="@+id/bt_day6"

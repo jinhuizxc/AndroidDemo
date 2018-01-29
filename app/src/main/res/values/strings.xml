@@ -21,4 +21,17 @@
     <string name="Jump2">带值跳转</string>
     <string name="Jump3">Activity跳转时界面切换动画</string>
     <string name="weight">权重</string>
+    <string name="interface2">带返回值跳转、activity全屏和对话框形式</string>
+    <string name="intentback">带返回值跳转</string>
+    <string name="fullscreen">全屏显示形式</string>
+    <string name="fullscreenjava">java代码实现全屏显示形式</string>
+    <string name="dialog">Activity界面对话框形式</string>
+    <string name="onkeydown">物理返回键</string>
+    <string name="activity">Activity生命周期/启动模式</string>
+    <string name="save">Activity状态保存</string>
+    <string name="standard">standard启动模式</string>
+    <string name="singletop">singleTop启动模式</string>
+    <string name="singleTask">singleTask启动模式</string>
+    <string name="singleInstance">SingleInstance启动模式</string>
+    <string name="serial">序列化</string>
 </resources>

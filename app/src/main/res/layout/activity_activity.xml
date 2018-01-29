@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="状态保存" />
+
+    <Button
+        android:id="@+id/bt_standard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="standard启动模式" />
+
+    <Button
+        android:id="@+id/bt_singleTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="singleTop启动模式" />
+
+    <Button
+        android:id="@+id/bt_singleTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="singleTask启动模式" />
+
+    <Button
+        android:id="@+id/bt_singleInstance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="singleInstance启动模式" />
+
+    <Button
+        android:id="@+id/bt_finishall_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="finishall1" />
+    <Button
+        android:id="@+id/bt_finishall_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="finishall2" />
+    <Button
+        android:id="@+id/bt_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="序列化" />
+</LinearLayout>

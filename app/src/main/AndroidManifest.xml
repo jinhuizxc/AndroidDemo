@@ -85,6 +85,45 @@
             android:label="@string/Jump3"/>
         <activity android:name=".day1.layout.WeightActivity"
             android:label="@string/weight"/>
+        <activity android:name=".day4.Interface2Activity"
+            android:label="@string/interface2"/>
+        <activity android:name=".day4.IntentBackActivity"
+            android:label="@string/intentback"/>
+        <activity android:name=".day4.FullscreenActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:label="@string/fullscreen"/>
+        <activity android:name=".day4.FullscreenJavaActivity"
+            android:label="@string/fullscreenjava"/>
+        <activity android:name=".day4.DialogActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:label="@string/dialog"/>
+        <activity android:name=".day4.OnkeyDownActivity"
+            android:label="@string/onkeydown"/>
+        <activity android:name=".day5.ActivityActivity"
+            android:label="@string/activity"/>
+        <activity android:name=".day5.save.SaveActivity"
+            android:label="@string/save"/>
+        <activity android:name=".day5.launchmode.StandardActivity"
+            android:launchMode="standard"
+            android:label="@string/standard"/>
+        <activity android:name=".day5.launchmode.SingleTopActivity"
+            android:launchMode="singleTop"
+            android:label="@string/singletop"/>
+        <activity android:name=".day5.launchmode.SingleTaskActivity"
+            android:launchMode="singleTask"
+            android:label="@string/singleTask"/>
+        <activity android:name=".day5.launchmode.SingleInstanceActivity"
+            android:launchMode="singleInstance"
+            android:label="@string/singleInstance"/>
+        <activity android:name=".day5.launchmode.NewActivity"
+            android:label="new界面"/>
+        <activity android:name=".day5.finishall.finishall1.SecondActivity"/>
+        <activity android:name=".day5.finishall.finishall1.ThirdActivity"/>
+        <activity android:name=".day5.finishall.finishall2.Second1Activity"/>
+        <activity android:name=".day5.finishall.finishall2.Third1Activity"/>
+        <activity android:name=".day5.xuliehua.SerialActivity"
+            android:label="@string/serial"/>
+
     </application>
 
 </manifest>
