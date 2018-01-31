@@ -11,6 +11,8 @@ import com.example.jinhui.androiddemo.day2.ListenerActivity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
+import com.example.jinhui.androiddemo.day6.AnimActivity;
+import com.example.jinhui.androiddemo.day7.ThreadActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -25,10 +27,6 @@ import butterknife.OnClick;
 public class MainActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.bt_day6)
-    Button btDay6;
-    @BindView(R.id.bt_day7)
-    Button btDay7;
     @BindView(R.id.bt_day8)
     Button btDay8;
     @BindView(R.id.bt_day9)
@@ -43,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
     Button btInterface2;
     @BindView(R.id.bt_activity)
     Button btActivity;
+    @BindView(R.id.bt_anim)
+    Button btAnim;
+    @BindView(R.id.bt_thread)
+    Button btThread;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_widget, R.id.bt_listener, R.id.bt_interface, R.id.bt_interface2, R.id.bt_activity, R.id.bt_day6, R.id.bt_day7, R.id.bt_day8, R.id.bt_day9})
+    @OnClick({R.id.bt_widget, R.id.bt_listener, R.id.bt_interface,
+            R.id.bt_interface2, R.id.bt_activity, R.id.bt_anim,
+            R.id.bt_thread, R.id.bt_day8, R.id.bt_day9})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -69,9 +73,11 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_activity:
                 startActivity(new Intent(this, ActivityActivity.class));
                 break;
-            case R.id.bt_day6:
+            case R.id.bt_anim:
+                startActivity(new Intent(this, AnimActivity.class));
                 break;
-            case R.id.bt_day7:
+            case R.id.bt_thread:
+                startActivity(new Intent(this, ThreadActivity.class));
                 break;
             case R.id.bt_day8:
                 break;

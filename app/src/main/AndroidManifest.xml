@@ -44,7 +44,7 @@
             android:label="@string/Gridlayout"/>
         <activity android:name=".day2.ResActivity"
             android:label="@string/res"/>
-        <activity android:name=".day2.ViewListenerActivity"
+        <activity android:name=".day2.viewlistener.ViewListenerActivity"
             android:label="@string/viewlistener"/>
         <activity android:name=".day3.interface1.InterfaceActivity"
             android:label="@string/interface1"/>
@@ -123,6 +123,19 @@
         <activity android:name=".day5.finishall.finishall2.Third1Activity"/>
         <activity android:name=".day5.xuliehua.SerialActivity"
             android:label="@string/serial"/>
+        <activity android:name=".day6.AnimActivity"
+            android:label="@string/anim"/>
+        <activity android:name=".day6.tweenanim.TweenAnimationActivity"
+            android:label="@string/tweenanim"/>
+        <activity android:name=".day6.tweenanim.TweenAnimationNextActivity"/>
+        <activity android:name=".day6.frameanim.FrameAnimationActivity"
+            android:label="@string/frameanim"/>
+        <activity android:name=".day6.propertyanim.PropertyAnimationActivity"
+            android:label="@string/propertyanim"/>
+        <activity android:name=".day6.frameanim.CatActivity"
+            android:label="@string/cat"/>
+        <activity android:name=".day7.ThreadActivity"
+            android:label="@string/thread"/>
 
     </application>
 

@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day2;
+package com.example.jinhui.androiddemo.day2.viewlistener;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -324,14 +324,3 @@ public class ViewListenerActivity extends AppCompatActivity implements View.OnCl
 
 }
 
-// 外部类对象
-class MyListener implements View.OnClickListener {
-
-    private static final String TAG = MyListener.class.getSimpleName();
-
-    @Override
-    public void onClick(View v) {
-        Log.e(TAG, "外部类对象");
-//        Toast.makeText(ViewListenerActivity.this, "外部类对象", Toast.LENGTH_SHORT).show();
-    }
-}

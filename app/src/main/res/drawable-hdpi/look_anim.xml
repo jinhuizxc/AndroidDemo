@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- android:drawable 引入系统资源图片 -->
+    <!-- android:duration 每张图片的显示时间  单位毫秒 -->
+    <item
+        android:drawable="@drawable/look_0001"
+        android:duration="60"/>
+    
+    <item
+        android:drawable="@drawable/look_0003"
+        android:duration="60"/>
+ 
+    <item
+        android:drawable="@drawable/look_0005"
+        android:duration="60"/>
+ 
+    <item
+        android:drawable="@drawable/look_0007"
+        android:duration="60"/>
+ 
+    <item
+        android:drawable="@drawable/look_0009"
+        android:duration="60"/>
+ 
+    <item
+        android:drawable="@drawable/look_0011"
+        android:duration="60"/>
+ 
+    <item
+        android:drawable="@drawable/look_0013"
+        android:duration="60"/>
+ 
+    <item
+        android:drawable="@drawable/look_0015"
+        android:duration="80"/>
+  
+    <item
+        android:drawable="@drawable/look_0017"
+        android:duration="80"/>
+   
+    <item
+        android:drawable="@drawable/look_0019"
+        android:duration="80"/>
+ 
+    <item
+        android:drawable="@drawable/look_0021"
+        android:duration="80"/>
+ 
+    <item
+        android:drawable="@drawable/look_0023"
+        android:duration="80"/>
+
+</animation-list>

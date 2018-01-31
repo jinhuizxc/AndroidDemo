@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt01"
+        android:layout_alignBottom="@+id/bt01"
+        android:layout_marginStart="29dp"
+        android:layout_toEndOf="@+id/bt02"
+        android:clickable="true"
+        android:onClick="clickText"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="一个属性动画的实现" />
+
+    <Button
+        android:id="@+id/bt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bt01"
+        android:layout_marginTop="45dp"
+        android:text="给文本框添加平移动画" />
+
+    <Button
+        android:id="@+id/bt03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bt02"
+        android:layout_marginTop="32dp"
+        android:text="给按钮添加闪烁动画" />
+
+    <Button
+        android:id="@+id/bt04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bt03"
+        android:layout_below="@+id/bt03"
+        android:layout_marginTop="45dp"
+        android:text="同时播放三个动画((多个属性动画实现01))" />
+
+    <Button
+        android:id="@+id/bt05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bt04"
+        android:layout_below="@+id/bt04"
+        android:layout_marginTop="67dp"
+        android:text="按照指定顺序播放动画(多个属性动画实现02)" />
+
+    <Button
+        android:id="@+id/bt_listener"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="动画监听事件" />
+
+</RelativeLayout>

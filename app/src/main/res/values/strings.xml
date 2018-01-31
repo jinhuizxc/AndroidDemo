@@ -34,4 +34,10 @@
     <string name="singleTask">singleTask启动模式</string>
     <string name="singleInstance">SingleInstance启动模式</string>
     <string name="serial">序列化</string>
+    <string name="anim">动画/动画监听</string>
+    <string name="tweenanim">补间动画</string>
+    <string name="frameanim">帧动画</string>
+    <string name="propertyanim">属性动画</string>
+    <string name="cat">汤姆猫</string>
+    <string name="thread">Android多线程/异步任务</string>
 </resources>

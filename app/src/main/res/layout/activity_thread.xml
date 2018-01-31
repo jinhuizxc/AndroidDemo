@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_ui_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UI线程中执行耗时操作"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Android多线程:" />
+    <TextView
+        android:id="@+id/tv_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计数结果：XXX(普通thread不能做到ui界面的显示，仅仅可打印log信息)" />
+
+    <Button
+        android:id="@+id/bt_thread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计数1-10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Handler机制举例如下："/>
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示计数结果：XXX" />
+
+    <Button
+        android:id="@+id/bt_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计数" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="倒计时" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/prograssbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0" />
+
+        <Button
+            android:id="@+id/bt_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="异步任务:" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text" />
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="执行异步任务" />
+
+    <Button
+        android:id="@+id/bt_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消异步任务" />
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result" />
+    <Button
+        android:id="@+id/bt_asyctask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计时异步任务" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_play"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="74dp"
+        android:layout_toRightOf="@+id/bt_play"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/bt_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bt_play"
+        android:text="java代码构建-播放" />
+
+
+
+</RelativeLayout>

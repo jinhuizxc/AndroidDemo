@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <!-- 组合动画 -->
+    
+    <alpha android:fromAlpha="1.0"
+        android:toAlpha="0.5"
+        android:duration="2000"/>
+
+    <!-- android:startOffset="2000" 旋转动画在2秒后开始执行 -->
+    
+    <rotate android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="2000"
+        android:startOffset="2000"/>
+    
+</set>

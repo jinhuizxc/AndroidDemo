@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- android:drawable 引入系统资源图片 -->
+    <!-- android:duration 每张图片的显示时间  单位毫秒 -->
+    <item
+        android:drawable="@drawable/swipe_left_0001"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/swipe_left_0002"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/swipe_left_0003"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/swipe_left_0004"
+        android:duration="60"/>
+
+
+ 
+
+</animation-list>
