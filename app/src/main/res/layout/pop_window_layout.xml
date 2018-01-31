@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+
+    <!--android:textAllCaps=”false” 防止Refresh显示的时候展现为全部大写-->
+    <!--Focusable属性，发现如果设为false的window内的组件就无法收到onClick事件-->
+    <!--android:background="@android:color/transparent"-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+
+        android:text="refresh"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/material_blue_grey_800" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="ssetting"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</LinearLayout>

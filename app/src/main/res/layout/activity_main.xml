@@ -51,14 +51,24 @@
         android:text="Android多线程、异步任务（AsyncTask）" />
 
     <Button
-        android:id="@+id/bt_day8"
+        android:id="@+id/bt_http"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="day8" />
+        android:text="网络、Http协议" />
 
     <Button
-        android:id="@+id/bt_day9"
+        android:id="@+id/bt_advanceInterface1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="day9" />
+        android:text="高级界面01" />
+    <Button
+        android:id="@+id/bt_advanceInterface2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="高级界面02" />
+    <Button
+        android:id="@+id/bt_advanceInterface3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="高级界面03" />
 </LinearLayout>

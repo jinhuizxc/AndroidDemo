@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by jinhui on 2018/1/30.
@@ -161,6 +162,10 @@ public class MyTask extends AsyncTask<Void, Integer, String> {
         Log.d(TAG, "onCancelled" + s);
     }
 
+    /**
+     * 为什么在ui中可以有结果，在其他类中log就没有结果？
+     * @param s
+     */
     @Override
     protected void onPostExecute(String s) {
         super.onPostExecute(s);

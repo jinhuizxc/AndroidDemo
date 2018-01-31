@@ -136,6 +136,25 @@
             android:label="@string/cat"/>
         <activity android:name=".day7.ThreadActivity"
             android:label="@string/thread"/>
+        <activity android:name=".day8.HttpActivity"
+            android:label="@string/http"/>
+        <activity android:name=".day9.AdvanceInterface1Activity"
+            android:label="@string/advanceinterface1"/>
+        <activity android:name=".day9.radiocheck.RadioCheckBoxActivity"
+            android:label="@string/radiocheckbox"/>
+        <activity android:name=".day9.radiocheck.GameActivity"
+            android:label="@string/game"/>
+        <activity android:name=".day9.menu.PopupMenuActivity"
+            android:label="@string/popupmenu"/>
+        <activity android:name=".day9.dialog.AlertdialogActivity"
+            android:label="@string/alertdialog"/>
+        <activity android:name=".day9.popup.PopupwindowActivity"
+            android:label="@string/popupwindow"/>
+        <activity android:name=".day9.datetime.Date_timeActivity"
+            android:label="@string/datetime"/>
+        <activity android:name=".day9.datetime.ModifyDate_timeActivity"
+            android:label="@string/ModifyDate_time"/>
+
 
     </application>
 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="RadioButton与CheckBox"/>
+    <Button
+        android:id="@+id/bt_radio_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButton与CheckBox" />
+
+    <Button
+        android:id="@+id/bt_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="猜拳游戏"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="菜单Menu" />
+    <Button
+        android:id="@+id/bt_popupmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PopupMenu" />
+    <Button
+        android:id="@+id/optionmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OptionMenu" />
+
+    <TextView
+        android:id="@+id/tv_contextmenu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="ContextMenu(长按触发)" />
+    <Button
+        android:id="@+id/contextmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ContextMenu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="对话框"/>
+    <Button
+        android:id="@+id/bt_alertdialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog" />
+
+    <Button
+        android:id="@+id/popupwindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PopupWindow" />
+    <Button
+        android:id="@+id/bt_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期对话框和时间对话框" />
+    <Button
+        android:id="@+id/bt_modify_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改日期对话框和时间" />
+</LinearLayout>

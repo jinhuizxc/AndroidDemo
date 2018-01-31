@@ -40,4 +40,13 @@
     <string name="propertyanim">属性动画</string>
     <string name="cat">汤姆猫</string>
     <string name="thread">Android多线程/异步任务</string>
+    <string name="http">网络、Http协议</string>
+    <string name="advanceinterface1">高级界面01</string>
+    <string name="radiocheckbox">RadioButton与CheckBox</string>
+    <string name="game">猜拳游戏</string>
+    <string name="popupmenu">PopupMenu</string>
+    <string name="alertdialog">常用对话框</string>
+    <string name="popupwindow">PopupWindow</string>
+    <string name="datetime">日期时间对话框</string>
+    <string name="ModifyDate_time">修改日期时间</string>
 </resources>

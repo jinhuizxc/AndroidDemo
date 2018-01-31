@@ -13,6 +13,8 @@ import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
 import com.example.jinhui.androiddemo.day6.AnimActivity;
 import com.example.jinhui.androiddemo.day7.ThreadActivity;
+import com.example.jinhui.androiddemo.day8.HttpActivity;
+import com.example.jinhui.androiddemo.day9.AdvanceInterface1Activity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -27,10 +29,6 @@ import butterknife.OnClick;
 public class MainActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.bt_day8)
-    Button btDay8;
-    @BindView(R.id.bt_day9)
-    Button btDay9;
     @BindView(R.id.bt_widget)
     Button btWidget;
     @BindView(R.id.bt_listener)
@@ -45,6 +43,14 @@ public class MainActivity extends AppCompatActivity {
     Button btAnim;
     @BindView(R.id.bt_thread)
     Button btThread;
+    @BindView(R.id.bt_http)
+    Button btHttp;
+    @BindView(R.id.bt_advanceInterface1)
+    Button btAdvanceInterface1;
+    @BindView(R.id.bt_advanceInterface2)
+    Button btAdvanceInterface2;
+    @BindView(R.id.bt_advanceInterface3)
+    Button btAdvanceInterface3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick({R.id.bt_widget, R.id.bt_listener, R.id.bt_interface,
             R.id.bt_interface2, R.id.bt_activity, R.id.bt_anim,
-            R.id.bt_thread, R.id.bt_day8, R.id.bt_day9})
+            R.id.bt_thread, R.id.bt_http, R.id.bt_advanceInterface1,
+            R.id.bt_advanceInterface2, R.id.bt_advanceInterface3})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -79,10 +86,18 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_thread:
                 startActivity(new Intent(this, ThreadActivity.class));
                 break;
-            case R.id.bt_day8:
+            case R.id.bt_http:
+                startActivity(new Intent(this, HttpActivity.class));
                 break;
-            case R.id.bt_day9:
+            case R.id.bt_advanceInterface1:
+                startActivity(new Intent(this, AdvanceInterface1Activity.class));
+                break;
+            case R.id.bt_advanceInterface2:
+                break;
+            case R.id.bt_advanceInterface3:
                 break;
         }
     }
+
+
 }
