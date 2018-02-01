@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 形状为渐变色 -->
+    <gradient android:startColor="#FF0000"
+        android:centerColor="#00FF00"
+        android:endColor="#0000FF"
+        android:angle="45"/>
+
+    <!-- 形状的边框 -->
+    <stroke android:width="2dp"
+        android:color="#88FF00FF"/>
+
+    <!-- 设置形状的圆角 -->
+    <corners android:radius="10dp"/>
+
+    <!-- 内间距 -->
+    <padding android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"/>
+
+</shape>
+
+
+    <!--&lt;!&ndash; 实心块 &ndash;&gt;solid-->
+<!--<solid-->
+<!--android:color="#888888"></solid>-->
+
+    <!--&lt;!&ndash; 渐变颜色块 &ndash;&gt;gradient-->
+<!--<gradient-->
+<!--android:angle="0"-->
+<!--android:endColor="#0000FF"-->
+<!--android:startColor="#FF0000" />-->
+
+    <!--&lt;!&ndash; 边框 &ndash;&gt;stroke-->
+<!--<stroke-->
+<!--android:width="2dp"-->
+<!--android:color="#000000"/>-->
+
+    <!--&lt;!&ndash;内间距 ， 文字和边框的距离-&ndash;&gt; padding-->
+<!--<padding android:top="5dp"-->
+<!--android:bottom="5dp"-->
+<!--android:left="10dp"-->
+<!--android:right="10dp"/>-->
+
+    <!--&lt;!&ndash; 设置圆角 &ndash;&gt;corners-->
+<!--<corners android:radius="10dp"/>-->
+

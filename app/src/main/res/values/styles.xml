@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <!-- 按钮的样式 -->
+    <style name="myBtn">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <!-- 文本样式 -->
+    <style name="myText" parent="myBtn">
+        <item name="android:background">#000</item>
+    </style>
+
 </resources>

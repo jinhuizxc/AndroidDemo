@@ -8,4 +8,6 @@
 - 2018/1/30 动画(补间动画、帧动画、属性动画)、动画监听;
 - 2018/1/31 Android多线程、异步任务(AsycTask)；
 - 2018/2/1 网络、Http协议；
-- 2018/2/2 高级界面之(RadioButton与CheckBox、菜单Menu、对话框)
+- 2018/2/2 高级界面01之(RadioButton与CheckBox、菜单Menu、常用对话框)
+- 2018/2/3 高级界面02之(Toast、Notification、美化布局)
+- 2018/2/4 高级界面03之(自定义View、Canvas画布类、自定义View的事件监听)

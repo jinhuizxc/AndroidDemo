@@ -49,4 +49,10 @@
     <string name="popupwindow">PopupWindow</string>
     <string name="datetime">日期时间对话框</string>
     <string name="ModifyDate_time">修改日期时间</string>
+    <string name="advanceinterface2">高级界面02</string>
+    <string name="advanceinterface3">高级界面03</string>
+    <string name="moretoast">Toast补充篇</string>
+    <string name="welcome">欢迎页</string>
+    <string name="user">用户界面</string>
+    <string name="style">背景选择器、style</string>
 </resources>

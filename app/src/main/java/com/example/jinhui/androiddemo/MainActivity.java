@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.jinhui.androiddemo.day1.WidgetAndLayoutActivity;
+import com.example.jinhui.androiddemo.day10.AdvanceInterface2Activity;
+import com.example.jinhui.androiddemo.day11.AdvanceInterface3Activity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
@@ -93,8 +95,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, AdvanceInterface1Activity.class));
                 break;
             case R.id.bt_advanceInterface2:
+                startActivity(new Intent(this, AdvanceInterface2Activity.class));
                 break;
             case R.id.bt_advanceInterface3:
+                startActivity(new Intent(this, AdvanceInterface3Activity.class));
                 break;
         }
     }

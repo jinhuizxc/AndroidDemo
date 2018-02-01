@@ -60,15 +60,15 @@
         android:id="@+id/bt_advanceInterface1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="高级界面01" />
+        android:text="高级界面01之(RadioButton与CheckBox、菜单Menu、常用对话框)" />
     <Button
         android:id="@+id/bt_advanceInterface2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="高级界面02" />
+        android:text="高级界面02之(Toast、Notification、美化布局)" />
     <Button
         android:id="@+id/bt_advanceInterface3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="高级界面03" />
+        android:text="高级界面03之(自定义View、Canvas画布类、自定义View的事件监听)" />
 </LinearLayout>

@@ -154,6 +154,18 @@
             android:label="@string/datetime"/>
         <activity android:name=".day9.datetime.ModifyDate_timeActivity"
             android:label="@string/ModifyDate_time"/>
+        <activity android:name=".day10.AdvanceInterface2Activity"
+            android:label="@string/advanceinterface2"/>
+        <activity android:name=".day10.MoreToastActivity"
+            android:label="@string/moretoast"/>
+        <activity android:name=".day11.AdvanceInterface3Activity"
+            android:label="@string/advanceinterface3"/>
+        <activity android:name=".day10.WelcomeActivity"
+            android:label="@string/welcome"/>
+        <activity android:name=".day10.welcome.UserActivity"
+            android:label="@string/user"/>
+        <activity android:name=".day10.style.StyleActivity"
+            android:label="@string/style"/>
 
 
     </application>

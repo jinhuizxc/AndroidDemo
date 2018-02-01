@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Toast" />
+    <Button
+        android:id="@+id/bt_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+    <Button
+        android:id="@+id/bt_customtoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义Toast" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="再按一次退出(点击返回键触发)" />
+
+    <Button
+        android:id="@+id/bt_moreToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast补充篇" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Notification(通知)" />
+    <Button
+        android:id="@+id/bt_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification(通知)" />
+    <Button
+        android:id="@+id/bt_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消通知" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="美化布局" />
+    <Button
+        android:id="@+id/bt_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎页" />
+    <Button
+        android:id="@+id/bt_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="背景选择器、样式"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="json（简单打包与解析）" />
+    <Button
+        android:id="@+id/bt_readJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="json解析" />
+    <Button
+        android:id="@+id/bt_makeJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="json打包" />
+</LinearLayout>

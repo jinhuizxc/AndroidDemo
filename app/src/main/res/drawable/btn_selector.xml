@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 普通状态，显示的图片 -->
+    <item android:drawable="@drawable/option_normal"
+        android:state_pressed="false" />
+
+    <!-- 按下状态，显示的图片 -->
+    <item android:drawable="@drawable/option_selected"
+        android:state_pressed="true" />
+
+</selector>
