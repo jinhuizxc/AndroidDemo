@@ -166,16 +166,16 @@
             android:label="@string/user"/>
         <activity android:name=".day10.style.StyleActivity"
             android:label="@string/style"/>
-        <activity android:name=".day11.CanvasActivity"
+        <activity android:name=".day11.view.CanvasActivity"
             android:label="@string/canvas"/>
-        <activity android:name=".day11.OnTouchEventActivity"
+        <activity android:name=".day11.view.OnTouchEventActivity"
             android:label="@string/ontouchevent"/>
-        <activity android:name=".day11.DragbitmapActivity"
+        <activity android:name=".day11.view.DragbitmapActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:label="@string/dragbitmap"/>
-        <activity android:name=".day11.MoveActivity"
+        <activity android:name=".day11.view.MoveActivity"
             android:label="@string/move"/>
-        <activity android:name=".day11.WeatherActivity"
+        <activity android:name=".day11.view.WeatherActivity"
             android:label="@string/weather"/>
 
 

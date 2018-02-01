@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.jinhui.androiddemo.R;
+import com.example.jinhui.androiddemo.day11.view.CanvasActivity;
+import com.example.jinhui.androiddemo.day11.view.DragbitmapActivity;
+import com.example.jinhui.androiddemo.day11.view.MoveActivity;
+import com.example.jinhui.androiddemo.day11.view.OnTouchEventActivity;
+import com.example.jinhui.androiddemo.day11.view.WeatherActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
