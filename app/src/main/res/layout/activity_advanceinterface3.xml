@@ -5,14 +5,32 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/bt_canvas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="自定义View" />
+        android:text="Canvas小试" />
+    <Button
+        android:id="@+id/bt_onTouchEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="onTouchEvent事件监听" />
+    <Button
+        android:id="@+id/bt_dragbitmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拖动图片效果" />
+    <Button
+        android:id="@+id/bt_move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片沿着屏幕边缘移动效果" />
+
 
     <Button
+        android:id="@+id/bt_weather"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Canvas画布类" />
+        android:text="武汉天气趋势图" />
 
     <Button
 

@@ -166,6 +166,17 @@
             android:label="@string/user"/>
         <activity android:name=".day10.style.StyleActivity"
             android:label="@string/style"/>
+        <activity android:name=".day11.CanvasActivity"
+            android:label="@string/canvas"/>
+        <activity android:name=".day11.OnTouchEventActivity"
+            android:label="@string/ontouchevent"/>
+        <activity android:name=".day11.DragbitmapActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/dragbitmap"/>
+        <activity android:name=".day11.MoveActivity"
+            android:label="@string/move"/>
+        <activity android:name=".day11.WeatherActivity"
+            android:label="@string/weather"/>
 
 
     </application>
