@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.jinhui.androiddemo.day11.view.MyView
+    <com.example.jinhui.androiddemo.day11.canvas.MyView
         android:layout_width="match_parent"
         android:layout_height="200dp" />
 

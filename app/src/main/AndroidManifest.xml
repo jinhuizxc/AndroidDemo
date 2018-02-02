@@ -166,7 +166,7 @@
             android:label="@string/user"/>
         <activity android:name=".day10.style.StyleActivity"
             android:label="@string/style"/>
-        <activity android:name=".day11.view.CanvasActivity"
+        <activity android:name=".day11.canvas.CanvasActivity"
             android:label="@string/canvas"/>
         <activity android:name=".day11.view.OnTouchEventActivity"
             android:label="@string/ontouchevent"/>
@@ -177,6 +177,18 @@
             android:label="@string/move"/>
         <activity android:name=".day11.view.WeatherActivity"
             android:label="@string/weather"/>
+        <activity android:name=".day12.AdvanceInterface4Activity"
+            android:label="@string/advanceinterface4"/>
+        <activity android:name=".day13.AdvanceInterface5Activity"
+            android:label="@string/advanceinterface5"/>
+        <activity android:name=".day12.CustomLinearlayoutActivity"
+            android:label="@string/customlinearlayout"/>
+        <activity android:name=".day12.surfaceview.SurfaceViewActivity"
+            android:label="@string/surfaceview"/>
+        <activity android:name=".day11.canvas.ViewActivity"
+            android:label="@string/view"/>
+        <activity android:name=".day11.ControlActivity"
+            android:label="@string/control"/>
 
 
     </application>

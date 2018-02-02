@@ -9,6 +9,8 @@ import android.widget.Button;
 import com.example.jinhui.androiddemo.day1.WidgetAndLayoutActivity;
 import com.example.jinhui.androiddemo.day10.AdvanceInterface2Activity;
 import com.example.jinhui.androiddemo.day11.AdvanceInterface3Activity;
+import com.example.jinhui.androiddemo.day12.AdvanceInterface4Activity;
+import com.example.jinhui.androiddemo.day13.AdvanceInterface5Activity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
@@ -53,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
     Button btAdvanceInterface2;
     @BindView(R.id.bt_advanceInterface3)
     Button btAdvanceInterface3;
+    @BindView(R.id.bt_advanceInterface4)
+    Button btAdvanceInterface4;
+    @BindView(R.id.bt_advanceInterface5)
+    Button btAdvanceInterface5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,7 +70,8 @@ public class MainActivity extends AppCompatActivity {
     @OnClick({R.id.bt_widget, R.id.bt_listener, R.id.bt_interface,
             R.id.bt_interface2, R.id.bt_activity, R.id.bt_anim,
             R.id.bt_thread, R.id.bt_http, R.id.bt_advanceInterface1,
-            R.id.bt_advanceInterface2, R.id.bt_advanceInterface3})
+            R.id.bt_advanceInterface2, R.id.bt_advanceInterface3,
+            R.id.bt_advanceInterface4, R.id.bt_advanceInterface5})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -99,6 +106,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_advanceInterface3:
                 startActivity(new Intent(this, AdvanceInterface3Activity.class));
+                break;
+            case R.id.bt_advanceInterface4:
+                startActivity(new Intent(this, AdvanceInterface4Activity.class));
+                break;
+            case R.id.bt_advanceInterface5:
+                startActivity(new Intent(this, AdvanceInterface5Activity.class));
                 break;
         }
     }

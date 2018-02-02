@@ -60,4 +60,11 @@
     <string name="dragbitmap">拖动图片效果</string>
     <string name="move">图片沿着屏幕边缘移动效果</string>
     <string name="weather">天气趋势图</string>
+    <string name="advanceinterface4">高级界面04</string>
+    <string name="advanceinterface5">高级界面05</string>
+    <string name="customlinearlayout">自定义LinearLayout</string>
+    <string name="surfaceview">SurfaceView</string>
+    <string name="canvas1">Canvas画布变换介绍</string>
+    <string name="view">Canvas画布变换</string>
+    <string name="control">自定义键盘控制图片移动</string>
 </resources>

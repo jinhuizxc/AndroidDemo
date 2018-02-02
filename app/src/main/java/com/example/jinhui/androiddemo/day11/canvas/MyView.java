@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day11.view;
+package com.example.jinhui.androiddemo.day11.canvas;
 
 import android.content.Context;
 import android.graphics.Canvas;

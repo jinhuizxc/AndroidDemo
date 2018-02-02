@@ -1,11 +1,10 @@
-package com.example.jinhui.androiddemo.day11.view;
+package com.example.jinhui.androiddemo.day11.canvas;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.jinhui.androiddemo.R;
-import com.example.jinhui.androiddemo.day11.view.MyView;
 
 /**
  * Created by jinhui on 2018/2/1.
