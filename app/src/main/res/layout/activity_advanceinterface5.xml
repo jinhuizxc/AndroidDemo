@@ -3,20 +3,51 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <Button
+        android:id="@+id/bt_intent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Intent补充篇" />
 
-    <Button
-        android:id="@+id/button10"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="隐式意图" />
+        android:textStyle="bold"
+        android:text="Component属性" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/bt_component"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="意图的使用" />
+        android:text=" Component(跨进程启动组件)" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Intent各种属性" />
+
+    <Button
+        android:id="@+id/bt_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动系统应用：打电话" />
+
+    <Button
+        android:id="@+id/bt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用系统发信息应用" />
+    <Button
+        android:id="@+id/bt_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上网"/>
+    <Button
+        android:id="@+id/bt_flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flag属性"/>
+
 </LinearLayout>
