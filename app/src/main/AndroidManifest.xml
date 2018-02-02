@@ -195,6 +195,29 @@
             android:label="@string/view"/>
         <activity android:name=".day11.ControlActivity"
             android:label="@string/control"/>
+        <activity android:name=".day14.Service1Activity"
+            android:label="@string/service1"/>
+        <activity android:name=".day15.Service2Activity"
+            android:label="@string/service2"/>
+        <activity android:name=".day16.BroadcastReceiverActivity"
+            android:label="@string/broadcastreceiver"/>
+        <activity android:name=".day14.calculator.CalculatorActivity"
+            android:label="@string/calculator"/>
+        <activity android:name=".day14.all.AllActivity"
+            android:label="@string/all"/>
+
+        <!--注册服务-->
+        <service android:name=".day14.service.MyService"/>
+        <service android:name=".day14.service.DownLoadService">
+            <!--隐式意图的service,需要加上意图过滤器-->
+            <intent-filter >
+                <action android:name="DownLoadService"/>
+            </intent-filter>
+        </service>
+        <service android:name=".day14.countservice.CountService"/>
+        <service android:name=".day14.bindservice.BindService"/>
+        <service android:name=".day14.calculator.CalculatorService"/>
+        <service android:name=".day14.all.AllService"/>
 
 
     </application>

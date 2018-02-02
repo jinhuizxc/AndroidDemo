@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="服务的启动与终止"/>
+    <Button
+        android:id="@+id/bt_intentservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示意图启动服务" />
+    <Button
+        android:id="@+id/bt_stopservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止服务" />
+
+    <Button
+        android:id="@+id/bt_downloadseervice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式意图启动服务(下载服务)" />
+    <Button
+        android:id="@+id/bt_stopDownloadService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止下载服务" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="计数服务" />
+    <EditText
+        android:id="@+id/et_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_countservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输入数字, 开始计数服务" />
+    <Button
+        android:id="@+id/bt_stopcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消计数服务" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="绑定服务" />
+
+    <Button
+        android:id="@+id/bt_bindservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定服务" />
+    <Button
+        android:id="@+id/bt_unbindservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解除绑定服务" />
+    <TextView
+        android:id="@+id/tv_bind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示的数据：XXX" />
+
+    <Button
+        android:id="@+id/bt_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示计数器的值" />
+
+    <Button
+        android:id="@+id/bt_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="示例: 计算数值" />
+
+    <Button
+        android:id="@+id/bt_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动服务和绑定服务混合使用" />
+
+
+</LinearLayout>

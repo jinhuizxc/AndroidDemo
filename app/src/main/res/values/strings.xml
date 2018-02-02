@@ -67,4 +67,9 @@
     <string name="canvas1">Canvas画布变换介绍</string>
     <string name="view">Canvas画布变换</string>
     <string name="control">自定义键盘控制图片移动</string>
+    <string name="service1">服务01</string>
+    <string name="service2">服务02</string>
+    <string name="broadcastreceiver">广播</string>
+    <string name="calculator">计算数值</string>
+    <string name="all">启动服务和绑定服务混合使用</string>
 </resources>

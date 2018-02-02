@@ -84,6 +84,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="高级界面05之(Intent补充篇)" />
+    <Button
+        android:id="@+id/bt_service01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="服务01之(Service的介绍、服务的创建和服务的注册、服务的启动与终止、服务的生命周期、绑定服务和非绑定服务)" />
+    <Button
+        android:id="@+id/bt_service02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="服务02之(AIDL(跨进程通信)、前台服务、IntentService)"/>
+    <Button
+        android:id="@+id/bt_broadcastreceiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="广播(广播的发送/创建/接收/注册、有序/无序广播、广播生命周期)"/>
+
 </LinearLayout>
 
 </ScrollView>

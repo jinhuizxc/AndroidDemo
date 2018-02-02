@@ -11,6 +11,9 @@ import com.example.jinhui.androiddemo.day10.AdvanceInterface2Activity;
 import com.example.jinhui.androiddemo.day11.AdvanceInterface3Activity;
 import com.example.jinhui.androiddemo.day12.AdvanceInterface4Activity;
 import com.example.jinhui.androiddemo.day13.AdvanceInterface5Activity;
+import com.example.jinhui.androiddemo.day14.Service1Activity;
+import com.example.jinhui.androiddemo.day15.Service2Activity;
+import com.example.jinhui.androiddemo.day16.BroadcastReceiverActivity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
@@ -59,6 +62,12 @@ public class MainActivity extends AppCompatActivity {
     Button btAdvanceInterface4;
     @BindView(R.id.bt_advanceInterface5)
     Button btAdvanceInterface5;
+    @BindView(R.id.bt_service01)
+    Button btService01;
+    @BindView(R.id.bt_service02)
+    Button btService02;
+    @BindView(R.id.bt_broadcastreceiver)
+    Button btBroadcastreceiver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,7 +80,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_interface2, R.id.bt_activity, R.id.bt_anim,
             R.id.bt_thread, R.id.bt_http, R.id.bt_advanceInterface1,
             R.id.bt_advanceInterface2, R.id.bt_advanceInterface3,
-            R.id.bt_advanceInterface4, R.id.bt_advanceInterface5})
+            R.id.bt_advanceInterface4, R.id.bt_advanceInterface5,
+            R.id.bt_service01, R.id.bt_service02, R.id.bt_broadcastreceiver})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -112,6 +122,15 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_advanceInterface5:
                 startActivity(new Intent(this, AdvanceInterface5Activity.class));
+                break;
+            case R.id.bt_service01:
+                startActivity(new Intent(this, Service1Activity.class));
+                break;
+            case R.id.bt_service02:
+                startActivity(new Intent(this, Service2Activity.class));
+                break;
+            case R.id.bt_broadcastreceiver:
+                startActivity(new Intent(this, BroadcastReceiverActivity.class));
                 break;
         }
     }
