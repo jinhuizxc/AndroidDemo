@@ -218,7 +218,10 @@
         <service android:name=".day14.bindservice.BindService"/>
         <service android:name=".day14.calculator.CalculatorService"/>
         <service android:name=".day14.all.AllService"/>
-
+        <service android:name=".day15.aidl.WeatherService"/>
+        <!--前台服务-->
+        <service android:name=".day15.foreground.ForegroundService"/>
+        <service android:name=".day15.intentservice.MyService"/>
 
     </application>
 

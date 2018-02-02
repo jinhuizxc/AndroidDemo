@@ -5,18 +5,45 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/bt_aidl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="AIDL(跨进程通信)" />
 
-    <Button
-        android:id="@+id/button13"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:textStyle="bold"
+        android:text="前台服务" />
+    <Button
+        android:id="@+id/bt_startforefround"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动前台服务" />
+    <Button
+        android:id="@+id/bt_stopforeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止前台服务" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="IntentService" />
+    <Button
+        android:id="@+id/bt_startintentservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动IntentService" />
+    <Button
+        android:id="@+id/bt_stopintentservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止IntentService" />
+    <Button
+        android:id="@+id/bt_musicplayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单示例-音乐播放器" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
 </LinearLayout>
