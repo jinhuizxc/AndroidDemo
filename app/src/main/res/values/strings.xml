@@ -72,4 +72,5 @@
     <string name="broadcastreceiver">广播</string>
     <string name="calculator">计算数值</string>
     <string name="all">启动服务和绑定服务混合使用</string>
+    <string name="wlan">监听wlan状态</string>
 </resources>

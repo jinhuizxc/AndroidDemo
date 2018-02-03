@@ -1,20 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="广播的发送/创建/接收/注册" />
+        android:text="广播的发送，创建，接收，注册"
+        android:textStyle="bold" />
 
     <Button
+        android:id="@+id/bt_sendbroadcast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="有序/无序广播" />
+        android:text="发送一条广播" />
+    <Button
+        android:id="@+id/bt_sendbroadcast1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式意图跨进程发送广播" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="动态注册广播" />
+    <Button
+        android:id="@+id/bt_registerbroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态注册广播接收器" />
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示接收到的数据：XXX" />
 
     <Button
+        android:id="@+id/bt_onemore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="广播生命周期" />
+        android:text="一个广播接收器可以监听多个广播(同发送一条广播是同一广播)" />
+    <Button
+        android:id="@+id/bt_sendbroadcastmore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多个广播接收器可以监听同一个广播" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="有序/无序广播(前面就是些无序广播，不多解释)"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="有序广播" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="广播中启动服务"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_broadcast_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="广播中启动服务" />
+
+    <Button
+        android:id="@+id/bt_systembroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统广播" />
+
+
 </LinearLayout>

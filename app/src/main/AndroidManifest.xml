@@ -205,6 +205,10 @@
             android:label="@string/calculator"/>
         <activity android:name=".day14.all.AllActivity"
             android:label="@string/all"/>
+        <activity android:name=".day16.wlan.WlanActivity"
+            android:label="@string/wlan"/>
+
+
 
         <!--注册服务-->
         <service android:name=".day14.service.MyService"/>
@@ -222,6 +226,62 @@
         <!--前台服务-->
         <service android:name=".day15.foreground.ForegroundService"/>
         <service android:name=".day15.intentservice.MyService"/>
+
+        <!--广播-->
+        <!-- 静态注册 -->
+        <receiver android:name=".day16.sendbroadcast.MyRecevier">
+            <intent-filter >
+                <action android:name="MyRecevier"/>
+                <action android:name="MyRecevier1"/>
+            </intent-filter>
+        </receiver>
+
+        <!--动态注册广播-->
+        <service android:name=".day16.sendbroadcast.CountService"/>
+
+        <!--发送一条广播多个广播接收-->
+        <receiver android:name=".day16.sendbroadcastmore.MyReceiver01" >
+            <intent-filter>
+                <action android:name="more" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".day16.sendbroadcastmore.MyReceiver02" >
+            <intent-filter>
+                <action android:name="more" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".day16.sendbroadcastmore.MyReceiver03" >
+            <intent-filter>
+                <action android:name="more" />
+            </intent-filter>
+        </receiver>
+        <!--有序广播-->
+        <receiver android:name=".day16.orderbroadcast1.OrderBroadcast1" >
+            <intent-filter android:priority="1000">
+                <action android:name="order" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".day16.orderbroadcast1.OrderBroadcast2" >
+            <intent-filter android:priority="998">
+                <action android:name="order" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".day16.orderbroadcast1.OrderBroadcast3" >
+            <intent-filter android:priority="999">
+                <action android:name="order" />
+            </intent-filter>
+        </receiver>
+
+        <!--广播中启动服务-->
+        <receiver android:name=".day16.broadcastservice.MyReceiver"/>
+        <service android:name=".day16.broadcastservice.MyService"/>
+
+
+
+
+
+
+
 
     </application>
 
