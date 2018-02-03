@@ -14,6 +14,7 @@ import com.example.jinhui.androiddemo.day13.AdvanceInterface5Activity;
 import com.example.jinhui.androiddemo.day14.Service1Activity;
 import com.example.jinhui.androiddemo.day15.Service2Activity;
 import com.example.jinhui.androiddemo.day16.BroadcastReceiverActivity;
+import com.example.jinhui.androiddemo.day17.MusicplayerActivity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
@@ -68,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
     Button btService02;
     @BindView(R.id.bt_broadcastreceiver)
     Button btBroadcastreceiver;
+    @BindView(R.id.bt_musicplayer)
+    Button btMusicplayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,7 +84,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_thread, R.id.bt_http, R.id.bt_advanceInterface1,
             R.id.bt_advanceInterface2, R.id.bt_advanceInterface3,
             R.id.bt_advanceInterface4, R.id.bt_advanceInterface5,
-            R.id.bt_service01, R.id.bt_service02, R.id.bt_broadcastreceiver})
+            R.id.bt_service01, R.id.bt_service02, R.id.bt_broadcastreceiver,
+            R.id.bt_musicplayer})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -131,6 +135,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_broadcastreceiver:
                 startActivity(new Intent(this, BroadcastReceiverActivity.class));
+                break;
+            case R.id.bt_musicplayer:
+                startActivity(new Intent(this, MusicplayerActivity.class));
                 break;
         }
     }

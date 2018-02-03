@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="音乐文件的载入2种方式"/>
+    <Button
+        android:id="@+id/bt_way1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方式1：res/raw文件夹下音乐资源"/>
+    <Button
+        android:id="@+id/bt_way2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方式2：载入sdcard下的音乐文件"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MediaPlayer类"/>
+    <Button
+        android:id="@+id/bt_musicplayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="示例：简单的音乐播放器"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="音效池SoundPool" />
+    <Button
+        android:id="@+id/bt_soundpool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="音效池SoundPool" />
+
+</LinearLayout>

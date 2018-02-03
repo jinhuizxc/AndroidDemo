@@ -99,7 +99,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="广播(广播的发送/创建/接收/注册、有序/无序广播、广播生命周期)"/>
-
+    <Button
+        android:id="@+id/bt_musicplayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="音乐播放类(MediaPlayer类/音效池SoundPool)"/>
 </LinearLayout>
 
 </ScrollView>

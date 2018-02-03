@@ -71,7 +71,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="广播中启动服务" />
-
+    <Button
+        android:id="@+id/bt_forcequit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送广播弹出对话框, 销毁当前界面" />
     <Button
         android:id="@+id/bt_systembroadcast"
         android:layout_width="match_parent"

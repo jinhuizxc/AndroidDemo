@@ -45,6 +45,8 @@ public class BroadcastReceiverActivity extends AppCompatActivity {
     Button btBroadcastService;
     @BindView(R.id.bt_systembroadcast)
     Button btSystembroadcast;
+    @BindView(R.id.bt_forcequit)
+    Button btForcequit;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -71,7 +73,8 @@ public class BroadcastReceiverActivity extends AppCompatActivity {
 
     @OnClick({R.id.bt_sendbroadcast, R.id.bt_sendbroadcast1, R.id.bt_registerbroadcast,
             R.id.bt_onemore, R.id.bt_sendbroadcastmore, R.id.bt_order,
-            R.id.bt_broadcast_service, R.id.bt_systembroadcast})
+            R.id.bt_broadcast_service, R.id.bt_systembroadcast,
+            R.id.bt_forcequit})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_sendbroadcast:
@@ -105,6 +108,10 @@ public class BroadcastReceiverActivity extends AppCompatActivity {
                 break;
             case R.id.bt_broadcast_service:
                 sendBroadcast(new Intent(this, MyReceiver.class));
+                break;
+            case R.id.bt_forcequit:
+                Toast.makeText(this, "在广播中弹出dialog失败，待处理", Toast.LENGTH_SHORT).show();
+//                sendBroadcast(new Intent("ForceQuitReceiver"));
                 break;
             case R.id.bt_systembroadcast:
                 /**

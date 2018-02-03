@@ -8,6 +8,10 @@
     <uses-permission android:name="android.permission.SEND_SMS"/>
     <!--上网-->
     <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- 在非Activity组件中弹出对话框，需要 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -205,9 +209,12 @@
             android:label="@string/calculator"/>
         <activity android:name=".day14.all.AllActivity"
             android:label="@string/all"/>
-        <activity android:name=".day16.wlan.WlanActivity"
-            android:label="@string/wlan"/>
-
+       <activity android:name=".day17.MusicplayerActivity"
+           android:label="@string/musicplayer"/>
+        <activity android:name=".day17.musicplayer.PlayActivity"
+            android:label="@string/play"/>
+        <activity android:name=".day17.soundpool.SoundPoolActivity"
+            android:label="@string/soundpool"/>
 
 
         <!--注册服务-->
@@ -226,6 +233,9 @@
         <!--前台服务-->
         <service android:name=".day15.foreground.ForegroundService"/>
         <service android:name=".day15.intentservice.MyService"/>
+
+        <service android:name=".day17.musicplayer.MusicService"/>
+
 
         <!--广播-->
         <!-- 静态注册 -->
@@ -276,6 +286,12 @@
         <receiver android:name=".day16.broadcastservice.MyReceiver"/>
         <service android:name=".day16.broadcastservice.MyService"/>
 
+        <!--强制退出？-->
+        <receiver android:name=".day16.forcequit.ForceQuitReceiver">
+            <intent-filter >
+                <action android:name="ForceQuitReceiver"/>
+            </intent-filter>
+        </receiver>
 
 
 
