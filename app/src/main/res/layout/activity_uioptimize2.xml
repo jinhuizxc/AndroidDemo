@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ListView动态增加删除列表" />
+
+    <Button
+        android:id="@+id/bt_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chat聊天界面" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="本地数据库分页显示" />
+    <Button
+        android:id="@+id/bt_add_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView添加footer(手动刷新)" />
+
+    <Button
+        android:id="@+id/bt_add_footer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView添加footer(自动刷新)" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="实现网络JSON数据分页显示(暂不处理)" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实现网络JSON数据分页显示(暂不处理)" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="PullToRefresh下拉刷新控件" />
+    <Button
+        android:id="@+id/bt_add_header_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView添加header/footer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="PullToRefresh下拉刷新组件Example" />
+    <Button
+        android:id="@+id/bt_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PullToRefresh下拉刷新组件的2种方式" />
+</LinearLayout>

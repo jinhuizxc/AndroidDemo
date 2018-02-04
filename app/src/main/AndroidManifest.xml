@@ -215,6 +215,37 @@
             android:label="@string/play"/>
         <activity android:name=".day17.soundpool.SoundPoolActivity"
             android:label="@string/soundpool"/>
+        <activity android:name=".day20.UiOptimize1Activity"
+            android:label="@string/uioptimize1"/>
+        <activity android:name=".day20.arrayadapter.ArrayAdapterActivity"
+            android:label="@string/arrayadapter"/>
+        <activity android:name=".day20.simpleadapter.SimpleAdapterActivity"
+            android:label="@string/simpleadapter"/>
+        <activity android:name=".day20.simpleadapter.SimpleAdapter1Activity"
+            android:label="@string/simpleadapter1"/>
+        <activity android:name=".day20.listviewlistener.ListViewListenerActivity"
+            android:label="@string/listviewlistener"/>
+        <activity android:name=".day20.baseadapter.BaseAdapterActivity"
+            android:label="@string/baseadapter"/>
+        <activity android:name=".day20.contact.ContactActivity"
+            android:label="@string/contact"/>
+        <activity android:name=".day21.UiOptimize2Activity"
+            android:label="@string/uioptimize2"/>
+        <activity android:name=".day21.chat.ChatActivity"
+            android:label="@string/chat"/>
+        <activity android:name=".day21.addfooter.AddFooterActivity"
+            android:label="@string/addfooter"/>
+        <activity android:name=".day21.addfooter.AddFooter1Activity"
+            android:label="@string/addfooter1"/>
+        <activity android:name=".day21.pulltorefresh.Add_header_footerActivity"
+            android:label="@string/addheaderfooter"/>
+        <activity android:name=".day21.example.ExampleActivity"
+            android:label="@string/pulltorefresh"/>
+        <activity android:name=".day21.example.XListViewActivity"
+            android:label="@string/xlistview"/>
+        <activity android:name=".day21.example.XScrollViewActivity"
+            android:label="@string/xscrollview"/>
+
 
 
         <!--注册服务-->

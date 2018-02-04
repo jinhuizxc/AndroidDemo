@@ -104,6 +104,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="音乐播放类(MediaPlayer类/音效池SoundPool)"/>
+    <Button
+        android:id="@+id/bt_datastore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数据存储"/>
+    <Button
+        android:id="@+id/bt_contentprovider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容提供者"/>
+    <Button
+        android:id="@+id/bt_uioptimize01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="界面优化01"/>
+    <Button
+        android:id="@+id/bt_uioptimize02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="界面优化02"/>
+    <Button
+        android:id="@+id/bt_uioptimize03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="界面优化03"/>
+    <Button
+        android:id="@+id/bt_uioptimize04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="界面优化04"/>
+    <Button
+        android:id="@+id/bt_uioptimize05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="界面优化05"/>
+
+
 </LinearLayout>
 
 </ScrollView>

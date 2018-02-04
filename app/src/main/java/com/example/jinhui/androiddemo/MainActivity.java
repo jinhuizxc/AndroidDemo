@@ -16,6 +16,8 @@ import com.example.jinhui.androiddemo.day15.Service2Activity;
 import com.example.jinhui.androiddemo.day16.BroadcastReceiverActivity;
 import com.example.jinhui.androiddemo.day17.MusicplayerActivity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
+import com.example.jinhui.androiddemo.day20.UiOptimize1Activity;
+import com.example.jinhui.androiddemo.day21.UiOptimize2Activity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
@@ -71,6 +73,20 @@ public class MainActivity extends AppCompatActivity {
     Button btBroadcastreceiver;
     @BindView(R.id.bt_musicplayer)
     Button btMusicplayer;
+    @BindView(R.id.bt_datastore)
+    Button btDatastore;
+    @BindView(R.id.bt_contentprovider)
+    Button btContentprovider;
+    @BindView(R.id.bt_uioptimize01)
+    Button btUioptimize01;
+    @BindView(R.id.bt_uioptimize02)
+    Button btUioptimize02;
+    @BindView(R.id.bt_uioptimize03)
+    Button btUioptimize03;
+    @BindView(R.id.bt_uioptimize04)
+    Button btUioptimize04;
+    @BindView(R.id.bt_uioptimize05)
+    Button btUioptimize05;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,7 +101,9 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_advanceInterface2, R.id.bt_advanceInterface3,
             R.id.bt_advanceInterface4, R.id.bt_advanceInterface5,
             R.id.bt_service01, R.id.bt_service02, R.id.bt_broadcastreceiver,
-            R.id.bt_musicplayer})
+            R.id.bt_musicplayer, R.id.bt_datastore, R.id.bt_contentprovider,
+            R.id.bt_uioptimize01, R.id.bt_uioptimize02, R.id.bt_uioptimize03,
+            R.id.bt_uioptimize04, R.id.bt_uioptimize05})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -138,6 +156,22 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_musicplayer:
                 startActivity(new Intent(this, MusicplayerActivity.class));
+                break;
+            case R.id.bt_datastore:
+                break;
+            case R.id.bt_contentprovider:
+                break;
+            case R.id.bt_uioptimize01:
+                startActivity(new Intent(this, UiOptimize1Activity.class));
+                break;
+            case R.id.bt_uioptimize02:
+                startActivity(new Intent(this, UiOptimize2Activity.class));
+                break;
+            case R.id.bt_uioptimize03:
+                break;
+            case R.id.bt_uioptimize04:
+                break;
+            case R.id.bt_uioptimize05:
                 break;
         }
     }

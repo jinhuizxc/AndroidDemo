@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="3种适配器方式" />
+    <Button
+        android:id="@+id/bt_arrayadapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArrayAdapter" />
+
+    <Button
+        android:id="@+id/bt_simpleadapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleAdapter" />
+    <Button
+        android:id="@+id/bt_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SimpleAdapter1" />
+
+    <Button
+        android:id="@+id/bt_baseadapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BaseAdapter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView的监听事件" />
+    <Button
+        android:id="@+id/bt_listview_listener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView的监听" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="联系人的增删改查" />
+    <Button
+        android:id="@+id/bt_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联系人的增删改查" />
+</LinearLayout>
