@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新test" />
+    <Button
+        android:id="@+id/bt_listviewheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView + Header" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="GridView适配器" />
+    <Button
+        android:id="@+id/bt_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridView适配器" />
+
+    <Button
+        android:id="@+id/bt_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridView(抽奖)" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Spinner下拉菜单" />
+    <Button
+        android:id="@+id/bt_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spinner下拉菜单" />
+
+    <Button
+        android:id="@+id/bt_oom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OOM(Out Of Memory)" />
+
+    <Button
+        android:id="@+id/bt_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView使用二级缓存加载网络图片" />
+    <Button
+        android:id="@+id/bt_java_reference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java引用分类（强，软，弱，虚）" />
+
+
+</LinearLayout>

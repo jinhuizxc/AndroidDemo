@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内存缓存 --> 存储设备缓存 --> 网络"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/bt_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="二级缓存加载网络图片步骤" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView使用二级缓存加载网络图片" />
+    <Button
+        android:id="@+id/bt_cacheexample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView使用二级缓存加载网络图片" />
+</LinearLayout>

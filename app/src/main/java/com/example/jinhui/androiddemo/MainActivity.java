@@ -18,6 +18,9 @@ import com.example.jinhui.androiddemo.day17.MusicplayerActivity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
 import com.example.jinhui.androiddemo.day20.UiOptimize1Activity;
 import com.example.jinhui.androiddemo.day21.UiOptimize2Activity;
+import com.example.jinhui.androiddemo.day22.UiOptimize3Activity;
+import com.example.jinhui.androiddemo.day23.UiOptimize4Activity;
+import com.example.jinhui.androiddemo.day24.UiOptimize5Activity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
@@ -168,10 +171,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, UiOptimize2Activity.class));
                 break;
             case R.id.bt_uioptimize03:
+                startActivity(new Intent(this, UiOptimize3Activity.class));
                 break;
             case R.id.bt_uioptimize04:
+                startActivity(new Intent(this, UiOptimize4Activity.class));
                 break;
             case R.id.bt_uioptimize05:
+                startActivity(new Intent(this, UiOptimize5Activity.class));
                 break;
         }
     }

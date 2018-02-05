@@ -11,6 +11,10 @@
 
     <!-- 在非Activity组件中弹出对话框，需要 -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <!--读外部存储权限-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--写外部存储权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -245,6 +249,26 @@
             android:label="@string/xlistview"/>
         <activity android:name=".day21.example.XScrollViewActivity"
             android:label="@string/xscrollview"/>
+        <activity android:name=".day22.UiOptimize3Activity"
+            android:label="@string/uioptimize3"/>
+        <activity android:name=".day23.UiOptimize4Activity"
+            android:label="@string/uioptimize4"/>
+        <activity android:name=".day24.UiOptimize5Activity"
+            android:label="@string/uioptimize5"/>
+        <activity android:name=".day22.listviewheader.ListViewHeaderActivity"
+            android:label="@string/listviewheader"/>
+        <activity android:name=".day22.gridview.GridviewActivity"
+            android:label="@string/gridview"/>
+        <activity android:name=".day22.gridview.example.GiftActivity"
+            android:label="@string/gift"/>
+        <activity android:name=".day22.spinner.SpinnerActivity"
+            android:label="@string/spinner"/>
+        <activity android:name=".day22.cache.CacheActivity"
+            android:label="@string/cache"/>
+        <activity android:name=".day22.reference.ReferenceActivity"
+            android:label="@string/reference"/>
+        <activity android:name=".day22.cache.CacheExampleActivity"
+            android:label="@string/cacheexample"/>
 
 
 
