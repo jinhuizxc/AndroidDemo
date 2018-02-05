@@ -108,6 +108,17 @@
     <string name="cache">ListView使用二级缓存加载网络图片</string>
     <string name="reference">Java引用分类</string>
     <string name="cacheexample">二级图片缓存Test</string>
+    <string name="fragmentjava">动态加载fragment</string>
+    <string name="fragment02">Fragment02</string>
+    <string name="fragmentxml">布局中静态添加Fragment</string>
+    <string name="showhide">Fragment的显示与隐藏</string>
+    <string name="stack1">后台栈管理1</string>
+    <string name="stack2">后台栈管理2</string>
+    <string name="fragment_activity">Fragment传给Activity</string>
+    <string name="activity_fragment">Activity传给Fragment</string>
+    <string name="fragmentanim">Fragment动画效果</string>
+    <string name="weixin">微信底部导航效果</string>
+    <string name="top">顶部导航效果</string>
 
     <string-array name="luanguages">
         <item >c语言</item>

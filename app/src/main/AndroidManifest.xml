@@ -270,6 +270,29 @@
         <activity android:name=".day22.cache.CacheExampleActivity"
             android:label="@string/cacheexample"/>
 
+        <!--开始fragment碎片的整理-->
+        <activity android:name=".day23.fragment01.java.FragmentJavaActivity"
+            android:label="@string/fragmentjava"/>
+        <activity android:name=".day23.fragment02.Fragment02Activity"
+            android:label="@string/fragment02"/>
+        <activity android:name=".day23.fragment01.xml.FragmentXmlActivity"
+            android:label="@string/fragmentxml"/>
+        <activity android:name=".day23.fragment03.ShowHideActivity"
+            android:label="@string/showhide"/>
+        <activity android:name=".day23.stack.Stack1Activity"
+            android:label="@string/stack1"/>
+        <activity android:name=".day23.stack.Stack2Activity"
+            android:label="@string/stack2"/>
+        <activity android:name=".day23.send_data.activity_fragment.Activity_fragmentActivity"
+            android:label="@string/activity_fragment"/>
+        <activity android:name=".day23.send_data.fragment_activity.Fragment_activityActivity"
+            android:label="@string/fragment_activity"/>
+        <activity android:name=".day23.fragmentanim.Fragment_animActivity"
+            android:label="@string/fragmentanim"/>
+        <activity android:name=".day23.example.WeixinActivity"
+            android:label="@string/weixin"/>
+        <activity android:name=".day23.example1.TopActivity"
+            android:label="@string/top"/>
 
 
         <!--注册服务-->
