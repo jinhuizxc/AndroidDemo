@@ -311,6 +311,12 @@
             android:label="@string/httpclient"/>
         <activity android:name=".day8.http.ChatClientActivity"
             android:label="@string/chatclient"/>
+        <activity android:name=".day8.httpurlconnection.HttpGetActivity"
+            android:label="@string/httpget"/>
+        <activity android:name=".day8.httpurlconnection.HttpPostActivity"
+            android:label="@string/httppost"/>
+        <activity android:name=".day8.httpurlconnection.YoudaoActivity"
+            android:label="@string/youdao"/>
 
 
         <!--注册服务-->

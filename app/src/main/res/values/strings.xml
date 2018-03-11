@@ -130,6 +130,9 @@
     <string name="twotask">TwoTask</string>
     <string name="httpclient">客户端与服务器的通信</string>
     <string name="chatclient">聊天室</string>
+    <string name="httpget">HttpGet</string>
+    <string name="httppost">HttpPost</string>
+    <string name="youdao">获取有道接口数据</string>
 
     <string-array name="luanguages">
         <item >c语言</item>

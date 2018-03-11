@@ -30,4 +30,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="聊天室" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="HttpURLConnection" />
+    <Button
+        android:id="@+id/bt_httpget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HTTP GET" />
+    <Button
+        android:id="@+id/bt_httppost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HTTP POST" />
+    <Button
+        android:id="@+id/bt_youdao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="有道词典" />
 </LinearLayout>
