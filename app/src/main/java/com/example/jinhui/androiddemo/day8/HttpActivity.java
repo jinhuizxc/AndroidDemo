@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.jinhui.androiddemo.R;
+import com.example.jinhui.androiddemo.day8.http.ChatClientActivity;
 import com.example.jinhui.androiddemo.day8.http.HttpClientActivity;
 import com.example.jinhui.androiddemo.day8.task.TimerTaskActivity;
 import com.example.jinhui.androiddemo.day8.task.TwoTaskActivity;
@@ -29,6 +30,8 @@ public class HttpActivity extends AppCompatActivity {
     Button btTwotask;
     @BindView(R.id.bt_http)
     Button btHttp;
+    @BindView(R.id.bt_chat_client)
+    Button btChatClient;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -37,7 +40,7 @@ public class HttpActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_timertask, R.id.bt_twotask, R.id.bt_http})
+    @OnClick({R.id.bt_timertask, R.id.bt_twotask, R.id.bt_http, R.id.bt_chat_client})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_timertask:
@@ -48,6 +51,9 @@ public class HttpActivity extends AppCompatActivity {
                 break;
             case R.id.bt_http:
                 startActivity(new Intent(this, HttpClientActivity.class));
+                break;
+            case R.id.bt_chat_client:
+                startActivity(new Intent(this, ChatClientActivity.class));
                 break;
         }
     }

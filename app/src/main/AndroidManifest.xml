@@ -309,6 +309,8 @@
             android:label="@string/twotask"/>
         <activity android:name=".day8.http.HttpClientActivity"
             android:label="@string/httpclient"/>
+        <activity android:name=".day8.http.ChatClientActivity"
+            android:label="@string/chatclient"/>
 
 
         <!--注册服务-->

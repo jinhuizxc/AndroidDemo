@@ -15,9 +15,19 @@
         android:layout_height="wrap_content"
         android:text="2个异步任务" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="客户端与服务器"/>
     <Button
         android:id="@+id/bt_http"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="网络http" />
+        android:text="访问本地java服务器" />
+    <Button
+        android:id="@+id/bt_chat_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="聊天室" />
 </LinearLayout>
