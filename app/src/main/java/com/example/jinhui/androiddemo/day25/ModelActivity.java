@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import com.example.jinhui.androiddemo.R;
 import com.example.jinhui.androiddemo.day25.mvc.MVCActivity;
+import com.example.jinhui.androiddemo.day25.mvp.MVPActivity;
+import com.example.jinhui.androiddemo.day25.mvvm.MVVMActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -42,8 +44,10 @@ public class ModelActivity extends AppCompatActivity {
                 startActivity(new Intent(this, MVCActivity.class));
                 break;
             case R.id.bt_mvp:
+                startActivity(new Intent(this, MVPActivity.class));
                 break;
             case R.id.bt_mvvm:
+                startActivity(new Intent(this, MVVMActivity.class));
                 break;
         }
     }

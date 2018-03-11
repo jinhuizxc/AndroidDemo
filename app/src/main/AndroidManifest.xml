@@ -297,6 +297,10 @@
             android:label="@string/model"/>
         <activity android:name=".day25.mvc.MVCActivity"
             android:label="@string/mvc"/>
+        <activity android:name=".day25.mvp.MVPActivity"
+            android:label="@string/mvp"/>
+        <activity android:name=".day25.mvvm.MVVMActivity"
+            android:label="@string/mvvm"/>
 
 
         <!--注册服务-->
