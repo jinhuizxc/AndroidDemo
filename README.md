@@ -63,14 +63,21 @@ musicDNA是一款不错的音乐播放器项目(很多开源音乐源码remusic�
 测试了其中一个下拉刷新，哇，好复杂写的！(关于下拉刷新的关键就在与header高度的控制与触摸事件的处理)
 以后有时间在理解，否则以后用到直接借用别人的代码吧；
 ```
-- 2018/2/15 界面优化03(GridView/Spinner适配器、ListView使用二级缓存加载网络图片、Java引用分类(强，软，弱，虚))
+- 2018/2/15 界面优化03(GridView/Spinner适配器、ListView使用二级缓存加载网络图片、OOM(Out Of Memory)、Java引用分类(强，软，弱，虚))
 ```
 1.关于Java引用分类(强，软，弱，虚)没有给出实际例子,之后会把这部分进行学习更新；
+2.OOM(Out Of Memory)的理解还太浅；
 ```
 - 2018/2/16 界面优化04(Fragment动态加载/静态加载、Fragment的栈管理、Activity与Fragment间的数据传递、
 Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现向导功能)
 - 2018/2/17 界面优化05(Bitmap对象的获取、Bitmap图片变形、Bitmap OOM处理)
+```
+1.对于Bitmap OOM处理的处理，理解；
+```
 - 2018/2/18 传感器+webview
 - 2018/2/19 多媒体(音频录制、视频录制、视频播放、Android摄像头基础)
 - 2018/2/20 屏幕适配、国际化
 - 2018/2/21 第三方框架(百度地图、环信、XUtils、Volley)
+
+- 2018/3/11 补充下mvc/mvp/mvvm的例子-简单的demo
+

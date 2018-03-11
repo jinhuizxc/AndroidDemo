@@ -119,6 +119,8 @@
     <string name="fragmentanim">Fragment动画效果</string>
     <string name="weixin">微信底部导航效果</string>
     <string name="top">顶部导航效果</string>
+    <string name="model">MVC/MVP/MVVM例子</string>
+    <string name="mvc">MVC</string>
 
     <string-array name="luanguages">
         <item >c语言</item>

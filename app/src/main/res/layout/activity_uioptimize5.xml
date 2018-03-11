@@ -3,4 +3,45 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Bitmap对象的获取" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+    <Button
+        android:id="@+id/bt_bitmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bitmap对象的获取" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Bitmap图片变形" />
+
+    <Button
+        android:id="@+id/bt_deformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bitmap图片变形" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Bitmap OOM处理" />
+
+    <Button
+        android:id="@+id/bt_oom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bitmap OOM处理" />
+
+
 </LinearLayout>

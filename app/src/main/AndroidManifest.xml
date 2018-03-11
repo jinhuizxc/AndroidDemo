@@ -293,6 +293,10 @@
             android:label="@string/weixin"/>
         <activity android:name=".day23.example1.TopActivity"
             android:label="@string/top"/>
+        <activity android:name=".day25.ModelActivity"
+            android:label="@string/model"/>
+        <activity android:name=".day25.mvc.MVCActivity"
+            android:label="@string/mvc"/>
 
 
         <!--注册服务-->
