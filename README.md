@@ -79,5 +79,8 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - 2018/2/20 屏幕适配、国际化
 - 2018/2/21 第三方框架(百度地图、环信、XUtils、Volley)
 
-- 2018/3/11 补充下mvc/mvp/mvvm的例子-简单的demo
+- 2018/3/11
+1. 补充下mvc/mvp/mvvm的例子-简单的demo
+2. Android 5种数据存储方式
+
 

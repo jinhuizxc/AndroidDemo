@@ -145,6 +145,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MVC/MVP/MVVM"/>
+
+    <Button
+        android:id="@+id/bt_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 5种数据存储方式"/>
+
 </LinearLayout>
 
 </ScrollView>

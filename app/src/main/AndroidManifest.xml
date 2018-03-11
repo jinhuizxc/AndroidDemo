@@ -301,6 +301,14 @@
             android:label="@string/mvp"/>
         <activity android:name=".day25.mvvm.MVVMActivity"
             android:label="@string/mvvm"/>
+        <activity android:name=".day26.DataActivity"
+            android:label="@string/data"/>
+        <activity android:name=".day8.task.TimerTaskActivity"
+            android:label="@string/timertask"/>
+        <activity android:name=".day8.task.TwoTaskActivity"
+            android:label="@string/twotask"/>
+        <activity android:name=".day8.http.HttpClientActivity"
+            android:label="@string/httpclient"/>
 
 
         <!--注册服务-->

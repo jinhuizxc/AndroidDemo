@@ -125,6 +125,10 @@
     <string name="mvvm">MVVM</string>
     <string name="login_username">用户名：</string>
     <string name="login_password">密码：</string>
+    <string name="data">Android 5种数据存储方式</string>
+    <string name="timertask">TimerTask</string>
+    <string name="twotask">TwoTask</string>
+    <string name="httpclient">客户端与服务器的通信</string>
 
     <string-array name="luanguages">
         <item >c语言</item>

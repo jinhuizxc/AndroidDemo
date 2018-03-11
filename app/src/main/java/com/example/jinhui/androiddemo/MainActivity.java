@@ -22,6 +22,7 @@ import com.example.jinhui.androiddemo.day22.UiOptimize3Activity;
 import com.example.jinhui.androiddemo.day23.UiOptimize4Activity;
 import com.example.jinhui.androiddemo.day24.UiOptimize5Activity;
 import com.example.jinhui.androiddemo.day25.ModelActivity;
+import com.example.jinhui.androiddemo.day26.DataActivity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
@@ -93,6 +94,8 @@ public class MainActivity extends AppCompatActivity {
     Button btUioptimize05;
     @BindView(R.id.bt_model)
     Button btModel;
+    @BindView(R.id.bt_data)
+    Button btData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,7 +112,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_service01, R.id.bt_service02, R.id.bt_broadcastreceiver,
             R.id.bt_musicplayer, R.id.bt_datastore, R.id.bt_contentprovider,
             R.id.bt_uioptimize01, R.id.bt_uioptimize02, R.id.bt_uioptimize03,
-            R.id.bt_uioptimize04, R.id.bt_uioptimize05, R.id.bt_model})
+            R.id.bt_uioptimize04, R.id.bt_uioptimize05, R.id.bt_model,
+            R.id.bt_data})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -184,6 +188,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_model:
                 startActivity(new Intent(this, ModelActivity.class));
+                break;
+            case R.id.bt_data:
+                startActivity(new Intent(this, DataActivity.class));
                 break;
         }
     }

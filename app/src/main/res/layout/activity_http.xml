@@ -4,8 +4,20 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/bt_timertask"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="http" />
+        android:text="倒计时" />
+
+    <Button
+        android:id="@+id/bt_twotask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2个异步任务" />
+
+    <Button
+        android:id="@+id/bt_http"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络http" />
 </LinearLayout>
