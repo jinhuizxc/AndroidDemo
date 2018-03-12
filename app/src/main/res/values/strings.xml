@@ -133,6 +133,8 @@
     <string name="httpget">HttpGet</string>
     <string name="httppost">HttpPost</string>
     <string name="youdao">获取有道接口数据</string>
+    <string name="datastore">数据存储</string>
+    <string name="contentprovider">内容提供者</string>
 
     <string-array name="luanguages">
         <item >c语言</item>

@@ -15,6 +15,8 @@ import com.example.jinhui.androiddemo.day14.Service1Activity;
 import com.example.jinhui.androiddemo.day15.Service2Activity;
 import com.example.jinhui.androiddemo.day16.BroadcastReceiverActivity;
 import com.example.jinhui.androiddemo.day17.MusicplayerActivity;
+import com.example.jinhui.androiddemo.day18.DataStoreActivity;
+import com.example.jinhui.androiddemo.day19.ContentProviderActivity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
 import com.example.jinhui.androiddemo.day20.UiOptimize1Activity;
 import com.example.jinhui.androiddemo.day21.UiOptimize2Activity;
@@ -168,8 +170,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, MusicplayerActivity.class));
                 break;
             case R.id.bt_datastore:
+                startActivity(new Intent(this, DataStoreActivity.class));
                 break;
             case R.id.bt_contentprovider:
+                startActivity(new Intent(this, ContentProviderActivity.class));
                 break;
             case R.id.bt_uioptimize01:
                 startActivity(new Intent(this, UiOptimize1Activity.class));

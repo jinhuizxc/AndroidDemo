@@ -15,6 +15,9 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <!--写外部存储权限-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--读取联系人权限-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
 
     <application
         android:allowBackup="true"
@@ -317,6 +320,10 @@
             android:label="@string/httppost"/>
         <activity android:name=".day8.httpurlconnection.YoudaoActivity"
             android:label="@string/youdao"/>
+        <activity android:name=".day18.DataStoreActivity"
+            android:label="@string/datastore"/>
+        <activity android:name=".day19.ContentProviderActivity"
+            android:label="@string/contentprovider"/>
 
 
         <!--注册服务-->
@@ -396,7 +403,9 @@
         </receiver>
 
 
-
+        <provider
+            android:authorities="MyContentProvider"
+            android:name=".day19.customcontentprovider.MyContentProvider"/>
 
 
 

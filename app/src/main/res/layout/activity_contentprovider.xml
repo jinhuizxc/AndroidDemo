@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="内容提供者" />
+    <Button
+        android:id="@+id/bt_custom_contentprovider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义ContentProvider" />
+
+    <Button
+        android:id="@+id/bt_readcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取联系人" />
+
+    <Button
+        android:id="@+id/bt_local_contentprovider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="访问系统联系人共享数据库" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="项目-图片管理器(待完善)" />
+</LinearLayout>

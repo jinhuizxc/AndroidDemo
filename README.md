@@ -50,9 +50,14 @@
 musicDNA是一款不错的音乐播放器项目(很多开源音乐源码remusic等可以参考)。
 ```
 - 2018/2/11 数据存储(文件存储、sharedPreference存储方式、sqlite3介绍、五大存储方式)
+```
+1.开始数据存储；
+```
 - 2018/2/12 内容提供者(ContentProvider、数据库的访问与制作)
 ```
-上两篇暂时略过，后续跟进！
+1. cmd命令行写关于数据的增删改查等命令得加强；
+2. 项目-图片管理器（用ContentProvider完成，待完成）；
+
 ```
 - 2018/2/13 界面优化01(MVC框架介绍(Model/View/Controller)、常用3类适配器、示例：联系人的增删改查)
 - 2018/2/14 界面优化02(ListView动态增加删除列表、本地数据库分页显示、实现网络JSON数据分页显示、PullToRefresh下拉刷新控件)
@@ -82,5 +87,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - 2018/3/11
 1. 补充下mvc/mvp/mvvm的例子-简单的demo
 2. Android 5种数据存储方式
+
+- 2018/3/12 继昨天完善数据存储/内容提供者
 
 
