@@ -13,11 +13,10 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <!--读外部存储权限-->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <!--写外部存储权限-->
+    <!--写入外部存储权限-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <!--读取联系人权限-->
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
-
 
     <application
         android:allowBackup="true"
@@ -324,6 +323,16 @@
             android:label="@string/datastore"/>
         <activity android:name=".day19.ContentProviderActivity"
             android:label="@string/contentprovider"/>
+        <activity android:name=".day18.filestore.FileStoreActivity"
+            android:label="@string/filestore"/>
+        <activity android:name=".day18.fileinoutstream.FileInOutStreamActivity"
+            android:label="@string/fileinoutstream"/>
+        <activity android:name=".day18.shared.SharedPreferencesActivity"
+            android:label="@string/sharedpreferences"/>
+        <activity android:name=".day18.shared.SavePasswordActivity"
+            android:label="@string/savepassword"/>
+        <activity android:name=".desinpattern.DesinPatternActivity"
+            android:label="@string/designpatterns"/>
 
 
         <!--注册服务-->

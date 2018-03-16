@@ -19,6 +19,8 @@ import butterknife.OnClick;
 /**
  * Created by jinhui on 2018/3/11.
  * Email:1004260403@qq.com
+ *
+ * 3种架构模式
  */
 
 public class ModelActivity extends AppCompatActivity {

@@ -147,6 +147,11 @@
         android:text="MVC/MVP/MVVM"/>
 
     <Button
+        android:id="@+id/bt_designpattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常用的设计模式"/>
+    <Button
         android:id="@+id/bt_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

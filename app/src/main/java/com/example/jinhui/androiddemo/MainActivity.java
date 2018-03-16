@@ -32,6 +32,7 @@ import com.example.jinhui.androiddemo.day6.AnimActivity;
 import com.example.jinhui.androiddemo.day7.ThreadActivity;
 import com.example.jinhui.androiddemo.day8.HttpActivity;
 import com.example.jinhui.androiddemo.day9.AdvanceInterface1Activity;
+import com.example.jinhui.androiddemo.desinpattern.DesinPatternActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -42,6 +43,9 @@ import butterknife.OnClick;
  * 最近在学习自定义篇，启舰大神的文章，
  * 想着以前自己也有很多Android笔记，这么久了，
  * 可以整理一篇合集，做到温故而知新！
+ *
+ * 解决Android Studio出现GC overhead limit exceeded:
+ * https://www.cnblogs.com/jeffen/p/7607239.html
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -98,6 +102,8 @@ public class MainActivity extends AppCompatActivity {
     Button btModel;
     @BindView(R.id.bt_data)
     Button btData;
+    @BindView(R.id.bt_designpattern)
+    Button btDesignpattern;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -115,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_musicplayer, R.id.bt_datastore, R.id.bt_contentprovider,
             R.id.bt_uioptimize01, R.id.bt_uioptimize02, R.id.bt_uioptimize03,
             R.id.bt_uioptimize04, R.id.bt_uioptimize05, R.id.bt_model,
-            R.id.bt_data})
+            R.id.bt_designpattern, R.id.bt_data})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -192,6 +198,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_model:
                 startActivity(new Intent(this, ModelActivity.class));
+                break;
+            case R.id.bt_designpattern:
+                startActivity(new Intent(this, DesinPatternActivity.class));
                 break;
             case R.id.bt_data:
                 startActivity(new Intent(this, DataActivity.class));

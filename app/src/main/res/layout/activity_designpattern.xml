@@ -3,62 +3,59 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="5种数据存储方式" />
+        android:text="单例设计模式" />
 
     <Button
-        android:id="@+id/bt_filestore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="文件存储(File)" />
-    <Button
-        android:id="@+id/bt_fileinoutstore"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="文件存储(FileInputStream/FileOutputStream)" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="使用SharedPreferences存储数据" />
-    <Button
-        android:id="@+id/bt_sharedprefernces"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="使用SharedPreferences存储数据" />
+        android:text="工厂模式" />
 
     <Button
-        android:id="@+id/bt_savepassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SharedPreferences保存密码" />
+        android:text="代理模式" />
 
     <Button
-        android:id="@+id/bt_readshared"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="读取其他进程的shared文件" />
+        android:text="观察者模式" />
 
     <Button
-        android:id="@+id/bt_sqlite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SQlite数据库存储数据" />
+        android:text="装饰模式" />
 
     <Button
-        android:id="@+id/bt_contentprovider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="使用ContentPrivider存储数据" />
+        android:text="策略模式" />
 
     <Button
-        android:id="@+id/bt_internetstore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="网络存储数据" />
+        android:text="适配器模式" />
 
-</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="命令模式" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="外观模式" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="模板方法模式" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="状态模式" />
+
+    </LinearLayout>

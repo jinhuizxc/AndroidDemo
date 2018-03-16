@@ -135,6 +135,11 @@
     <string name="youdao">获取有道接口数据</string>
     <string name="datastore">数据存储</string>
     <string name="contentprovider">内容提供者</string>
+    <string name="filestore">文件存储</string>
+    <string name="fileinoutstream">文件输入输出流</string>
+    <string name="sharedpreferences">SharedPreferences</string>
+    <string name="savepassword">sharedPreferences保存密码示例</string>
+    <string name="designpatterns">常用设计模式</string>
 
     <string-array name="luanguages">
         <item >c语言</item>

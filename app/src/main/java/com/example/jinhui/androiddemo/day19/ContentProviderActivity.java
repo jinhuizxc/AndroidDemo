@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.jinhui.androiddemo.R;
 
@@ -60,6 +61,8 @@ public class ContentProviderActivity extends AppCompatActivity {
                 values.put("phone", "10086");
                 // 插入一条记录
                 resolver.insert(uri, values);
+//                Log.e(TAG, "插入数据成功");
+                Toast.makeText(this, "插入数据成功", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.bt_local_contentprovider:
                 readContacts();

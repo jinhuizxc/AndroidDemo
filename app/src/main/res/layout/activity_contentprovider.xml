@@ -12,13 +12,13 @@
         android:id="@+id/bt_custom_contentprovider"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="自定义ContentProvider" />
+        android:text="插入一个联系人" />
 
     <Button
         android:id="@+id/bt_readcontact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="读取联系人" />
+        android:text="读取插入的联系人" />
 
     <Button
         android:id="@+id/bt_local_contentprovider"
