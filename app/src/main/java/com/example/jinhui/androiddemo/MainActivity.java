@@ -30,7 +30,7 @@ import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
 import com.example.jinhui.androiddemo.day6.AnimActivity;
 import com.example.jinhui.androiddemo.day7.ThreadActivity;
-import com.example.jinhui.androiddemo.day8.HttpActivity;
+import com.example.jinhui.androiddemo.day8_http_tcp_udp.HttpActivity;
 import com.example.jinhui.androiddemo.day9.AdvanceInterface1Activity;
 import com.example.jinhui.androiddemo.desinpattern.DesinPatternActivity;
 

@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day8;
+package com.example.jinhui.androiddemo.day8_http_tcp_udp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,13 +9,12 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.jinhui.androiddemo.R;
-import com.example.jinhui.androiddemo.day8.http.ChatClientActivity;
-import com.example.jinhui.androiddemo.day8.http.HttpClientActivity;
-import com.example.jinhui.androiddemo.day8.httpurlconnection.HttpGetActivity;
-import com.example.jinhui.androiddemo.day8.httpurlconnection.HttpPostActivity;
-import com.example.jinhui.androiddemo.day8.httpurlconnection.YoudaoActivity;
-import com.example.jinhui.androiddemo.day8.task.TimerTaskActivity;
-import com.example.jinhui.androiddemo.day8.task.TwoTaskActivity;
+import com.example.jinhui.androiddemo.day8_http_tcp_udp.http.ChatClientActivity;
+import com.example.jinhui.androiddemo.day8_http_tcp_udp.http.HttpClientActivity;
+import com.example.jinhui.androiddemo.day8_http_tcp_udp.httpurlconnection.HttpGetActivity;
+import com.example.jinhui.androiddemo.day8_http_tcp_udp.httpurlconnection.YoudaoActivity;
+import com.example.jinhui.androiddemo.day8_http_tcp_udp.task.TimerTaskActivity;
+import com.example.jinhui.androiddemo.day8_http_tcp_udp.task.TwoTaskActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

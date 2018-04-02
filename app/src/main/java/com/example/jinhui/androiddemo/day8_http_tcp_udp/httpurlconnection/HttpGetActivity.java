@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day8.httpurlconnection;
+package com.example.jinhui.androiddemo.day8_http_tcp_udp.httpurlconnection;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
