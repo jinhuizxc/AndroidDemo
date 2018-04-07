@@ -90,5 +90,6 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 2. Android 5种数据存储方式
 
 - 2018/3/12 继昨天完善数据存储/内容提供者
+- 2018/4/8  补充fragment的部分，stack以及事务处理，以及webview，学到了一个好的加载库（AgentWeb，以前就有fork结果以前没怎么留意，啊啊啊）。
 
 
