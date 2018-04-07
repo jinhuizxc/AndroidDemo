@@ -33,30 +33,30 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".day1.WidgetAndLayoutActivity"/>
+        <activity android:name=".day1_layout.WidgetAndLayoutActivity"/>
         <activity android:name=".day2.ListenerActivity"/>
-        <activity android:name=".day1.TextViewActivity"
+        <activity android:name=".day1_layout.TextViewActivity"
             android:label="@string/textview"/>
-        <activity android:name=".day1.ButtonActivity"
+        <activity android:name=".day1_layout.ButtonActivity"
             android:label="@string/button"/>
 
-        <activity android:name=".day1.EditTextActivity"
+        <activity android:name=".day1_layout.EditTextActivity"
             android:label="@string/edittext"/>
 
-        <activity android:name=".day1.PrograssbarActivity"
+        <activity android:name=".day1_layout.PrograssbarActivity"
             android:label="@string/prograssbar"/>
 
-        <activity android:name=".day1.ImageViewActivity"
+        <activity android:name=".day1_layout.ImageViewActivity"
             android:label="@string/imageview"/>
-        <activity android:name=".day1.layout.LinearlayoutActivity"
+        <activity android:name=".day1_layout.layout.LinearlayoutActivity"
             android:label="@string/linearlayout"/>
-        <activity android:name=".day1.layout.RelativelayoutActivity"
+        <activity android:name=".day1_layout.layout.RelativelayoutActivity"
             android:label="@string/Relativelayout"/>
-        <activity android:name=".day1.layout.FramelayoutActivity"
+        <activity android:name=".day1_layout.layout.FramelayoutActivity"
             android:label="@string/Framelayout"/>
-        <activity android:name=".day1.layout.TablelayoutActivity"
+        <activity android:name=".day1_layout.layout.TablelayoutActivity"
             android:label="@string/Tablelayout"/>
-        <activity android:name=".day1.layout.GridlayoutActivity"
+        <activity android:name=".day1_layout.layout.GridlayoutActivity"
             android:label="@string/Gridlayout"/>
         <activity android:name=".day2.ResActivity"
             android:label="@string/res"/>
@@ -99,7 +99,7 @@
             android:label="@string/Jump2"/>
         <activity android:name=".day3.intent.Jump3Activity"
             android:label="@string/Jump3"/>
-        <activity android:name=".day1.layout.WeightActivity"
+        <activity android:name=".day1_layout.layout.WeightActivity"
             android:label="@string/weight"/>
         <activity android:name=".day4.Interface2Activity"
             android:label="@string/interface2"/>
@@ -221,39 +221,39 @@
             android:label="@string/play"/>
         <activity android:name=".day17.soundpool.SoundPoolActivity"
             android:label="@string/soundpool"/>
-        <activity android:name=".day20.UiOptimize1Activity"
+        <activity android:name=".day20_adapter.UiOptimize1Activity"
             android:label="@string/uioptimize1"/>
-        <activity android:name=".day20.arrayadapter.ArrayAdapterActivity"
+        <activity android:name=".day20_adapter.arrayadapter.ArrayAdapterActivity"
             android:label="@string/arrayadapter"/>
-        <activity android:name=".day20.simpleadapter.SimpleAdapterActivity"
+        <activity android:name=".day20_adapter.simpleadapter.SimpleAdapterActivity"
             android:label="@string/simpleadapter"/>
-        <activity android:name=".day20.simpleadapter.SimpleAdapter1Activity"
+        <activity android:name=".day20_adapter.simpleadapter.SimpleAdapter1Activity"
             android:label="@string/simpleadapter1"/>
-        <activity android:name=".day20.listviewlistener.ListViewListenerActivity"
+        <activity android:name=".day20_adapter.listviewlistener.ListViewListenerActivity"
             android:label="@string/listviewlistener"/>
-        <activity android:name=".day20.baseadapter.BaseAdapterActivity"
+        <activity android:name=".day20_adapter.baseadapter.BaseAdapterActivity"
             android:label="@string/baseadapter"/>
-        <activity android:name=".day20.contact.ContactActivity"
+        <activity android:name=".day20_adapter.contact.ContactActivity"
             android:label="@string/contact"/>
-        <activity android:name=".day21.UiOptimize2Activity"
+        <activity android:name=".day21_adapter_footer_header.UiOptimize2Activity"
             android:label="@string/uioptimize2"/>
-        <activity android:name=".day21.chat.ChatActivity"
+        <activity android:name=".day21_adapter_footer_header.chat.ChatActivity"
             android:label="@string/chat"/>
-        <activity android:name=".day21.addfooter.AddFooterActivity"
+        <activity android:name=".day21_adapter_footer_header.addfooter.AddFooterActivity"
             android:label="@string/addfooter"/>
-        <activity android:name=".day21.addfooter.AddFooter1Activity"
+        <activity android:name=".day21_adapter_footer_header.addfooter.AddFooter1Activity"
             android:label="@string/addfooter1"/>
-        <activity android:name=".day21.pulltorefresh.Add_header_footerActivity"
+        <activity android:name=".day21_adapter_footer_header.pulltorefresh.Add_header_footerActivity"
             android:label="@string/addheaderfooter"/>
-        <activity android:name=".day21.example.ExampleActivity"
+        <activity android:name=".day21_adapter_footer_header.example.ExampleActivity"
             android:label="@string/pulltorefresh"/>
-        <activity android:name=".day21.example.XListViewActivity"
+        <activity android:name=".day21_adapter_footer_header.example.XListViewActivity"
             android:label="@string/xlistview"/>
-        <activity android:name=".day21.example.XScrollViewActivity"
+        <activity android:name=".day21_adapter_footer_header.example.XScrollViewActivity"
             android:label="@string/xscrollview"/>
         <activity android:name=".day22.UiOptimize3Activity"
             android:label="@string/uioptimize3"/>
-        <activity android:name=".day23.UiOptimize4Activity"
+        <activity android:name=".day23_fragment.UiOptimize4Activity"
             android:label="@string/uioptimize4"/>
         <activity android:name=".day24.UiOptimize5Activity"
             android:label="@string/uioptimize5"/>
@@ -273,27 +273,27 @@
             android:label="@string/cacheexample"/>
 
         <!--开始fragment碎片的整理-->
-        <activity android:name=".day23.fragment01.java.FragmentJavaActivity"
+        <activity android:name=".day23_fragment.fragment01.java.FragmentJavaActivity"
             android:label="@string/fragmentjava"/>
-        <activity android:name=".day23.fragment02.Fragment02Activity"
+        <activity android:name=".day23_fragment.fragment02.Fragment02Activity"
             android:label="@string/fragment02"/>
-        <activity android:name=".day23.fragment01.xml.FragmentXmlActivity"
+        <activity android:name=".day23_fragment.fragment01.xml.FragmentXmlActivity"
             android:label="@string/fragmentxml"/>
-        <activity android:name=".day23.fragment03.ShowHideActivity"
+        <activity android:name=".day23_fragment.fragment03.ShowHideActivity"
             android:label="@string/showhide"/>
-        <activity android:name=".day23.stack.Stack1Activity"
+        <activity android:name=".day23_fragment.stack.stack1.Stack1Activity"
             android:label="@string/stack1"/>
-        <activity android:name=".day23.stack.Stack2Activity"
+        <activity android:name=".day23_fragment.stack.stack2.Stack2Activity"
             android:label="@string/stack2"/>
-        <activity android:name=".day23.send_data.activity_fragment.Activity_fragmentActivity"
+        <activity android:name=".day23_fragment.send_data.activity_fragment.Activity_fragmentActivity"
             android:label="@string/activity_fragment"/>
-        <activity android:name=".day23.send_data.fragment_activity.Fragment_activityActivity"
+        <activity android:name=".day23_fragment.send_data.fragment_activity.Fragment_activityActivity"
             android:label="@string/fragment_activity"/>
-        <activity android:name=".day23.fragmentanim.Fragment_animActivity"
+        <activity android:name=".day23_fragment.fragmentanim.Fragment_animActivity"
             android:label="@string/fragmentanim"/>
-        <activity android:name=".day23.example.WeixinActivity"
+        <activity android:name=".day23_fragment.example.WeixinActivity"
             android:label="@string/weixin"/>
-        <activity android:name=".day23.example1.TopActivity"
+        <activity android:name=".day23_fragment.example1.TopActivity"
             android:label="@string/top"/>
         <activity android:name=".day25.ModelActivity"
             android:label="@string/model"/>
@@ -333,7 +333,9 @@
             android:label="@string/savepassword"/>
         <activity android:name=".desinpattern.DesinPatternActivity"
             android:label="@string/designpatterns"/>
-
+        <activity android:name=".day23_fragment.send_data.fragment_fragment.Fragment_FragmentActivity"/>
+        <activity android:name=".day23_fragment.listfragment.ListFragmentActivity"/>
+        <activity android:name=".day23_fragment.dialogfragment.DialogFragmentActivity"/>
 
         <!--注册服务-->
         <service android:name=".day14.service.MyService"/>

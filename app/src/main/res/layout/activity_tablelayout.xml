@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".day1.layout.TablelayoutActivity">
+    tools:context=".day1_layout.layout.TablelayoutActivity">
     <!-- 定义第一个表格，指定第2列允许收缩，第3列允许拉伸 -->
     <TableLayout
         android:id="@+id/tablelayout01"

@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <com.example.jinhui.androiddemo.day21.pulltorefresh.MyListView
+    <com.example.jinhui.androiddemo.day21_adapter_footer_header.pulltorefresh.MyListView
         android:id="@+id/mylist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

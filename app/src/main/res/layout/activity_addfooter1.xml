@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.jinhui.androiddemo.day21.addfooter.refresh.MyListView
+    <com.example.jinhui.androiddemo.day21_adapter_footer_header.addfooter.refresh.MyListView
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

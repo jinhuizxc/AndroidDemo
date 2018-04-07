@@ -9,7 +9,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import static com.example.jinhui.androiddemo.day20.contact.MySqliteOpenHelper.TABLE_NAME;
+import static com.example.jinhui.androiddemo.day20_adapter.contact.MySqliteOpenHelper.TABLE_NAME;
 
 
 /**

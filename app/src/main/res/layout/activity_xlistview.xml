@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
 
-    <com.example.jinhui.androiddemo.day21.example.widget.XListView
+    <com.example.jinhui.androiddemo.day21_adapter_footer_header.example.widget.XListView
         android:id="@+id/xlistview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

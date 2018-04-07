@@ -1,112 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="代码中动态添加Fragment" />
-    <Button
-        android:id="@+id/bt_fragment_java"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="代码中动态添加Fragment1" />
-    <Button
-        android:id="@+id/bt_fragment2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="代码中动态添加Fragment2" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="在布局中静态添加Fragment" />
-    <Button
-        android:id="@+id/bt_fragment_xml"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="在布局中静态添加Fragment" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Fragment的显示与隐藏" />
+        tools:ignore="UselessParent">
 
-    <Button
-        android:id="@+id/bt_show_hide"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment的显示与隐藏" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Fragment后台栈管理" />
-    <Button
-        android:id="@+id/bt_stack1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment后台栈1" />
-    <Button
-        android:id="@+id/bt_stack2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment后台栈2" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Activity与Fragment间的数据传递" />
-    <Button
-        android:id="@+id/bt_activity_fragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Activity传给Fragment" />
-    <Button
-        android:id="@+id/bt_fragment_activity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment传给Activity" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="代码中动态添加Fragment" />
+         <Button
+             android:id="@+id/bt_fragment_java"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="代码中动态添加Fragment1" />
+         <Button
+             android:id="@+id/bt_fragment2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="代码中动态添加Fragment2" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="在布局中静态添加Fragment" />
+         <Button
+             android:id="@+id/bt_fragment_xml"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="在布局中静态添加Fragment" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="Fragment的显示与隐藏" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Fragment动画效果" />
-    <Button
-        android:id="@+id/bt_fragment_anim"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment动画效果" />
+         <Button
+             android:id="@+id/bt_show_hide"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Fragment的显示与隐藏" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="Fragment的生命周期" />
-    <Button
-        android:id="@+id/bt_fragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment的生命周期" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="Fragment后台栈管理" />
+         <Button
+             android:id="@+id/bt_stack1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Fragment后台栈1" />
+         <Button
+             android:id="@+id/bt_stack2"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Fragment后台栈2" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="Activity与Fragment间的数据传递" />
+         <Button
+             android:id="@+id/bt_activity_fragment"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Activity传给Fragment" />
+         <Button
+             android:id="@+id/bt_fragment_activity"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Fragment传给Activity" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text=" ViewPager+Fragment实现导航效果" />
+         <Button
+             android:id="@+id/bt_fragment_fragment"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Fragment传给Fragment" />
 
-    <Button
-        android:id="@+id/bt_weixin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="微信底部导航效果" />
-    <Button
-        android:id="@+id/bt_top"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="顶部导航效果" />
+         <Button
+             android:id="@+id/bt_list_fragment"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="ListFragment" />
+
+         <Button
+             android:id="@+id/bt_dialog_fragment"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="DialogFragment" />
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="Fragment动画效果" />
+         <Button
+             android:id="@+id/bt_fragment_anim"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Fragment动画效果" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text="Fragment的生命周期" />
+         <Button
+             android:id="@+id/bt_fragment"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Fragment的生命周期" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:text=" ViewPager+Fragment实现导航效果" />
+
+         <Button
+             android:id="@+id/bt_weixin"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="微信底部导航效果" />
+         <Button
+             android:id="@+id/bt_top"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="顶部导航效果" />
+     </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>

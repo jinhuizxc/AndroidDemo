@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/fragment1"
-        android:name="com.example.jinhui.androiddemo.day23.fragment01.xml.Fragment01"
+        android:name="com.example.jinhui.androiddemo.day23_fragment.fragment01.xml.Fragment01"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/fragment2"
-        android:name="com.example.jinhui.androiddemo.day23.fragment01.xml.Fragment02"
+        android:name="com.example.jinhui.androiddemo.day23_fragment.fragment01.xml.Fragment02"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_below="@+id/fragment1"
