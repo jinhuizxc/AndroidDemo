@@ -9,4 +9,5 @@
     <color name="background">#F7F4F0</color>
     <color name="title_color">#333333</color>
     <color name="fense" >#88aa00aa</color>
+    <color name="main_color">#1e8ae7</color>
 </resources>

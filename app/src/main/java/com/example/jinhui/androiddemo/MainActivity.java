@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.jinhui.androiddemo.day1_layout.WidgetAndLayoutActivity;
 import com.example.jinhui.androiddemo.day10.AdvanceInterface2Activity;
 import com.example.jinhui.androiddemo.day11.AdvanceInterface3Activity;
 import com.example.jinhui.androiddemo.day12.AdvanceInterface4Activity;
@@ -17,6 +16,7 @@ import com.example.jinhui.androiddemo.day16.BroadcastReceiverActivity;
 import com.example.jinhui.androiddemo.day17.MusicplayerActivity;
 import com.example.jinhui.androiddemo.day18.DataStoreActivity;
 import com.example.jinhui.androiddemo.day19.ContentProviderActivity;
+import com.example.jinhui.androiddemo.day1_layout.WidgetAndLayoutActivity;
 import com.example.jinhui.androiddemo.day2.ListenerActivity;
 import com.example.jinhui.androiddemo.day20_adapter.UiOptimize1Activity;
 import com.example.jinhui.androiddemo.day21_adapter_footer_header.UiOptimize2Activity;
@@ -25,6 +25,7 @@ import com.example.jinhui.androiddemo.day23_fragment.UiOptimize4Activity;
 import com.example.jinhui.androiddemo.day24.UiOptimize5Activity;
 import com.example.jinhui.androiddemo.day25.ModelActivity;
 import com.example.jinhui.androiddemo.day26.DataActivity;
+import com.example.jinhui.androiddemo.day27_webview.WebViewActivity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
@@ -43,7 +44,7 @@ import butterknife.OnClick;
  * 最近在学习自定义篇，启舰大神的文章，
  * 想着以前自己也有很多Android笔记，这么久了，
  * 可以整理一篇合集，做到温故而知新！
- *
+ * <p>
  * 解决Android Studio出现GC overhead limit exceeded:
  * https://www.cnblogs.com/jeffen/p/7607239.html
  */
@@ -104,6 +105,8 @@ public class MainActivity extends AppCompatActivity {
     Button btData;
     @BindView(R.id.bt_designpattern)
     Button btDesignpattern;
+    @BindView(R.id.bt_webView)
+    Button btWebView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_musicplayer, R.id.bt_datastore, R.id.bt_contentprovider,
             R.id.bt_uioptimize01, R.id.bt_uioptimize02, R.id.bt_uioptimize03,
             R.id.bt_uioptimize04, R.id.bt_uioptimize05, R.id.bt_model,
-            R.id.bt_designpattern, R.id.bt_data})
+            R.id.bt_designpattern, R.id.bt_data, R.id.bt_webView})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -204,6 +207,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_data:
                 startActivity(new Intent(this, DataActivity.class));
+                break;
+            case R.id.bt_webView:
+                startActivity(new Intent(this, WebViewActivity.class));
                 break;
         }
     }

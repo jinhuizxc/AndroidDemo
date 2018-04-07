@@ -156,7 +156,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Android 5种数据存储方式"/>
-
+    <Button
+        android:id="@+id/bt_webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android webView"/>
 </LinearLayout>
 
 </ScrollView>

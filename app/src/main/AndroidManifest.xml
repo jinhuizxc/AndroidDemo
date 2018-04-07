@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.SEND_SMS"/>
     <!--上网-->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <!-- 在非Activity组件中弹出对话框，需要 -->
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
@@ -336,6 +337,8 @@
         <activity android:name=".day23_fragment.send_data.fragment_fragment.Fragment_FragmentActivity"/>
         <activity android:name=".day23_fragment.listfragment.ListFragmentActivity"/>
         <activity android:name=".day23_fragment.dialogfragment.DialogFragmentActivity"/>
+        <activity android:name=".day27_webview.WebViewActivity"
+            android:theme="@style/WebViewTheme"/>
 
         <!--注册服务-->
         <service android:name=".day14.service.MyService"/>
