@@ -339,6 +339,9 @@
         <activity android:name=".day23_fragment.dialogfragment.DialogFragmentActivity"/>
         <activity android:name=".day27_webview.WebViewActivity"
             android:theme="@style/WebViewTheme"/>
+        <activity android:name=".day28_swiperefreshlayout.SwipeRefreshLayoutActivity"/>
+        <activity android:name=".day28_swiperefreshlayout.way1.Way1Activity"/>
+        <activity android:name=".day28_swiperefreshlayout.way2.Way2Activity"/>
 
         <!--注册服务-->
         <service android:name=".day14.service.MyService"/>

@@ -50,5 +50,5 @@ dependencies {
     implementation 'com.android.support:design:26.1.0'
 
     // 加载第三方库
-    compile 'com.just.agentweb:agentweb:4.0.2' // (必选)
+    implementation 'com.just.agentweb:agentweb:4.0.2' // (必选)
 }

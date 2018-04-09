@@ -10,4 +10,11 @@
     <color name="title_color">#333333</color>
     <color name="fense" >#88aa00aa</color>
     <color name="main_color">#1e8ae7</color>
+
+
+    <color name="umeng_comm_text_topic_light_color">#3A5FCD</color>
+    <color name="umeng_comm_yellow">#FFFF00</color>
+    <color name="umeng_comm_green">#32CD32</color>
+    <color name="umeng_comm_linked_text">#CD2626</color>
+    <color name="umeng_comm_comments_bg">#8A2BE2</color>
 </resources>

@@ -2,6 +2,7 @@ package com.example.jinhui.androiddemo;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -26,6 +27,7 @@ import com.example.jinhui.androiddemo.day24.UiOptimize5Activity;
 import com.example.jinhui.androiddemo.day25.ModelActivity;
 import com.example.jinhui.androiddemo.day26.DataActivity;
 import com.example.jinhui.androiddemo.day27_webview.WebViewActivity;
+import com.example.jinhui.androiddemo.day28_swiperefreshlayout.SwipeRefreshLayoutActivity;
 import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
@@ -107,6 +109,8 @@ public class MainActivity extends AppCompatActivity {
     Button btDesignpattern;
     @BindView(R.id.bt_webView)
     Button btWebView;
+    @BindView(R.id.bt_swiperefreshlayout)
+    Button btSwiperefreshlayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -124,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_musicplayer, R.id.bt_datastore, R.id.bt_contentprovider,
             R.id.bt_uioptimize01, R.id.bt_uioptimize02, R.id.bt_uioptimize03,
             R.id.bt_uioptimize04, R.id.bt_uioptimize05, R.id.bt_model,
-            R.id.bt_designpattern, R.id.bt_data, R.id.bt_webView})
+            R.id.bt_designpattern, R.id.bt_data, R.id.bt_webView, R.id.bt_swiperefreshlayout})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -210,6 +214,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_webView:
                 startActivity(new Intent(this, WebViewActivity.class));
+                break;
+            case R.id.bt_swiperefreshlayout:
+                startActivity(new Intent(this, SwipeRefreshLayoutActivity.class));
                 break;
         }
     }

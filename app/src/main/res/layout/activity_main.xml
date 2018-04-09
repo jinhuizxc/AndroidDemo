@@ -161,6 +161,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Android webView"/>
+
+    <Button
+        android:id="@+id/bt_swiperefreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上拉加载，下拉刷新"/>
 </LinearLayout>
 
 </ScrollView>
