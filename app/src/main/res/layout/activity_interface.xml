@@ -30,6 +30,11 @@
         android:layout_height="wrap_content"
         android:text="界面——View深入(例子)" />
 
+    <Button
+        android:id="@+id/bt_example1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态加载布局（项目中效果）" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

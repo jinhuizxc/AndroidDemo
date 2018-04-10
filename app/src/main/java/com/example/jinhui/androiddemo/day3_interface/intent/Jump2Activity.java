@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day3.intent;
+package com.example.jinhui.androiddemo.day3_interface.intent;
 
 import android.content.Intent;
 import android.os.Bundle;

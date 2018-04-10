@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day3.interface1;
+package com.example.jinhui.androiddemo.day3_interface.interface1;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,8 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import com.example.jinhui.androiddemo.R;
 
 /**
  * Created by jinhui on 2018/1/27.

@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day3.interface1;
+package com.example.jinhui.androiddemo.day3_interface;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +8,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.jinhui.androiddemo.MainActivity;
 import com.example.jinhui.androiddemo.R;
-import com.example.jinhui.androiddemo.day3.intent.Jump2Activity;
-import com.example.jinhui.androiddemo.day3.intent.Jump3Activity;
+import com.example.jinhui.androiddemo.day3_interface.dynamic_loading.Example1Activity;
+import com.example.jinhui.androiddemo.day3_interface.intent.Jump2Activity;
+import com.example.jinhui.androiddemo.day3_interface.intent.Jump3Activity;
+import com.example.jinhui.androiddemo.day3_interface.interface1.Add_removeActivity;
+import com.example.jinhui.androiddemo.day3_interface.dynamic_loading.ExampleActivity;
+import com.example.jinhui.androiddemo.day3_interface.interface1.LayoutInflaterActivity;
+import com.example.jinhui.androiddemo.day3_interface.interface1.UiActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -83,6 +87,8 @@ public class InterfaceActivity extends AppCompatActivity {
     Button btScale;
     @BindView(R.id.bt_rotate)
     Button btRotate;
+    @BindView(R.id.bt_example1)
+    Button btExample1;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -92,7 +98,7 @@ public class InterfaceActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.bt_ui, R.id.bt_LayoutInflater, R.id.bt_add_remove,
-            R.id.bt_example, R.id.bt_intent1, R.id.bt_intent2,
+            R.id.bt_example, R.id.bt_example1, R.id.bt_intent1, R.id.bt_intent2,
             R.id.bt_jump1, R.id.bt_jump2, R.id.bt_alpha,
             R.id.bt_translate, R.id.bt_scale, R.id.bt_rotate})
     public void onViewClicked(View view) {
@@ -108,6 +114,9 @@ public class InterfaceActivity extends AppCompatActivity {
                 break;
             case R.id.bt_example:
                 startActivity(new Intent(this, ExampleActivity.class));
+                break;
+            case R.id.bt_example1:
+                startActivity(new Intent(this, Example1Activity.class));
                 break;
             case R.id.bt_intent1:
                 // 创建Intent()意图对象

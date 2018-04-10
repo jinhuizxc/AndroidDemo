@@ -2,7 +2,6 @@ package com.example.jinhui.androiddemo;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -28,7 +27,7 @@ import com.example.jinhui.androiddemo.day25.ModelActivity;
 import com.example.jinhui.androiddemo.day26.DataActivity;
 import com.example.jinhui.androiddemo.day27_webview.WebViewActivity;
 import com.example.jinhui.androiddemo.day28_swiperefreshlayout.SwipeRefreshLayoutActivity;
-import com.example.jinhui.androiddemo.day3.interface1.InterfaceActivity;
+import com.example.jinhui.androiddemo.day3_interface.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
 import com.example.jinhui.androiddemo.day6.AnimActivity;

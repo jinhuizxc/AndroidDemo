@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day3.interface1;
+package com.example.jinhui.androiddemo.day3_interface.interface1;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

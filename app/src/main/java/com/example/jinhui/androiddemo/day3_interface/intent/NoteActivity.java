@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.day3.intent;
+package com.example.jinhui.androiddemo.day3_interface.intent;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,11 +11,11 @@ import com.example.jinhui.androiddemo.R;
  * Email:1004260403@qq.com
  */
 
-public class IntentActionActivity extends AppCompatActivity {
+public class NoteActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_intentaction);
+        setContentView(R.layout.activity_note);
     }
 }

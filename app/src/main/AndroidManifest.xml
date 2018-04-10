@@ -63,21 +63,21 @@
             android:label="@string/res"/>
         <activity android:name=".day2.viewlistener.ViewListenerActivity"
             android:label="@string/viewlistener"/>
-        <activity android:name=".day3.interface1.InterfaceActivity"
+        <activity android:name=".day3_interface.InterfaceActivity"
             android:label="@string/interface1"/>
-        <activity android:name=".day3.interface1.UiActivity"
+        <activity android:name=".day3_interface.interface1.UiActivity"
             android:label="@string/ui"/>
-        <activity android:name=".day3.interface1.LayoutInflaterActivity"
+        <activity android:name=".day3_interface.interface1.LayoutInflaterActivity"
             android:label="@string/LayoutInflater"/>
-        <activity android:name=".day3.interface1.Add_removeActivity"
+        <activity android:name=".day3_interface.interface1.Add_removeActivity"
             android:label="@string/add_remove"/>
-        <activity android:name=".day3.interface1.ExampleActivity"
+        <activity android:name=".day3_interface.dynamic_loading.ExampleActivity"
             android:label="@string/example"/>
-        <activity android:name=".day3.intent.IntentActionActivity"
+        <activity android:name=".day3_interface.intent.IntentActionActivity"
             android:label="@string/intentaction"/>
 
         <!--隐式意图-->
-        <activity android:name=".day3.intent.OfficeActivity"
+        <activity android:name=".day3_interface.intent.OfficeActivity"
             android:label="office">
             <intent-filter>
                 <!--设置action-->
@@ -86,7 +86,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".day3.intent.NoteActivity"
+        <activity android:name=".day3_interface.intent.NoteActivity"
             android:label="note">
             <intent-filter>
                 <!--设置action-->
@@ -96,9 +96,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".day3.intent.Jump2Activity"
+        <activity android:name=".day3_interface.intent.Jump2Activity"
             android:label="@string/Jump2"/>
-        <activity android:name=".day3.intent.Jump3Activity"
+        <activity android:name=".day3_interface.intent.Jump3Activity"
             android:label="@string/Jump3"/>
         <activity android:name=".day1_layout.layout.WeightActivity"
             android:label="@string/weight"/>
@@ -342,6 +342,9 @@
         <activity android:name=".day28_swiperefreshlayout.SwipeRefreshLayoutActivity"/>
         <activity android:name=".day28_swiperefreshlayout.way1.Way1Activity"/>
         <activity android:name=".day28_swiperefreshlayout.way2.Way2Activity"/>
+        <activity android:name=".day3_interface.dynamic_loading.Example1Activity"/>
+
+
 
         <!--注册服务-->
         <service android:name=".day14.service.MyService"/>
