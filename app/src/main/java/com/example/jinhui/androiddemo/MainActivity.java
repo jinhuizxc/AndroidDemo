@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.jinhui.androiddemo.day10.AdvanceInterface2Activity;
-import com.example.jinhui.androiddemo.day11.AdvanceInterface3Activity;
+import com.example.jinhui.androiddemo.day11_customview.AdvanceInterface3Activity;
 import com.example.jinhui.androiddemo.day12.AdvanceInterface4Activity;
 import com.example.jinhui.androiddemo.day13.AdvanceInterface5Activity;
 import com.example.jinhui.androiddemo.day14.Service1Activity;

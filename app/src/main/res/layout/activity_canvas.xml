@@ -4,11 +4,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.jinhui.androiddemo.day11.canvas.MyView
+    <com.example.jinhui.androiddemo.day11_customview.canvas.MyView
         android:layout_width="match_parent"
         android:layout_height="200dp" />
 
-    <com.example.jinhui.androiddemo.day11.view.BitmapView
+    <com.example.jinhui.androiddemo.day11_customview.view.BitmapView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

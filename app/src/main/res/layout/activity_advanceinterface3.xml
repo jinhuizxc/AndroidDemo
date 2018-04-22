@@ -51,4 +51,9 @@
         android:layout_height="wrap_content"
         android:text="武汉天气趋势图" />
 
+    <Button
+        android:id="@+id/bt_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义日历" />
 </LinearLayout>

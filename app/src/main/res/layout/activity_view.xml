@@ -4,15 +4,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.jinhui.androiddemo.day11.canvas.RotateView
+    <com.example.jinhui.androiddemo.day11_customview.canvas.RotateView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
-    <com.example.jinhui.androiddemo.day11.canvas.ScaleView
+    <com.example.jinhui.androiddemo.day11_customview.canvas.ScaleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
-    <com.example.jinhui.androiddemo.day11.canvas.TranslateView
+    <com.example.jinhui.androiddemo.day11_customview.canvas.TranslateView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>

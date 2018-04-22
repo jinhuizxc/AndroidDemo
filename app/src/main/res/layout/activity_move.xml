@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.jinhui.androiddemo.day11.view.MoveView
+    <com.example.jinhui.androiddemo.day11_customview.view.MoveView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

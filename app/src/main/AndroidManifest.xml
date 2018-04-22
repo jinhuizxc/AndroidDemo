@@ -175,7 +175,7 @@
             android:label="@string/advanceinterface2"/>
         <activity android:name=".day10.MoreToastActivity"
             android:label="@string/moretoast"/>
-        <activity android:name=".day11.AdvanceInterface3Activity"
+        <activity android:name=".day11_customview.AdvanceInterface3Activity"
             android:label="@string/advanceinterface3"/>
         <activity android:name=".day10.WelcomeActivity"
             android:label="@string/welcome"/>
@@ -183,16 +183,16 @@
             android:label="@string/user"/>
         <activity android:name=".day10.style.StyleActivity"
             android:label="@string/style"/>
-        <activity android:name=".day11.canvas.CanvasActivity"
+        <activity android:name=".day11_customview.canvas.CanvasActivity"
             android:label="@string/canvas"/>
-        <activity android:name=".day11.view.OnTouchEventActivity"
+        <activity android:name=".day11_customview.view.OnTouchEventActivity"
             android:label="@string/ontouchevent"/>
-        <activity android:name=".day11.view.DragbitmapActivity"
+        <activity android:name=".day11_customview.view.DragbitmapActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:label="@string/dragbitmap"/>
-        <activity android:name=".day11.view.MoveActivity"
+        <activity android:name=".day11_customview.view.MoveActivity"
             android:label="@string/move"/>
-        <activity android:name=".day11.view.WeatherActivity"
+        <activity android:name=".day11_customview.view.WeatherActivity"
             android:label="@string/weather"/>
         <activity android:name=".day12.AdvanceInterface4Activity"
             android:label="@string/advanceinterface4"/>
@@ -202,9 +202,9 @@
             android:label="@string/customlinearlayout"/>
         <activity android:name=".day12.surfaceview.SurfaceViewActivity"
             android:label="@string/surfaceview"/>
-        <activity android:name=".day11.canvas.ViewActivity"
+        <activity android:name=".day11_customview.canvas.ViewActivity"
             android:label="@string/view"/>
-        <activity android:name=".day11.ControlActivity"
+        <activity android:name=".day11_customview.ControlActivity"
             android:label="@string/control"/>
         <activity android:name=".day14.Service1Activity"
             android:label="@string/service1"/>
@@ -343,6 +343,11 @@
         <activity android:name=".day28_swiperefreshlayout.way1.Way1Activity"/>
         <activity android:name=".day28_swiperefreshlayout.way2.Way2Activity"/>
         <activity android:name=".day3_interface.dynamic_loading.Example1Activity"/>
+
+        <activity android:name=".day11_customview.calendar.CalendarActivity"/>
+
+
+
 
 
 
