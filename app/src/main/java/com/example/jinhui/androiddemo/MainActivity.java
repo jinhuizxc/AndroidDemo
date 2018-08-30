@@ -35,6 +35,8 @@ import com.example.jinhui.androiddemo.day7.ThreadActivity;
 import com.example.jinhui.androiddemo.day8_http_tcp_udp.HttpActivity;
 import com.example.jinhui.androiddemo.day9.AdvanceInterface1Activity;
 import com.example.jinhui.androiddemo.desinpattern.DesinPatternActivity;
+import com.example.jinhui.androiddemo.recyclerview.doublerecyclerview.DoubleRVActivity;
+import com.example.jinhui.androiddemo.recyclerview.recyclerviewbanner.RVBannerActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -110,6 +112,10 @@ public class MainActivity extends AppCompatActivity {
     Button btWebView;
     @BindView(R.id.bt_swiperefreshlayout)
     Button btSwiperefreshlayout;
+    @BindView(R.id.bt_recyclerView)
+    Button btRecyclerView;
+    @BindView(R.id.bt_double_rv)
+    Button btDoubleRv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -127,7 +133,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_musicplayer, R.id.bt_datastore, R.id.bt_contentprovider,
             R.id.bt_uioptimize01, R.id.bt_uioptimize02, R.id.bt_uioptimize03,
             R.id.bt_uioptimize04, R.id.bt_uioptimize05, R.id.bt_model,
-            R.id.bt_designpattern, R.id.bt_data, R.id.bt_webView, R.id.bt_swiperefreshlayout})
+            R.id.bt_designpattern, R.id.bt_data, R.id.bt_webView,
+            R.id.bt_swiperefreshlayout, R.id.bt_recyclerView, R.id.bt_double_rv})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -216,6 +223,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_swiperefreshlayout:
                 startActivity(new Intent(this, SwipeRefreshLayoutActivity.class));
+                break;
+            case R.id.bt_recyclerView:
+                startActivity(new Intent(this, RVBannerActivity.class));
+                break;
+            case R.id.bt_double_rv:
+                startActivity(new Intent(this, DoubleRVActivity.class));
                 break;
         }
     }

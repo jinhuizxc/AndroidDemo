@@ -345,6 +345,8 @@
         <activity android:name=".day3_interface.dynamic_loading.Example1Activity"/>
 
         <activity android:name=".day11_customview.calendar.CalendarActivity"/>
+        <activity android:name=".recyclerview.recyclerviewbanner.RVBannerActivity"/>
+        <activity android:name=".recyclerview.doublerecyclerview.DoubleRVActivity"/>
 
 
 

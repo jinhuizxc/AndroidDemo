@@ -51,4 +51,6 @@ dependencies {
 
     // 加载第三方库
     implementation 'com.just.agentweb:agentweb:4.0.2' // (必选)
+    // logger打印日志
+    implementation 'com.orhanobut:logger:2.2.0'
 }
