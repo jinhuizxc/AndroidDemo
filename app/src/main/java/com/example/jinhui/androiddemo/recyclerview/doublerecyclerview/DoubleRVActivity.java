@@ -25,6 +25,8 @@ import java.util.List;
 /**
  * Created by jh on 2018/8/31.
  * Email: 1004260403@qq.com
+ * 
+ * 代码链接：https://github.com/wustor/GangedRecyclerview
  */
 public class DoubleRVActivity extends AppCompatActivity implements CheckListener {
 

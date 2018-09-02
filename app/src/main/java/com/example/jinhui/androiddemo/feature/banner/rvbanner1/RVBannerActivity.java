@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.recyclerview.recyclerviewbanner;
+package com.example.jinhui.androiddemo.feature.banner.rvbanner1;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,7 +8,6 @@ import android.support.v7.widget.PagerSnapHelper;
 import android.support.v7.widget.RecyclerView;
 
 import com.example.jinhui.androiddemo.R;
-import com.example.jinhui.androiddemo.widget.BannerIndicator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +20,6 @@ import java.util.concurrent.TimeUnit;
  * Email: 1004260403@qq.com
  *
  * 代码1: https://github.com/LGD2009/recyclerbanner
- * 代码2: https://github.com/loonggg/RecyclerViewBanner
  *
  * 面试总结（6）：ScheduledExecutorService的使用
  * https://blog.csdn.net/u011315960/article/details/71422386

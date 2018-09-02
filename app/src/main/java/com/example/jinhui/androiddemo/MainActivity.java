@@ -35,8 +35,11 @@ import com.example.jinhui.androiddemo.day7.ThreadActivity;
 import com.example.jinhui.androiddemo.day8_http_tcp_udp.HttpActivity;
 import com.example.jinhui.androiddemo.day9.AdvanceInterface1Activity;
 import com.example.jinhui.androiddemo.desinpattern.DesinPatternActivity;
+import com.example.jinhui.androiddemo.feature.banner.rvbanner1.RVBannerActivity;
+import com.example.jinhui.androiddemo.feature.banner.rvbanner2.RVBanner2Activity;
+import com.example.jinhui.androiddemo.feature.banner.rvbanner3.RVBanner3Activity;
+import com.example.jinhui.androiddemo.feature.banner.viewpagerbanner.ViewPagerActivity;
 import com.example.jinhui.androiddemo.recyclerview.doublerecyclerview.DoubleRVActivity;
-import com.example.jinhui.androiddemo.recyclerview.recyclerviewbanner.RVBannerActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -116,6 +119,12 @@ public class MainActivity extends AppCompatActivity {
     Button btRecyclerView;
     @BindView(R.id.bt_double_rv)
     Button btDoubleRv;
+    @BindView(R.id.bt_viewpager)
+    Button btViewpager;
+    @BindView(R.id.bt_rvBanner2)
+    Button btRvBanner2;
+    @BindView(R.id.bt_rvBanner3)
+    Button btRvBanner3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -134,7 +143,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_uioptimize01, R.id.bt_uioptimize02, R.id.bt_uioptimize03,
             R.id.bt_uioptimize04, R.id.bt_uioptimize05, R.id.bt_model,
             R.id.bt_designpattern, R.id.bt_data, R.id.bt_webView,
-            R.id.bt_swiperefreshlayout, R.id.bt_recyclerView, R.id.bt_double_rv})
+            R.id.bt_swiperefreshlayout, R.id.bt_recyclerView, R.id.bt_double_rv,
+            R.id.bt_viewpager, R.id.bt_rvBanner2, R.id.bt_rvBanner3})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -229,6 +239,15 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_double_rv:
                 startActivity(new Intent(this, DoubleRVActivity.class));
+                break;
+            case R.id.bt_viewpager:
+                startActivity(new Intent(this, ViewPagerActivity.class));
+                break;
+            case R.id.bt_rvBanner2:
+                startActivity(new Intent(this, RVBanner2Activity.class));
+                break;
+            case R.id.bt_rvBanner3:
+                startActivity(new Intent(this, RVBanner3Activity.class));
                 break;
         }
     }

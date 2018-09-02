@@ -8,5 +8,14 @@
         <item>第五本书</item>
     </string-array>
 
+    <string-array name="des_array">
+        <item>图片一</item>
+        <item>图片二</item>
+        <item>图片三</item>
+        <item>图片四</item>
+        <item>图片五</item>
+    </string-array>
+
+
 
 </resources>

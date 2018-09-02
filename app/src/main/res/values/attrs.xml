@@ -16,4 +16,89 @@
         <attr name="space" format="dimension" />
     </declare-styleable>
 
+
+    <declare-styleable name="RecyclerViewBanner">
+        <attr name="rvb_interval" format="integer" />
+        <attr name="rvb_showIndicator" format="boolean" />
+        <attr name="rvb_indicatorSelectedSrc" format="color|reference" />
+        <attr name="rvb_indicatorUnselectedSrc" format="color|reference" />
+        <attr name="rvb_indicatorSize" format="dimension|reference" />
+        <attr name="rvb_indicatorSpace" format="dimension|reference" />
+        <attr name="rvb_indicatorMargin" format="dimension|reference" />
+        <attr name="rvb_indicatorGravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="rvb_autoPlaying" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="BannerView">
+        <!--翻页间隔时长-->
+        <attr name="pagingIntervalTime" format="integer"/>
+        <!--翻页动画减速倍数-->
+        <attr name="decelerateMultiple" format="integer"/>
+        <!--指示器控件的ViewId-->
+        <attr name="bannerIndicator" format="reference"/>
+        <!--标题控件-->
+        <attr name="titleView" format="reference"/>
+        <!--子标题控件-->
+        <attr name="subTitleView" format="reference"/>
+        <!--翻页动画差值器-->
+        <attr name="interpolator" format="reference"/>
+        <!--只有一张图片时的显示模式-->
+        <attr name="singlePageMode" format="integer">
+            <!--没有(不显示)指示器-->
+            <flag name="noIndicator" value="0x01"/>
+            <!--不可以也不能翻页-->
+            <flag name="canNotPaging" value="0x02"/>
+        </attr>
+        <!--拥有多张图片时的显示模式-->
+        <attr name="loopMode" format="enum">
+            <!--无限循环模式-->
+            <enum name="infiniteLoop" value="0x10" />
+            <!--从头至尾循环一次-->
+            <enum name="fromCoverToCover" value="0x20" />
+            <!--从头至尾一直循环-->
+            <enum name="fromCoverToCoverLoop" value="0x40" />
+        </attr>
+        <!--触摸暂停轮播是否可用-->
+        <attr name="touchPauseEnable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerIndicator1">
+        <!--总页数，如果是配合BannerView使用的则以BannerView的页数为准。这个属性最大的用途就是在写布局文件时可以看到效果。-->
+        <attr name="totalCount" format="integer"/>
+        <attr name="android:gravity"/>
+    </declare-styleable>
+
+    <declare-styleable name="PointIndicatorView">
+        <!--点的半径-->
+        <attr name="pointRadius" format="dimension"/>
+        <!--选中的点的半径-->
+        <attr name="selectedPointRadius" format="dimension"/>
+        <!--点与点之间的间距，默认为最小的点的直径。-->
+        <attr name="pointSpacing" format="dimension"/>
+        <!--点的颜色-->
+        <attr name="pointColor" format="color"/>
+        <!--选中时点的颜色-->
+        <attr name="selectedPointColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumberIndicatorView">
+        <!--字体大小-->
+        <attr name="android:textSize"/>
+        <!--所有的字体颜色-->
+        <attr name="android:textColor"/>
+        <!--分割符号文本-->
+        <attr name="separator" format="string"/>
+        <!--分隔符文本颜色-->
+        <attr name="separatorTextColor" format="color"/>
+        <!--当前页面码字体颜色-->
+        <attr name="currentPageTextColor" format="color"/>
+        <!--总页数字体颜色-->
+        <attr name="totalPageTextColor" format="color"/>
+    </declare-styleable>
+
 </resources>

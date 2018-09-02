@@ -169,16 +169,36 @@
         android:text="上拉加载，下拉刷新"/>
 
     <Button
+        android:id="@+id/bt_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="banner-viewpager"/>
+
+    <Button
         android:id="@+id/bt_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="进入recyclerView"/>
+        android:text="rvBanner1"/>
+
+    <Button
+        android:id="@+id/bt_rvBanner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rvBanner2"/>
+
+    <Button
+        android:id="@+id/bt_rvBanner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rvBanner3"/>
 
     <Button
         android:id="@+id/bt_double_rv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="双列表侧滑"/>
+
+
 
 </LinearLayout>
 

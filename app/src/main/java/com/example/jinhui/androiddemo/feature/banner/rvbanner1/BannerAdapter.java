@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.recyclerview.recyclerviewbanner;
+package com.example.jinhui.androiddemo.feature.banner.rvbanner1;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

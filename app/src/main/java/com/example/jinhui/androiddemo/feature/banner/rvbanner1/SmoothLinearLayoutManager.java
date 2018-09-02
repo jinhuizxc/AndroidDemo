@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.recyclerview.recyclerviewbanner;
+package com.example.jinhui.androiddemo.feature.banner.rvbanner1;
 
 import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;
@@ -6,7 +6,6 @@ import android.support.v7.widget.LinearSmoothScroller;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
-import android.widget.LinearLayout;
 
 /**
  * Created by jh on 2018/8/31.

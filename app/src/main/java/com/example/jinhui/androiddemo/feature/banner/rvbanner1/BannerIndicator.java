@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.widget;
+package com.example.jinhui.androiddemo.feature.banner.rvbanner1;
 
 
 import android.content.Context;
@@ -6,6 +6,7 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -27,45 +28,49 @@ public class BannerIndicator extends View {
 
     public BannerIndicator(Context context) {
 //        super(context);
-        this(context, null);
+        this(context,null);
     }
 
-    public BannerIndicator(Context context, AttributeSet attrs) {
-//        super(context, attrs);
-        this(context, null, 0);
-
-    }
-
-    public BannerIndicator(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-
+    public BannerIndicator(Context context, @Nullable AttributeSet attrs) {
+        super(context, attrs);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.BannerIndicator);
         this.selectColor = typedArray.getColor(R.styleable.BannerIndicator_selectColor, Color.RED);
         this.unSelectColor = typedArray.getColor(R.styleable.BannerIndicator_unselectedColor, Color.BLACK);
         this.radius = typedArray.getDimension(R.styleable.BannerIndicator_radius, 10);
         this.space = typedArray.getDimension(R.styleable.BannerIndicator_space, 20);
-
         typedArray.recycle();
-
-//        initPaint();
-
     }
+
+
+//    public BannerIndicator(Context context) {
+//        this(context,null);
+//    }
+//
+//    public BannerIndicator(Context context, @Nullable AttributeSet attrs) {
+//        super(context, attrs);
+//
+//        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.BannerIndicator);
+//        this.selectColor = typedArray.getColor(R.styleable.BannerIndicator_selectColor, Color.RED);
+//        this.unSelectColor = typedArray.getColor(R.styleable.BannerIndicator_unselectedColor, Color.BLACK);
+//        this.radius = typedArray.getDimension(R.styleable.BannerIndicator_radius, 10);
+//        this.space = typedArray.getDimension(R.styleable.BannerIndicator_space, 20);
+//        typedArray.recycle();
+//
+//    }
 
     {
         paint.setStyle(Paint.Style.FILL);
         paint.setAntiAlias(true);
     }
 
-    private void initPaint() {
-        paint.setStyle(Paint.Style.FILL);
-        paint.setAntiAlias(true);
-    }
+
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
         float startPosition = getWidth() / 2 - (radius * 2 * number + space * (number - 1)) / 2;
+
         canvas.save();
         for (int i = 0; i < number; i++) {
             if (i == position) {
@@ -87,4 +92,5 @@ public class BannerIndicator extends View {
         this.position = position;
         invalidate();
     }
+
 }
