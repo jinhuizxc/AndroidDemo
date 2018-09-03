@@ -19,6 +19,12 @@ import java.util.List;
  * Email: 1004260403@qq.com
  *
  * tablayout +  viewpager
+ *
+ * Android TabLayout 在宽屏幕上tab不能平均分配的问题解决:
+ * https://blog.csdn.net/chenli_001/article/details/72844139
+ *
+ * https://github.com/jinhuizxc/TabLayoutDemo
+ *
  */
 public class TabVpActivity extends AppCompatActivity {
 
@@ -29,7 +35,7 @@ public class TabVpActivity extends AppCompatActivity {
     TabLayout mTabLayout;
     ViewPager mViewPager;
 
-    private int tabCount = 4;
+    private int tabCount = 10;
     //当标签数目小于等于4个时，标签栏不可滑动
     public static final int MOVABLE_COUNT = 4;
 

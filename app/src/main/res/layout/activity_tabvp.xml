@@ -16,9 +16,10 @@
         android:id="@+id/tl_tab"
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        app:tabGravity="center"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
         app:tabIndicatorColor="@color/colorAccent"
-        app:tabMode="scrollable"
         app:tabSelectedTextColor="@color/black"
         app:tabTextColor="@color/colorPrimary" />
 
