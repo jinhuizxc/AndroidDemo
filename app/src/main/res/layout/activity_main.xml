@@ -198,6 +198,18 @@
         android:layout_height="wrap_content"
         android:text="双列表侧滑"/>
 
+    <Button
+        android:id="@+id/bt_glide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Glide加载圆角图片"/>
+
+    <Button
+        android:id="@+id/bt_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TabLayout"/>
+
 
 
 </LinearLayout>

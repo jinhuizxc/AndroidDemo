@@ -2,6 +2,7 @@ package com.example.jinhui.androiddemo;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -39,6 +40,8 @@ import com.example.jinhui.androiddemo.feature.banner.rvbanner1.RVBannerActivity;
 import com.example.jinhui.androiddemo.feature.banner.rvbanner2.RVBanner2Activity;
 import com.example.jinhui.androiddemo.feature.banner.rvbanner3.RVBanner3Activity;
 import com.example.jinhui.androiddemo.feature.banner.viewpagerbanner.ViewPagerActivity;
+import com.example.jinhui.androiddemo.glide.GlideActivity;
+import com.example.jinhui.androiddemo.material_design.tablayout.TabLayoutActivity;
 import com.example.jinhui.androiddemo.recyclerview.doublerecyclerview.DoubleRVActivity;
 
 import butterknife.BindView;
@@ -125,6 +128,10 @@ public class MainActivity extends AppCompatActivity {
     Button btRvBanner2;
     @BindView(R.id.bt_rvBanner3)
     Button btRvBanner3;
+    @BindView(R.id.bt_glide)
+    Button btGlide;
+    @BindView(R.id.bt_tablayout)
+    Button btTablayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -144,7 +151,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_uioptimize04, R.id.bt_uioptimize05, R.id.bt_model,
             R.id.bt_designpattern, R.id.bt_data, R.id.bt_webView,
             R.id.bt_swiperefreshlayout, R.id.bt_recyclerView, R.id.bt_double_rv,
-            R.id.bt_viewpager, R.id.bt_rvBanner2, R.id.bt_rvBanner3})
+            R.id.bt_viewpager, R.id.bt_rvBanner2, R.id.bt_rvBanner3,
+            R.id.bt_glide, R.id.bt_tablayout})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -248,6 +256,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_rvBanner3:
                 startActivity(new Intent(this, RVBanner3Activity.class));
+                break;
+            case R.id.bt_glide:
+                startActivity(new Intent(this, GlideActivity.class));
+                break;
+            case R.id.bt_tablayout:
+                startActivity(new Intent(this, TabLayoutActivity.class));
                 break;
         }
     }

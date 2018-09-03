@@ -350,6 +350,9 @@
         <activity android:name=".feature.banner.viewpagerbanner.ViewPagerActivity"/>
         <activity android:name=".feature.banner.rvbanner2.RVBanner2Activity"/>
         <activity android:name=".feature.banner.rvbanner3.RVBanner3Activity"/>
+        <activity android:name=".material_design.tablayout.TabLayoutActivity"/>
+        <activity android:name=".material_design.tablayout.tab.TabActivity"/>
+        <activity android:name=".material_design.tablayout.tabvp.TabVpActivity"/>
 
 
 
