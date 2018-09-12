@@ -11,7 +11,7 @@ import com.example.jinhui.androiddemo.R;
 import com.example.jinhui.androiddemo.databinding.ActivityMvvmBinding;
 import com.example.jinhui.androiddemo.day25.mvvm.adapter.NewsAdapter;
 import com.example.jinhui.androiddemo.day25.mvvm.helper.DialogHelper;
-import com.example.jinhui.androiddemo.day25.mvvm.utils.ToastUtils;
+import com.example.jinhui.androiddemo.utils.ToastUtil;
 import com.example.jinhui.androiddemo.day25.mvvm.view.INewsView;
 import com.example.jinhui.androiddemo.day25.mvvm.viewmodel.NewsVM;
 import com.jcodecraeer.xrecyclerview.ProgressStyle;
@@ -93,6 +93,6 @@ public class MVVMActivity extends AppCompatActivity implements INewsView, XRecyc
         DialogHelper.getInstance().close();
         binding.newsRv.loadMoreComplete(); //结束加载
         binding.newsRv.refreshComplete(); //结束刷新
-        ToastUtils.show(mContext, message);
+        ToastUtil.show(mContext, message);
     }
 }

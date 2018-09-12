@@ -2,7 +2,6 @@ package com.example.jinhui.androiddemo;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -27,7 +26,6 @@ import com.example.jinhui.androiddemo.day24.UiOptimize5Activity;
 import com.example.jinhui.androiddemo.day25.ModelActivity;
 import com.example.jinhui.androiddemo.day26.DataActivity;
 import com.example.jinhui.androiddemo.day27_webview.WebViewActivity;
-import com.example.jinhui.androiddemo.day28_swiperefreshlayout.SwipeRefreshLayoutActivity;
 import com.example.jinhui.androiddemo.day3_interface.InterfaceActivity;
 import com.example.jinhui.androiddemo.day4.Interface2Activity;
 import com.example.jinhui.androiddemo.day5.ActivityActivity;
@@ -41,8 +39,11 @@ import com.example.jinhui.androiddemo.feature.banner.rvbanner2.RVBanner2Activity
 import com.example.jinhui.androiddemo.feature.banner.rvbanner3.RVBanner3Activity;
 import com.example.jinhui.androiddemo.feature.banner.viewpagerbanner.ViewPagerActivity;
 import com.example.jinhui.androiddemo.glide.GlideActivity;
+import com.example.jinhui.androiddemo.material_design.swiperefreshlayout.SwipeRefreshLayoutActivity;
 import com.example.jinhui.androiddemo.material_design.tablayout.TabLayoutActivity;
 import com.example.jinhui.androiddemo.recyclerview.doublerecyclerview.DoubleRVActivity;
+import com.example.jinhui.androiddemo.ui.activity.MultiScrollDemoActivity;
+import com.example.jinhui.androiddemo.ui.feature.shopcar.ShoppingCartActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -56,6 +57,8 @@ import butterknife.OnClick;
  * <p>
  * 解决Android Studio出现GC overhead limit exceeded:
  * https://www.cnblogs.com/jeffen/p/7607239.html
+ * <p>
+ * 安卓UI相关开源项目库汇总: https://github.com/opendigg/awesome-github-android-ui
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -132,6 +135,10 @@ public class MainActivity extends AppCompatActivity {
     Button btGlide;
     @BindView(R.id.bt_tablayout)
     Button btTablayout;
+    @BindView(R.id.bt_multiscroll)
+    Button btMultiscroll;
+    @BindView(R.id.bt_shopCar)
+    Button btShopCar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -152,7 +159,8 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_designpattern, R.id.bt_data, R.id.bt_webView,
             R.id.bt_swiperefreshlayout, R.id.bt_recyclerView, R.id.bt_double_rv,
             R.id.bt_viewpager, R.id.bt_rvBanner2, R.id.bt_rvBanner3,
-            R.id.bt_glide, R.id.bt_tablayout})
+            R.id.bt_glide, R.id.bt_tablayout, R.id.bt_multiscroll,
+            R.id.bt_shopCar})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -262,6 +270,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_tablayout:
                 startActivity(new Intent(this, TabLayoutActivity.class));
+                break;
+            case R.id.bt_multiscroll:
+                startActivity(new Intent(this, MultiScrollDemoActivity.class));
+                break;
+            case R.id.bt_shopCar:
+                startActivity(new Intent(this, ShoppingCartActivity.class));
                 break;
         }
     }

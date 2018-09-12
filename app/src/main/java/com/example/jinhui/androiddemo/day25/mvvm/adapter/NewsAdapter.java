@@ -11,7 +11,7 @@ import com.example.jinhui.androiddemo.R;
 import com.example.jinhui.androiddemo.day25.mvvm.base.BaseAdapter;
 import com.example.jinhui.androiddemo.day25.mvvm.base.BaseViewHolder;
 import com.example.jinhui.androiddemo.day25.mvvm.bean.SimpleNewsBean;
-import com.example.jinhui.androiddemo.day25.mvvm.utils.ToastUtils;
+import com.example.jinhui.androiddemo.utils.ToastUtil;
 
 
 /**
@@ -51,10 +51,10 @@ public class NewsAdapter extends BaseAdapter<SimpleNewsBean, BaseViewHolder> {
     public void clickDianZan(SimpleNewsBean simpleNewsBean, int position) {
         if (simpleNewsBean.isGood.get()) {
             simpleNewsBean.isGood.set(false);
-            ToastUtils.show(mContext, "取消点赞 position=" + position);
+            ToastUtil.show(mContext, "取消点赞 position=" + position);
         } else {
             simpleNewsBean.isGood.set(true);
-            ToastUtils.show(mContext, "点赞成功 position=" + position);
+            ToastUtil.show(mContext, "点赞成功 position=" + position);
         }
     }
 }

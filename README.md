@@ -95,3 +95,12 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - 2018/4/22 重温下自定义view， 完成自定义日历控件。
 
 
+# 参考文章以及第三方项目
+> 安卓UI相关开源项目库汇总:
+- https://github.com/opendigg/awesome-github-android-ui
+# 购物车效果(ShoppingCart)
+
+# 未完成的部分
+> 1. MultiScrollDemoActivity页面显示存在滑动冲突问题；
+
+

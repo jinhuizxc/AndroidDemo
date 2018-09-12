@@ -339,20 +339,25 @@
         <activity android:name=".day23_fragment.dialogfragment.DialogFragmentActivity"/>
         <activity android:name=".day27_webview.WebViewActivity"
             android:theme="@style/WebViewTheme"/>
-        <activity android:name=".day28_swiperefreshlayout.SwipeRefreshLayoutActivity"/>
-        <activity android:name=".day28_swiperefreshlayout.way1.Way1Activity"/>
-        <activity android:name=".day28_swiperefreshlayout.way2.Way2Activity"/>
+        <activity android:name=".material_design.swiperefreshlayout.SwipeRefreshLayoutActivity"/>
+        <activity android:name=".material_design.swiperefreshlayout.way1.Way1Activity"/>
+        <activity android:name=".material_design.swiperefreshlayout.way2.Way2Activity"/>
         <activity android:name=".day3_interface.dynamic_loading.Example1Activity"/>
 
         <activity android:name=".day11_customview.calendar.CalendarActivity"/>
-        <activity android:name=".feature.banner.rvbanner1.RVBannerActivity"/>
+        <activity android:name=".ui.feature.banner.rvbanner1.RVBannerActivity"/>
         <activity android:name=".recyclerview.doublerecyclerview.DoubleRVActivity"/>
-        <activity android:name=".feature.banner.viewpagerbanner.ViewPagerActivity"/>
-        <activity android:name=".feature.banner.rvbanner2.RVBanner2Activity"/>
-        <activity android:name=".feature.banner.rvbanner3.RVBanner3Activity"/>
+        <activity android:name=".ui.feature.banner.viewpagerbanner.ViewPagerActivity"/>
+        <activity android:name=".ui.feature.banner.rvbanner2.RVBanner2Activity"/>
+        <activity android:name=".ui.feature.banner.rvbanner3.RVBanner3Activity"/>
         <activity android:name=".material_design.tablayout.TabLayoutActivity"/>
         <activity android:name=".material_design.tablayout.tab.TabActivity"/>
         <activity android:name=".material_design.tablayout.tabvp.TabVpActivity"/>
+        <activity android:name=".ui.activity.MultiScrollDemoActivity"
+            android:theme="@style/multiTheme"/>
+        <activity android:name=".ui.activity.SheetDialogActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".ui.feature.shopcar.ShoppingCartActivity"/>
 
 
 

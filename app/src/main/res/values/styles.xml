@@ -28,4 +28,160 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
+    <style name="UserTitleAvatar">
+        <item name="android:layout_width">@dimen/thirty_two</item>
+        <item name="android:layout_height">@dimen/thirty_two</item>
+        <item name="android:layout_marginEnd">@dimen/five</item>
+    </style>
+
+    <style name="LineEight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/mainGrayF0</item>
+        <item name="android:layout_height">@dimen/eight</item>
+    </style>
+
+    <!--User center label-->
+    <style name="UserCenterLabel">
+        <item name="android:background">@drawable/shape_gray_3</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/eight</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/four</item>
+        <item name="android:paddingTop">@dimen/four</item>
+        <item name="android:paddingStart">@dimen/eight</item>
+        <item name="android:paddingEnd">@dimen/eight</item>
+        <item name="android:textColor">@color/mainBlack</item>
+        <item name="android:textSize">@dimen/font_12</item>
+    </style>
+
+    <style name="UserCenterIntegralNumTextView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/sixteen</item>
+        <item name="android:textColor">@color/mainRed</item>
+        <item name="android:textSize">@dimen/font_14</item>
+    </style>
+
+    <style name="UserCenterIntegralTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/nine</item>
+        <item name="android:textColor">@color/mainBlack</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_12</item>
+    </style>
+
+    <style name="CustomLabelBlueBg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/mainBlue</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/four</item>
+        <item name="android:paddingBottom">@dimen/one</item>
+        <item name="android:paddingEnd">@dimen/four</item>
+        <item name="android:layout_marginEnd">@dimen/eight</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mainWhite</item>
+    </style>
+
+    <style name="CustomLabelBlueGenderStroke">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/eight</item>
+        <item name="android:background">@drawable/stroke_blue</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">@dimen/five</item>
+        <item name="android:paddingStart">@dimen/six</item>
+        <item name="android:paddingEnd">@dimen/six</item>
+        <item name="android:paddingTop">@dimen/zero</item>
+        <item name="android:paddingBottom">@dimen/one</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:textColor">@color/mainBlue</item>
+    </style>
+
+    <style name="CustomLabelBlack">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/stroke_black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">@dimen/six</item>
+        <item name="android:paddingEnd">@dimen/six</item>
+        <item name="android:paddingTop">@dimen/zero</item>
+        <item name="android:paddingBottom">@dimen/one</item>
+        <item name="android:layout_marginEnd">@dimen/eight</item>
+        <item name="android:textSize">@dimen/font_11</item>
+        <item name="android:textColor">@color/mainBlack</item>
+    </style>
+
+    <style name="LineOneVertical">
+        <item name="android:layout_width">@dimen/one</item>
+        <item name="android:background">@color/mainBlack5B</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LineOnePointFive">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/mainGrayF0</item>
+        <item name="android:layout_height">@dimen/one_point_five</item>
+    </style>
+
+    <style name="multiTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <!-- 自定义仿IOS的AlertDialog的样式 -->
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- 自定义仿IOS的ActionSheet底部Dialog的样式 ，有模糊效果 -->
+    <style name="SheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
 </resources>

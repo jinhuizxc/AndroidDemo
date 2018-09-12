@@ -21,6 +21,7 @@ import com.example.jinhui.androiddemo.day9.menu.PopupMenuActivity;
 import com.example.jinhui.androiddemo.day9.popup.PopupwindowActivity;
 import com.example.jinhui.androiddemo.day9.radiocheck.GameActivity;
 import com.example.jinhui.androiddemo.day9.radiocheck.RadioCheckBoxActivity;
+import com.example.jinhui.androiddemo.ui.activity.SheetDialogActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -57,6 +58,8 @@ public class AdvanceInterface1Activity extends AppCompatActivity {
     final int MENU2 = 0x112;
     @BindView(R.id.bt_modify_date_time)
     Button btModifyDateTime;
+    @BindView(R.id.bt_sheet_dialog)
+    Button btSheetDialog;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -75,9 +78,13 @@ public class AdvanceInterface1Activity extends AppCompatActivity {
 
     @OnClick({R.id.bt_radio_checkbox, R.id.bt_game, R.id.bt_popupmenu,
             R.id.optionmenu, R.id.contextmenu, R.id.bt_alertdialog,
-            R.id.popupwindow, R.id.bt_date_time, R.id.bt_modify_date_time})
+            R.id.popupwindow, R.id.bt_date_time, R.id.bt_modify_date_time,
+    R.id.bt_sheet_dialog})
     public void onViewClicked(View view) {
         switch (view.getId()) {
+            case R.id.bt_sheet_dialog:
+                startActivity(new Intent(this, SheetDialogActivity.class));
+                break;
             case R.id.bt_radio_checkbox:
                 startActivity(new Intent(this, RadioCheckBoxActivity.class));
                 break;
