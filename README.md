@@ -98,6 +98,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 # 参考文章以及第三方项目
 > 安卓UI相关开源项目库汇总:
 - https://github.com/opendigg/awesome-github-android-ui
+
 购物车效果(ShoppingCart) 9/13
 
 # 未完成的部分
