@@ -100,7 +100,8 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 # 参考文章以及第三方项目
 > 安卓UI相关开源项目库汇总:
-- https://github.com/opendigg/awesome-github-android-ui
+- https://github.com/opendigg/awesome-github-android-ui 
+- https://hndeveloper.github.io/2017/github-android-ui.html GitHub上受欢迎的Android UI Library
 - https://github.com/CymChad/BaseRecyclerViewAdapterHelper 一个强大的RecyclerAdapter框架
 
 
