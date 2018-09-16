@@ -345,11 +345,11 @@
         <activity android:name=".day3_interface.dynamic_loading.Example1Activity"/>
 
         <activity android:name=".day11_customview.calendar.CalendarActivity"/>
-        <activity android:name=".ui.feature.banner.rvbanner1.RVBannerActivity"/>
+        <activity android:name=".ui.banner.rvbanner1.RVBannerActivity"/>
         <activity android:name=".recyclerview.doublerecyclerview.DoubleRVActivity"/>
-        <activity android:name=".ui.feature.banner.viewpagerbanner.ViewPagerActivity"/>
-        <activity android:name=".ui.feature.banner.rvbanner2.RVBanner2Activity"/>
-        <activity android:name=".ui.feature.banner.rvbanner3.RVBanner3Activity"/>
+        <activity android:name=".ui.banner.viewpagerbanner.ViewPagerActivity"/>
+        <activity android:name=".ui.banner.rvbanner2.RVBanner2Activity"/>
+        <activity android:name=".ui.banner.rvbanner3.RVBanner3Activity"/>
         <activity android:name=".material_design.tablayout.TabLayoutActivity"/>
         <activity android:name=".material_design.tablayout.tab.TabActivity"/>
         <activity android:name=".material_design.tablayout.tabvp.TabVpActivity"/>
@@ -358,6 +358,10 @@
         <activity android:name=".ui.activity.SheetDialogActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".ui.feature.shopcar.ShoppingCartActivity"/>
+        <activity android:name=".recyclerview.summary.RvSummaryActivity"/>
+        <activity android:name=".recyclerview.summary.NormalRecycleActivity"/>
+        <activity android:name=".recyclerview.summary.ZhiDingRecycleActivity"/>
+        <activity android:name=".recyclerview.summary.DaicehuaRecycleActivity"/>
 
 
 

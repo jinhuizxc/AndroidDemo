@@ -34,15 +34,16 @@ import com.example.jinhui.androiddemo.day7.ThreadActivity;
 import com.example.jinhui.androiddemo.day8_http_tcp_udp.HttpActivity;
 import com.example.jinhui.androiddemo.day9.AdvanceInterface1Activity;
 import com.example.jinhui.androiddemo.desinpattern.DesinPatternActivity;
-import com.example.jinhui.androiddemo.feature.banner.rvbanner1.RVBannerActivity;
-import com.example.jinhui.androiddemo.feature.banner.rvbanner2.RVBanner2Activity;
-import com.example.jinhui.androiddemo.feature.banner.rvbanner3.RVBanner3Activity;
-import com.example.jinhui.androiddemo.feature.banner.viewpagerbanner.ViewPagerActivity;
 import com.example.jinhui.androiddemo.glide.GlideActivity;
 import com.example.jinhui.androiddemo.material_design.swiperefreshlayout.SwipeRefreshLayoutActivity;
 import com.example.jinhui.androiddemo.material_design.tablayout.TabLayoutActivity;
 import com.example.jinhui.androiddemo.recyclerview.doublerecyclerview.DoubleRVActivity;
+import com.example.jinhui.androiddemo.recyclerview.summary.RvSummaryActivity;
 import com.example.jinhui.androiddemo.ui.activity.MultiScrollDemoActivity;
+import com.example.jinhui.androiddemo.ui.banner.rvbanner1.RVBannerActivity;
+import com.example.jinhui.androiddemo.ui.banner.rvbanner2.RVBanner2Activity;
+import com.example.jinhui.androiddemo.ui.banner.rvbanner3.RVBanner3Activity;
+import com.example.jinhui.androiddemo.ui.banner.viewpagerbanner.ViewPagerActivity;
 import com.example.jinhui.androiddemo.ui.feature.shopcar.ShoppingCartActivity;
 
 import butterknife.BindView;
@@ -139,6 +140,8 @@ public class MainActivity extends AppCompatActivity {
     Button btMultiscroll;
     @BindView(R.id.bt_shopCar)
     Button btShopCar;
+    @BindView(R.id.bt_rvSummary)
+    Button btRvSummary;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -160,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.bt_swiperefreshlayout, R.id.bt_recyclerView, R.id.bt_double_rv,
             R.id.bt_viewpager, R.id.bt_rvBanner2, R.id.bt_rvBanner3,
             R.id.bt_glide, R.id.bt_tablayout, R.id.bt_multiscroll,
-            R.id.bt_shopCar})
+            R.id.bt_shopCar, R.id.bt_rvSummary})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_widget:
@@ -276,6 +279,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_shopCar:
                 startActivity(new Intent(this, ShoppingCartActivity.class));
+                break;
+            case R.id.bt_rvSummary:
+                startActivity(new Intent(this, RvSummaryActivity.class));
                 break;
         }
     }

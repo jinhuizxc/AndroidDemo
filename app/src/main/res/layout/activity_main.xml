@@ -240,6 +240,13 @@
             android:layout_height="wrap_content"
             android:text="类似购物车效果，双列表滑动" />
 
+        <Button
+            android:id="@+id/bt_rvSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上拉加载下拉刷新自定义，左右侧滑自定义" />
+
+
     </LinearLayout>
 
 </ScrollView>
