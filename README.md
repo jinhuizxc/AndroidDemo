@@ -106,9 +106,9 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/Blankj/AndroidUtilCode Android开发不得不收藏的Utils
 - https://github.com/LuckyCode1992/recycleviewsummary 上拉加载下拉刷新自定义，左右侧滑自定义
 
-# kotlin相关
-- https://blog.csdn.net/BigBoySunshine/article/details/79299065 解决kotlin.KotlinNullPointerException以及问题分析
-
+# 异常问题及解决办法:
+- 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
+- 2.解决gradle "Error:Cause: unable to find valid certification path to requested target" https://blog.csdn.net/hzh_csdn/article/details/60572145
 
 
 # 未完成的部分
