@@ -109,6 +109,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 # 快速开发框架篇
 > https://github.com/chengyuchun/androidRapid
+> https://github.com/qiaoyhh/AndroidProjectHelper
 
 # 异常问题及解决办法:
 - 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
