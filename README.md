@@ -105,7 +105,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/CymChad/BaseRecyclerViewAdapterHelper 一个强大的RecyclerAdapter框架
 - https://github.com/Blankj/AndroidUtilCode Android开发不得不收藏的Utils
 - https://github.com/LuckyCode1992/recycleviewsummary 上拉加载下拉刷新自定义，左右侧滑自定义
-- https://github.com/jaydenxiao2016/AndroidFire 新闻客户端
+- https://github.com/jaydenxiao2016/AndroidFire 新闻客户端（公司项目参考的框架）
 
 
 # 快速开发框架篇
