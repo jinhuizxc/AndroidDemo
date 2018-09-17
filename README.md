@@ -116,7 +116,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 
 # 未完成的部分以及代学习的地方
-> 1.MultiScrollDemoActivity页面显示存在滑动冲突问题；
-> 2.https://www.jianshu.com/p/2badfbb3a33b RxJava1.X升级到RxJava2.X笔记
+- 1.MultiScrollDemoActivity页面显示存在滑动冲突问题；
+- 2.https://www.jianshu.com/p/2badfbb3a33b RxJava1.X升级到RxJava2.X笔记
 
 
