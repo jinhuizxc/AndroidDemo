@@ -105,13 +105,20 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/CymChad/BaseRecyclerViewAdapterHelper 一个强大的RecyclerAdapter框架
 - https://github.com/Blankj/AndroidUtilCode Android开发不得不收藏的Utils
 - https://github.com/LuckyCode1992/recycleviewsummary 上拉加载下拉刷新自定义，左右侧滑自定义
+- https://github.com/jaydenxiao2016/AndroidFire 新闻客户端（公司项目参考的框架）
+
+
+# 快速开发框架篇
+- https://github.com/chengyuchun/androidRapid
+- https://github.com/qiaoyhh/AndroidProjectHelper （公司项目参考的框架）
 
 # 异常问题及解决办法:
 - 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
 - 2.解决gradle "Error:Cause: unable to find valid certification path to requested target" https://blog.csdn.net/hzh_csdn/article/details/60572145
 
 
-# 未完成的部分
-> 1. MultiScrollDemoActivity页面显示存在滑动冲突问题；
+# 未完成的部分以及待学习的地方
+- 1.MultiScrollDemoActivity页面显示存在滑动冲突问题；
+- 2.https://www.jianshu.com/p/2badfbb3a33b RxJava1.X升级到RxJava2.X笔记
 
 
