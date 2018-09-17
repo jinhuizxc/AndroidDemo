@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.ui.feature.shopcar;
+package com.example.jinhui.androiddemo.feature.shopcar.leftandright;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -23,9 +23,9 @@ import android.widget.Toast;
 
 import com.example.jinhui.androiddemo.R;
 import com.example.jinhui.androiddemo.base.BaseActivity;
-import com.example.jinhui.androiddemo.ui.feature.shopcar.adapter.GoodsAdapter;
-import com.example.jinhui.androiddemo.ui.feature.shopcar.adapter.SelectAdapter;
-import com.example.jinhui.androiddemo.ui.feature.shopcar.adapter.TypeAdapter;
+import com.example.jinhui.androiddemo.feature.shopcar.leftandright.adapter.GoodsAdapter;
+import com.example.jinhui.androiddemo.feature.shopcar.leftandright.adapter.SelectAdapter;
+import com.example.jinhui.androiddemo.feature.shopcar.leftandright.adapter.TypeAdapter;
 import com.flipboard.bottomsheet.BottomSheetLayout;
 
 import java.text.NumberFormat;

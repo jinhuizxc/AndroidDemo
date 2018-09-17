@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.ui.feature.shopcar;
+package com.example.jinhui.androiddemo.feature.shopcar.leftandright;
 
 import android.content.Context;
 import android.content.res.TypedArray;

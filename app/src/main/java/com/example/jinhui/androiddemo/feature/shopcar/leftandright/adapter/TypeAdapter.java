@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.ui.feature.shopcar.adapter;
+package com.example.jinhui.androiddemo.feature.shopcar.leftandright.adapter;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 
 import com.example.jinhui.androiddemo.R;
-import com.example.jinhui.androiddemo.ui.feature.shopcar.GoodsItem;
-import com.example.jinhui.androiddemo.ui.feature.shopcar.ShoppingCartActivity;
+import com.example.jinhui.androiddemo.feature.shopcar.leftandright.GoodsItem;
+import com.example.jinhui.androiddemo.feature.shopcar.leftandright.ShoppingCartActivity;
 
 import java.util.ArrayList;
 

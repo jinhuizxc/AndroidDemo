@@ -61,4 +61,10 @@
     <color name="actionsheet_blue">#007aff</color>
     <color name="actionsheet_red">#FD4A2E</color>
     <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="colorRedBg">#fa5148</color>
+    <color name="main_red_text">#e53e42</color>
+    <color name="pressed_icon_color">#e53e42</color>
+    <color name="background_color">#f6f6f6</color>
+    <!--分割线-->
+    <color name="splitline_color">#dddddd</color>
 </resources>

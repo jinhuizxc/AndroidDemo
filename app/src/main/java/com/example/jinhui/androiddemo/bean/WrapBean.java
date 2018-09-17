@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.bean.base;
+package com.example.jinhui.androiddemo.bean;
 
 /**
  * @Created SiberiaDante

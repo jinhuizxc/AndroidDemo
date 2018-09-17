@@ -1,4 +1,4 @@
-package com.example.jinhui.androiddemo.ui.feature.shopcar;
+package com.example.jinhui.androiddemo.feature.shopcar.leftandright;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_shopcart_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_10dp"
+            android:background="@color/background_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_item_shopcart_shopselect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/margin_10dp"
+                android:paddingLeft="@dimen/margin_15dp"
+                android:paddingRight="@dimen/margin_15dp"
+                android:paddingTop="@dimen/margin_10dp"
+                android:src="@drawable/shopcart_selected" />
+
+            <TextView
+                android:id="@+id/tv_item_shopcart_shopname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/shopcart_shop"
+                android:drawablePadding="@dimen/padding_5dp"
+                android:padding="@dimen/padding_10dp"
+                android:text="宝儿家服装" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1dp"
+                android:background="@color/background_color"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_15dp"
+                    android:layout_marginRight="@dimen/margin_15dp"
+                    android:src="@drawable/shopcart_selected"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/tv_item_shopcart_clothname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/padding_10dp"
+                    android:paddingTop="@dimen/padding_10dp"
+                    android:text="穿秋装情侣字母徽章风衣" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/tv_item_shopcart_clothselect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_15dp"
+                    android:src="@drawable/shopcart_selected" />
+
+                <ImageView
+                    android:id="@+id/iv_item_shopcart_cloth_pic"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="@dimen/margin_10dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_item_shopcart_cloth_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="¥185"
+                        android:textColor="@color/main_red_text"
+                        android:textSize="@dimen/common_font_size_14" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_5dp"
+                        android:layout_marginTop="@dimen/margin_5dp">
+
+                        <TextView
+                            android:id="@+id/tv_item_shopcart_cloth_color"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="颜色：黑色"
+                            android:textSize="@dimen/common_font_size_12" />
+
+                        <TextView
+                            android:id="@+id/tv_item_shopcart_cloth_size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_10dp"
+                            android:text="尺寸：XL"
+                            android:textSize="@dimen/common_font_size_12" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_item_shopcart_cloth_minus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/shopcart_minus_grey" />
+
+                        <TextView
+                            android:id="@+id/et_item_shopcart_cloth_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_5dp"
+                            android:background="@drawable/shopcart_add_btn"
+                            android:paddingBottom="@dimen/padding_2dp"
+                            android:paddingLeft="@dimen/padding_20dp"
+                            android:paddingRight="@dimen/padding_20dp"
+                            android:paddingTop="@dimen/padding_2dp"
+                            android:text="1" />
+
+                        <ImageView
+                            android:id="@+id/iv_item_shopcart_cloth_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_5dp"
+                            android:src="@drawable/shopcart_add_red" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/margin_1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/padding_10dp"
+                    android:layout_marginTop="@dimen/padding_10dp"
+                    android:background="@color/splitline_color"/>
+
+                <ImageView
+                    android:id="@+id/iv_item_shopcart_cloth_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_20dp"
+                    android:src="@drawable/shopcart_delete" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1dp"
+        android:background="@color/background_color"/>
+
+
+</LinearLayout>

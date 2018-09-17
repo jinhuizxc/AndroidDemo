@@ -19,6 +19,15 @@
     <!--读取联系人权限-->
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
+    <!-- 语音录入权限相关 -->
+    <!--震动权限-->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!--传感器权限-->
+    <uses-permission android:name="android.permission.BODY_SENSORS"/>
+    <!--录音权限-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -357,11 +366,15 @@
             android:theme="@style/multiTheme"/>
         <activity android:name=".ui.activity.SheetDialogActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".ui.feature.shopcar.ShoppingCartActivity"/>
+        <activity android:name=".feature.shopcar.leftandright.ShoppingCartActivity"/>
         <activity android:name=".recyclerview.summary.RvSummaryActivity"/>
         <activity android:name=".recyclerview.summary.NormalRecycleActivity"/>
         <activity android:name=".recyclerview.summary.ZhiDingRecycleActivity"/>
         <activity android:name=".recyclerview.summary.DaicehuaRecycleActivity"/>
+        <activity android:name=".record.weixin.WeiXinRecordActivity"/>
+        <activity android:name=".record.RecordActivity"/>
+        <activity android:name=".ui.activity.ShoppingCarsActivity"/>
+        <activity android:name=".feature.shopcar.rvshopcar.RvShopCarActivity"/>
 
 
 

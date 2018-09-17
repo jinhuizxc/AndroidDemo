@@ -45,6 +45,7 @@ class NormalRecycleActivity : AppCompatActivity() {
         setContentView(R.layout.normal_recyclerview)
 //        ButterKnife.bind(this)
 
+        refreshlayout.autoRefresh();
         for (i in 0..19) {
             list.add(i)
         }
@@ -83,6 +84,7 @@ class NormalRecycleActivity : AppCompatActivity() {
 //                }
                 adapter.update(list)
                 refreshLayout.finishLoadMore()
+//                refreshLayout.finishLoadMoreWithNoMoreData()  // 加载完没有更多数据，需要刷新才能显示字样。
             }, 2000)
         }
 
