@@ -107,6 +107,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/LuckyCode1992/recycleviewsummary 上拉加载下拉刷新自定义，左右侧滑自定义
 - https://github.com/jaydenxiao2016/AndroidFire 新闻客户端（公司项目参考的框架）
 - https://blog.csdn.net/lmj623565791/article/details/45059587 Android RecyclerView 使用完全解析 体验艺术般的控件
+- https://github.com/yuzhiqiang1993/zxing 基于zxing的扫一扫，集成简单，速度快，可配置颜色，还有闪光灯，解析二维码图片，生成二维码等功能
 
 
 # 快速开发框架篇
