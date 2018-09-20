@@ -115,6 +115,13 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 # 异常问题及解决办法:
 - 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
 - 2.解决gradle "Error:Cause: unable to find valid certification path to requested target" https://blog.csdn.net/hzh_csdn/article/details/60572145
+- 3.异常:
+```
+Error:Execution failed for task ':app:transformClassesWithDexForDebug'.
+  com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException:
+ Multiple dex files define Landroid/support/design/widget/CoordinatorLayout$Behavior;
+ - 解决办法:修改app的SdkVersion版本一致
+ ```
 
 
 # 未完成的部分以及待学习的地方
