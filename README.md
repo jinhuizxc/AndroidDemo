@@ -141,4 +141,7 @@ Please install the Android Support Repository from the Android SDK Manager.
 - 1.MultiScrollDemoActivity页面显示存在滑动冲突问题；
 - 2.https://www.jianshu.com/p/2badfbb3a33b RxJava1.X升级到RxJava2.X笔记
 
+# 后台管理系统
+-1.https://github.com/lenve/vhr
+
 
