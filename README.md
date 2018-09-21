@@ -125,6 +125,16 @@ Error:Execution failed for task ':app:transformClassesWithDexForDebug'.
  Multiple dex files define Landroid/support/design/widget/CoordinatorLayout$Behavior;
  - 解决办法:修改app的SdkVersion版本一致
  ```
+ - 4.AS异常:
+ ```
+ Error:Could not find support-fragment.jar (com.android.support:support-fragment:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1.jar
+
+Please install the Android Support Repository from the Android SDK Manager.
+<a href="openAndroidSdkManager">Open Android SDK Manager</a>
+ ```
+ 解决办法：https://blog.csdn.net/qq_16768763/article/details/81780982
 
 
 # 未完成的部分以及待学习的地方
