@@ -142,6 +142,6 @@ Please install the Android Support Repository from the Android SDK Manager.
 - 2.https://www.jianshu.com/p/2badfbb3a33b RxJava1.X升级到RxJava2.X笔记
 
 # 后台管理系统
--1.https://github.com/lenve/vhr
+-1.https://github.com/lenve/vhr  微人事是一个前后端分离的人力资源管理系统，项目采用SpringBoot+Vue开发。
 
 
