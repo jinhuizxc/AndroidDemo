@@ -139,8 +139,8 @@ Please install the Android Support Repository from the Android SDK Manager.
  - 5.AS异常
  ```
  找不到AsyncTaskCompatl类 NoClassDefFoundError: support/v4/os/AsyncTaskCompat 
- https://blog.csdn.net/qq_26467059/article/details/79336276
  ```
+ https://blog.csdn.net/qq_26467059/article/details/79336276
  
 
 
