@@ -112,29 +112,12 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/fanrunqi/MaterialLogin 用Transition做一个漂亮的登录界面
 - https://github.com/yanzhenjie/SwipeRecyclerView RecyclerView侧滑菜单，Item拖拽，滑动删除Item，自动加载更多，HeaderView，FooterView，Item分组黏贴
 - https://github.com/EnjoyAndroid/RecyclerviewNestedRecyclerview RecyclerView嵌套RecyclerView An example of a recyclerview nested recyclerview
-- /2/21 第三方框架(百度地图、环信、XUtils、Volley)
-
-- 2018/3/11
-
-1. 补充下mvc/mvp/mvvm的例子-简单的demo
-
-2. Android 5种数据存储方式
 
 
 
-- 2018/3/12 继昨天完善数据存储/内容提供者
+# 开机导航页效果合集
 
-- 2018/4/8  补充fragment的部分，stack以及事务处理，以及webview，学到了一个好的加载库（AgentWeb，以前就有fork结果以前没怎么留意，啊啊啊）。
-
-
-
-- 2018/4/22 重温下自定义view， 完成自定义日历控件。
-
-
-
-- 购物车效果(ShoppingCart) 9/13
-
-
+- https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
 
 
 
