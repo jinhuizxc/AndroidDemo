@@ -111,6 +111,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/Aspsine/IRecyclerView 下拉刷新库
 - https://github.com/fanrunqi/MaterialLogin 用Transition做一个漂亮的登录界面
 - https://github.com/yanzhenjie/SwipeRecyclerView RecyclerView侧滑菜单，Item拖拽，滑动删除Item，自动加载更多，HeaderView，FooterView，Item分组黏贴
+- https://github.com/EnjoyAndroid/RecyclerviewNestedRecyclerview RecyclerView嵌套RecyclerView An example of a recyclerview nested recyclerview
 
 
 # 快速开发框架篇
