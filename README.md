@@ -110,6 +110,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/yuzhiqiang1993/zxing 基于zxing的扫一扫，集成简单，速度快，可配置颜色，还有闪光灯，解析二维码图片，生成二维码等功能
 - https://github.com/Aspsine/IRecyclerView 下拉刷新库
 - https://github.com/fanrunqi/MaterialLogin 用Transition做一个漂亮的登录界面
+- https://github.com/yanzhenjie/SwipeRecyclerView RecyclerView侧滑菜单，Item拖拽，滑动删除Item，自动加载更多，HeaderView，FooterView，Item分组黏贴
 
 
 # 快速开发框架篇
