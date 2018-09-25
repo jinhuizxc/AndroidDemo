@@ -98,28 +98,6 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 
 
-# 参考文章以及第三方项目
-> 安卓UI相关开源项目库汇总:
-- https://github.com/opendigg/awesome-github-android-ui 
-- https://hndeveloper.github.io/2017/github-android-ui.html GitHub上受欢迎的Android UI Library
-- https://github.com/CymChad/BaseRecyclerViewAdapterHelper 一个强大的RecyclerAdapter框架
-- https://github.com/Blankj/AndroidUtilCode Android开发不得不收藏的Utils
-- https://github.com/LuckyCode1992/recycleviewsummary 上拉加载下拉刷新自定义，左右侧滑自定义
-- https://github.com/jaydenxiao2016/AndroidFire 新闻客户端（公司项目参考的框架）
-- https://blog.csdn.net/lmj623565791/article/details/45059587 Android RecyclerView 使用完全解析 体验艺术般的控件
-- https://github.com/yuzhiqiang1993/zxing 基于zxing的扫一扫，集成简单，速度快，可配置颜色，还有闪光灯，解析二维码图片，生成二维码等功能
-- https://github.com/Aspsine/IRecyclerView 下拉刷新库
-- https://github.com/fanrunqi/MaterialLogin 用Transition做一个漂亮的登录界面
-- https://github.com/yanzhenjie/SwipeRecyclerView RecyclerView侧滑菜单，Item拖拽，滑动删除Item，自动加载更多，HeaderView，FooterView，Item分组黏贴
-- https://github.com/EnjoyAndroid/RecyclerviewNestedRecyclerview RecyclerView嵌套RecyclerView An example of a recyclerview nested recyclerview
-
-
-
-# 开机导航页效果合集
-
-- https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
-
-
 
 
 
@@ -154,6 +132,10 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/piscessu/BaseQuickAdapter 简单封装了下RecyclerViewAdapter，避免每次都要写一堆重复代码
 
 
+ # 开机导航页效果合集
+ - https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
+ 
+ 
 # 动画效果项目合集
 - https://github.com/ChengangFeng/TickView 一个精致的打钩小动画，模仿轻芒杂志标记已读的动画
 
