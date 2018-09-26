@@ -133,7 +133,6 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/huanghaibin-dev/CalendarView 优雅精美日历控件
 - https://github.com/SiberiaDante NestScrollView嵌套多个布局滑动冲突解决方案demo
 
-
  # 开机导航页效果合集
  - https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
  - https://github.com/huburt-Hu/NewbieGuide Android 快速实现新手引导层的库
@@ -175,6 +174,10 @@ Please install the Android Support Repository from the Android SDK Manager.
  ```
  https://blog.csdn.net/qq_26467059/article/details/79336276
  
+
+
+# 音乐播放器相关资料收集
+- https://blog.csdn.net/a751608624/article/details/47807529 MediaButtonReceiver---独特的媒体广播接收器
 
 
 # 未完成的部分以及待学习的地方
