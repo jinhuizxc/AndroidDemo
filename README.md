@@ -132,7 +132,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/piscessu/BaseQuickAdapter 简单封装了下RecyclerViewAdapter，避免每次都要写一堆重复代码
 - https://github.com/huanghaibin-dev/CalendarView 优雅精美日历控件
 - https://github.com/SiberiaDante NestScrollView嵌套多个布局滑动冲突解决方案demo
-- https://github.com/afollestad/material-dialogs(https://blog.csdn.net/u010904027/article/details/53535590)开源项目material-dialogs使用
+- https://github.com/afollestad/material-dialogs (https://blog.csdn.net/u010904027/article/details/53535590) 开源项目material-dialogs使用
 
  # 开机导航页效果合集
  - https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
