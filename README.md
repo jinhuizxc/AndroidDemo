@@ -130,10 +130,12 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/EnjoyAndroid/RecyclerviewNestedRecyclerview RecyclerView嵌套RecyclerView An example of a recyclerview nested recyclerview
 
 - https://github.com/piscessu/BaseQuickAdapter 简单封装了下RecyclerViewAdapter，避免每次都要写一堆重复代码
+- https://github.com/huanghaibin-dev/CalendarView 优雅精美日历控件
 
 
  # 开机导航页效果合集
  - https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
+ - https://github.com/huburt-Hu/NewbieGuide Android 快速实现新手引导层的库
  
  
 # 动画效果项目合集
