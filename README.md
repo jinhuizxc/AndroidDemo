@@ -134,6 +134,13 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/SiberiaDante NestScrollView嵌套多个布局滑动冲突解决方案demo
 - https://github.com/afollestad/material-dialogs (https://blog.csdn.net/u010904027/article/details/53535590) 开源项目material-dialogs使用
 - https://github.com/DingMouRen/PaletteImageView (https://blog.csdn.net/xiaochuanding/article/details/72983772) 懂得智能配色的ImageView
+- 《多布局嵌套问题》
+- https://blog.csdn.net/u012591761/article/details/53511935 （https://blog.csdn.net/wjr1949/article/details/72479583）解决NestedScrollView中，在子View上滑动不触发滚动事件，却触发点击事件
+- https://github.com/TheLittleNaruto/SupportDesignExample/ 布局嵌套demo
+
+
+
+
 
  # 开机导航页效果合集
  - https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
