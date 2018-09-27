@@ -137,6 +137,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - 《多布局嵌套问题》
 - https://blog.csdn.net/u012591761/article/details/53511935 （https://blog.csdn.net/wjr1949/article/details/72479583) 解决NestedScrollView中，在子View上滑动不触发滚动事件，却触发点击事件
 - https://github.com/TheLittleNaruto/SupportDesignExample/ 布局嵌套demo
+- https://blog.csdn.net/hantian616/article/details/51944766 NestedScrollView嵌套ViewPager后滑动不了的问题
 
 
 
