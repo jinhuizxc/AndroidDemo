@@ -145,6 +145,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://blog.csdn.net/hantian616/article/details/51944766 NestedScrollView嵌套ViewPager后滑动不了的问题
 - https://github.com/jinhuizxc/RecycleViewScrollTo RecycleView实现手势监听、按钮监听控制其滑动功能 
 - https://github.com/qstumn/RefreshLayout 为任意View添加下拉刷新上拉加载更多的功能，支持NestedScrolling特性 
+- https://github.com/Vanish136/StateFrameLayout Android状态切换布局，可自定义Loading、Empty、NetError、Success四种状态样式，自带状态恢复 
 
 # 第三方分享
 - https://github.com/wildma/UMengThirdPartyShareLogin Android使用友盟集成第三方分享和第三方登录
