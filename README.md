@@ -149,6 +149,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/Vanish136/StateFrameLayout Android状态切换布局，可自定义Loading、Empty、NetError、Success四种状态样式，自带状态恢复 
 - https://github.com/guuguo/flowLayout Android 流式布局和网格布局共同体
 - https://github.com/Blankj/AndroidUtilCode 是一个强大易用的安卓工具类库
+- https://www.jianshu.com/p/be7355024f47 30 个优秀效果的Android 库
 
 
 # 第三方分享
