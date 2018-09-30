@@ -110,6 +110,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 
 
+
 # 安卓UI相关开源项目库汇总:
 
 - https://github.com/opendigg/awesome-github-android-ui 
@@ -151,6 +152,11 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/guuguo/flowLayout Android 流式布局和网格布局共同体
 - https://github.com/Blankj/AndroidUtilCode 是一个强大易用的安卓工具类库
 - https://www.jianshu.com/p/be7355024f47 30 个优秀效果的Android 库
+- https://github.com/Yalantis/Side-Menu.Android Side-Menu.Android分类侧滑菜单
+
+
+
+
 
 
 # 第三方分享
