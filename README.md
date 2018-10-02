@@ -182,6 +182,11 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/qiaoyhh/AndroidProjectHelper （公司项目参考的框架）
 - https://github.com/songzhixiang/BasePro 快速开发框架
 - https://www.jianshu.com/p/19368c2cdcaf Android快速开发常用库整理！
+- https://github.com/rengwuxian/RxJavaSamples RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例 
+
+
+
+
 
 # 异常问题及解决办法:
 - 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
