@@ -208,11 +208,17 @@ Please install the Android Support Repository from the Android SDK Manager.
 <a href="openAndroidSdkManager">Open Android SDK Manager</a>
  ```
  解决办法：https://blog.csdn.net/qq_16768763/article/details/81780982
- - 5.AS异常
+ - 5.AS异常：
  ```
  找不到AsyncTaskCompatl类 NoClassDefFoundError: support/v4/os/AsyncTaskCompat 
  ```
  https://blog.csdn.net/qq_26467059/article/details/79336276
+ 
+ - 6.AS异常:
+ ```
+ android 配置报错：Program type already present: android.support.v4.app.BackStackRecord$Op
+ ```
+ 解决办法: https://blog.csdn.net/zww986736788/article/details/80840803
  
 
 
