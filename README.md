@@ -153,6 +153,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/Blankj/AndroidUtilCode 是一个强大易用的安卓工具类库
 - https://www.jianshu.com/p/be7355024f47 30 个优秀效果的Android 库
 - https://github.com/Yalantis/Side-Menu.Android Side-Menu.Android分类侧滑菜单
+- https://github.com/HalfStackDeveloper/SwipeCardRecyclerView 利用RecyclerView打造的滑动卡片View，支持左滑右滑删除
 
 
 
