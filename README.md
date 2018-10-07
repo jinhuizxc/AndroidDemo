@@ -112,7 +112,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 
 
-# 安卓UI相关开源项目库汇总:
+# 安卓第三方优秀框架汇总:
 
 - https://github.com/opendigg/awesome-github-android-ui 
 
@@ -155,6 +155,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://www.jianshu.com/p/be7355024f47 30 个优秀效果的Android 库
 - https://github.com/Yalantis/Side-Menu.Android Side-Menu.Android分类侧滑菜单
 - https://github.com/HalfStackDeveloper/SwipeCardRecyclerView 利用RecyclerView打造的滑动卡片View，支持左滑右滑删除
+- https://github.com/square/leakcanary 内存检测框架
 
 
 
