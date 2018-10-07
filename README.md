@@ -176,7 +176,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
  
  
 # 动画效果项目合集
-- https://github.com/Yalantis 精致动画Yalantis
+- https://github.com/Yalantis 精致动画Yalantis地址(repository)
 - https://github.com/ChengangFeng/TickView 一个精致的打钩小动画，模仿轻芒杂志标记已读的动画
 - https://github.com/wapchief/SmartRefreshLottie SmartRefreshLayout下拉刷新+Lottie动画+自定义帧动画实现一键切换
 
