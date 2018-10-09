@@ -180,6 +180,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/ChengangFeng/TickView 一个精致的打钩小动画，模仿轻芒杂志标记已读的动画
 - https://github.com/wapchief/SmartRefreshLottie SmartRefreshLayout下拉刷新+Lottie动画+自定义帧动画实现一键切换
 - https://github.com/airbnb/lottie-android 一款非常好用的动画库Lottie
+- https://github.com/yanyiqun001/goRefresh 让下拉刷新炫酷起来~轻松接入lottie动画，支持listview recyclerview scrollerview webview 。同时支持listview和recyclerview上拉加载
 
 
 
