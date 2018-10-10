@@ -195,6 +195,9 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 # 产品研发
 https://github.com/yipianfengye/androidProject android产品研发过程中常用的技术，技巧，实践等
 
+# 优秀作者
+- [小米]: https://github.com/yipianfengye
+
 
 # 异常问题及解决办法:
 - 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
