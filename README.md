@@ -192,7 +192,8 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/rengwuxian/RxJavaSamples RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例 
 
 
-
+# 产品研发
+https://github.com/yipianfengye/androidProject android产品研发过程中常用的技术，技巧，实践等
 
 
 # 异常问题及解决办法:
