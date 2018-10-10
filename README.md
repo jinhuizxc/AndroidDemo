@@ -195,8 +195,9 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 # 产品研发
 https://github.com/yipianfengye/androidProject android产品研发过程中常用的技术，技巧，实践等
 
-# 优秀作者
+# github优秀作者
 - https://github.com/yipianfengye (小米公司)
+- https://github.com/javaexception 
 
 
 # 异常问题及解决办法:
