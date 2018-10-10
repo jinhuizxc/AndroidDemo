@@ -155,7 +155,6 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://www.jianshu.com/p/be7355024f47 30 个优秀效果的Android 库
 - https://github.com/Yalantis/Side-Menu.Android Side-Menu.Android分类侧滑菜单
 - https://github.com/HalfStackDeveloper/SwipeCardRecyclerView 利用RecyclerView打造的滑动卡片View，支持左滑右滑删除
-- https://github.com/square/leakcanary 内存检测框架
 - https://github.com/yipianfengye/android-adDialog 一个简单，强大的广告活动弹窗控件
 
 
@@ -191,6 +190,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/songzhixiang/BasePro 快速开发框架
 - https://www.jianshu.com/p/19368c2cdcaf Android快速开发常用库整理！
 - https://github.com/rengwuxian/RxJavaSamples RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例 
+- https://github.com/square/leakcanary 内存检测框架
 
 
 # 产品研发
