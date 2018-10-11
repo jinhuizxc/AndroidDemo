@@ -108,6 +108,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/lizixian18/NicePhoto 基于 Kotlin 开发的 一款超简单的图片浏览+设置壁纸+图片下载的App
 - https://github.com/samuelhuahui/OdyAndroidStore 安卓开发宝典项目
 - https://github.com/GeekGhost/Ghost 微影，一款纯粹的在线视频App，基于Material Design + MVP + RxJava + Retrofit + Realm + Glide
+- https://github.com/XXApple/AndroidLibs  Android开源大全（长期更新 Star）
 
 
 
