@@ -207,6 +207,7 @@ https://github.com/yipianfengye/androidProject android产品研发过程中常�
 # github优秀作者
 - https://github.com/yipianfengye (小米公司)
 - https://github.com/javaexception 
+- https://github.com/24Kshign (卖好车)
 
 
 # 异常问题及解决办法:
