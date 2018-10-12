@@ -172,6 +172,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 # 第三方分享
 - https://github.com/wildma/UMengThirdPartyShareLogin Android使用友盟集成第三方分享和第三方登录
 - https://github.com/elbbbird/ESSocialSDK 社交登录授权、分享SDK，支持微信、微博和QQ。
+- https://www.jianshu.com/p/18997b4f5217 Android 微信分享后留在微信，没有回调的问题解决方案
 
 
 
