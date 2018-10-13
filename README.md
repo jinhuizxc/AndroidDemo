@@ -158,13 +158,13 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/HalfStackDeveloper/SwipeCardRecyclerView 利用RecyclerView打造的滑动卡片View，支持左滑右滑删除
 - https://github.com/yipianfengye/android-adDialog 一个简单，强大的广告活动弹窗控件
 - https://github.com/facebook/fresco facebook提供的图片加载框架fresco
+- https://github.com/GcsSloop/rclayout Android通用圆角布局
 
 
 
  # Android打开Doc、Pdf打开文档
 - https://blog.csdn.net/u010123643/article/details/52777293 Android 开发之多种方案PDF阅读
 - https://www.cnblogs.com/wangfeng520/p/7814974.html Android打开doc、xlsx、ppt等office文档解决方案
-
 
 
 
@@ -205,6 +205,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 # Android面试资料
 - https://github.com/karmalove/AndroidInterview Android面试资料
+
 # 产品研发
 https://github.com/yipianfengye/androidProject android产品研发过程中常用的技术，技巧，实践等
 # 安卓学习笔记 
