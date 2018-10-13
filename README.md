@@ -204,11 +204,13 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 
 # Android面试资料
-- https://github.com/karmalove/AndroidInterview
+- https://github.com/karmalove/AndroidInterview Android面试资料
 # 产品研发
 https://github.com/yipianfengye/androidProject android产品研发过程中常用的技术，技巧，实践等
 # 安卓学习笔记 
-- https://github.com/GcsSloop/AndroidNote
+- https://github.com/GcsSloop/AndroidNote 安卓学习笔记 http://www.gcssloop.com/#blog
+- https://github.com/forezp/AndroidMaterialLatest 收集安卓最新学习资料，帮助你节约找资料的时间。
+
 
 # github优秀作者
 - https://github.com/yipianfengye (小米公司)
