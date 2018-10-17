@@ -159,6 +159,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/yipianfengye/android-adDialog 一个简单，强大的广告活动弹窗控件
 - https://github.com/facebook/fresco facebook提供的图片加载框架fresco
 - https://github.com/GcsSloop/rclayout Android通用圆角布局
+- https://github.com/cachapa/ExpandableLayout 可扩展布局库
 
 
 
