@@ -202,6 +202,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://www.jianshu.com/p/19368c2cdcaf Android快速开发常用库整理！
 - https://github.com/rengwuxian/RxJavaSamples RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例 
 - https://github.com/square/leakcanary 内存检测框架
+- https://github.com/CymChad/BaseRecyclerViewAdapterHelper 是一个强大的RecyclerAdapter框架
 
 
 # Android面试资料
