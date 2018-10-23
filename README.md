@@ -98,27 +98,173 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 
 
+
+
+
 # 参考文章以及第三方项目
-> 安卓UI相关开源项目库汇总:
+
+# 优秀项目源码
+- https://github.com/WhiteDG/BihuDaily 高仿知乎日报
+- https://github.com/lizixian18/NicePhoto 基于 Kotlin 开发的 一款超简单的图片浏览+设置壁纸+图片下载的App
+- https://github.com/samuelhuahui/OdyAndroidStore 安卓开发宝典项目
+- https://github.com/GeekGhost/Ghost 微影，一款纯粹的在线视频App，基于Material Design + MVP + RxJava + Retrofit + Realm + Glide
+- https://github.com/XXApple/AndroidLibs  Android开源大全（长期更新 Star）
+
+
+
+
+# 安卓第三方优秀框架汇总:
+
 - https://github.com/opendigg/awesome-github-android-ui 
+
 - https://hndeveloper.github.io/2017/github-android-ui.html GitHub上受欢迎的Android UI Library
-- https://github.com/CymChad/BaseRecyclerViewAdapterHelper 一个强大的RecyclerAdapter框架
+
 - https://github.com/Blankj/AndroidUtilCode Android开发不得不收藏的Utils
+
 - https://github.com/LuckyCode1992/recycleviewsummary 上拉加载下拉刷新自定义，左右侧滑自定义
+
 - https://github.com/jaydenxiao2016/AndroidFire 新闻客户端（公司项目参考的框架）
+
+- https://blog.csdn.net/lmj623565791/article/details/45059587 Android RecyclerView 使用完全解析 体验艺术般的控件
+
+- https://github.com/yuzhiqiang1993/zxing 基于zxing的扫一扫，集成简单，速度快，可配置颜色，还有闪光灯，解析二维码图片，生成二维码等功能
+
+- https://github.com/Aspsine/IRecyclerView 下拉刷新库
+
+- https://github.com/fanrunqi/MaterialLogin 用Transition做一个漂亮的登录界面
+
+- https://github.com/yanzhenjie/SwipeRecyclerView RecyclerView侧滑菜单，Item拖拽，滑动删除Item，自动加载更多，HeaderView，FooterView，Item分组黏贴
+
+- https://github.com/EnjoyAndroid/RecyclerviewNestedRecyclerview RecyclerView嵌套RecyclerView An example of a recyclerview nested recyclerview
+
+- https://github.com/piscessu/BaseQuickAdapter 简单封装了下RecyclerViewAdapter，避免每次都要写一堆重复代码
+- https://github.com/huanghaibin-dev/CalendarView 优雅精美日历控件
+- https://github.com/SiberiaDante NestScrollView嵌套多个布局滑动冲突解决方案demo
+- https://github.com/afollestad/material-dialogs (https://blog.csdn.net/u010904027/article/details/53535590) 开源项目material-dialogs使用
+- https://github.com/DingMouRen/PaletteImageView (https://blog.csdn.net/xiaochuanding/article/details/72983772) 懂得智能配色的ImageView
+- 《多布局嵌套问题》
+- https://blog.csdn.net/u012591761/article/details/53511935 （https://blog.csdn.net/wjr1949/article/details/72479583) 解决NestedScrollView中，在子View上滑动不触发滚动事件，却触发点击事件
+- https://github.com/TheLittleNaruto/SupportDesignExample/ 布局嵌套demo
+- https://blog.csdn.net/hantian616/article/details/51944766 NestedScrollView嵌套ViewPager后滑动不了的问题
+- https://github.com/jinhuizxc/RecycleViewScrollTo RecycleView实现手势监听、按钮监听控制其滑动功能 
+- https://github.com/qstumn/RefreshLayout 为任意View添加下拉刷新上拉加载更多的功能，支持NestedScrolling特性 
+- https://github.com/Vanish136/StateFrameLayout Android状态切换布局，可自定义Loading、Empty、NetError、Success四种状态样式，自带状态恢复 
+- https://github.com/guuguo/flowLayout Android 流式布局和网格布局共同体
+- https://github.com/Blankj/AndroidUtilCode 是一个强大易用的安卓工具类库
+- https://www.jianshu.com/p/be7355024f47 30 个优秀效果的Android 库
+- https://github.com/Yalantis/Side-Menu.Android Side-Menu.Android分类侧滑菜单
+- https://github.com/HalfStackDeveloper/SwipeCardRecyclerView 利用RecyclerView打造的滑动卡片View，支持左滑右滑删除
+- https://github.com/yipianfengye/android-adDialog 一个简单，强大的广告活动弹窗控件
+- https://github.com/facebook/fresco facebook提供的图片加载框架fresco
+- https://github.com/GcsSloop/rclayout Android通用圆角布局
+- https://github.com/cachapa/ExpandableLayout 可扩展布局库
+
+
+
+ # Android打开Doc、Pdf打开文档
+- https://blog.csdn.net/u010123643/article/details/52777293 Android 开发之多种方案PDF阅读
+- https://www.cnblogs.com/wangfeng520/p/7814974.html Android打开doc、xlsx、ppt等office文档解决方案
+
+
+
+
+# 第三方分享
+- https://github.com/wildma/UMengThirdPartyShareLogin Android使用友盟集成第三方分享和第三方登录
+- https://github.com/elbbbird/ESSocialSDK 社交登录授权、分享SDK，支持微信、微博和QQ。
+- https://www.jianshu.com/p/18997b4f5217 Android 微信分享后留在微信，没有回调的问题解决方案
+
+
+
+
+
+
+ # 开机导航页效果合集
+ - https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
+ - https://github.com/huburt-Hu/NewbieGuide Android 快速实现新手引导层的库
+ 
+ 
+# 动画效果项目合集
+- https://github.com/Yalantis 精致动画Yalantis地址(repository)
+- https://github.com/ChengangFeng/TickView 一个精致的打钩小动画，模仿轻芒杂志标记已读的动画
+- https://github.com/wapchief/SmartRefreshLottie SmartRefreshLayout下拉刷新+Lottie动画+自定义帧动画实现一键切换
+- https://github.com/airbnb/lottie-android 一款非常好用的动画库Lottie
+- https://github.com/yanyiqun001/goRefresh 让下拉刷新炫酷起来~轻松接入lottie动画，支持listview recyclerview scrollerview webview 。同时支持listview和recyclerview上拉加载
+- https://www.jianshu.com/p/07b03165566b Android酷炫实用的开源框架（UI框架）
+
 
 
 # 快速开发框架篇
 - https://github.com/chengyuchun/androidRapid
 - https://github.com/qiaoyhh/AndroidProjectHelper （公司项目参考的框架）
+- https://github.com/songzhixiang/BasePro 快速开发框架
+- https://www.jianshu.com/p/19368c2cdcaf Android快速开发常用库整理！
+- https://github.com/rengwuxian/RxJavaSamples RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例 
+- https://github.com/square/leakcanary 内存检测框架
+- https://github.com/CymChad/BaseRecyclerViewAdapterHelper 是一个强大的RecyclerAdapter框架
+
+
+# Android面试资料
+- https://github.com/karmalove/AndroidInterview Android面试资料
+
+# 产品研发
+https://github.com/yipianfengye/androidProject android产品研发过程中常用的技术，技巧，实践等
+
+# 安卓学习笔记 
+- https://github.com/GcsSloop/AndroidNote 安卓学习笔记 http://www.gcssloop.com/#blog
+- https://github.com/forezp/AndroidMaterialLatest 收集安卓最新学习资料，帮助你节约找资料的时间。
+- https://github.com/CoderGuoy/Coder Android Material Design 风格控件的学习
+
+
+# github优秀作者
+- https://github.com/hongyangAndroid 张鸿洋（wanandroid.com）
+- https://github.com/yipianfengye (小米公司)
+- https://github.com/javaexception 
+- https://github.com/24Kshign (卖好车)
+
 
 # 异常问题及解决办法:
 - 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
 - 2.解决gradle "Error:Cause: unable to find valid certification path to requested target" https://blog.csdn.net/hzh_csdn/article/details/60572145
+- 3.异常:
+```
+Error:Execution failed for task ':app:transformClassesWithDexForDebug'.
+  com.android.build.api.transform.TransformException: com.android.ide.common.process.ProcessException: java.util.concurrent.ExecutionException: com.android.dex.DexException:
+ Multiple dex files define Landroid/support/design/widget/CoordinatorLayout$Behavior;
+ - 解决办法:修改app的SdkVersion版本一致
+ ```
+ - 4.AS异常:
+ ```
+ Error:Could not find support-fragment.jar (com.android.support:support-fragment:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-fragment/27.1.1/support-fragment-27.1.1.jar
+
+Please install the Android Support Repository from the Android SDK Manager.
+<a href="openAndroidSdkManager">Open Android SDK Manager</a>
+ ```
+ 解决办法：https://blog.csdn.net/qq_16768763/article/details/81780982
+ - 5.AS异常：
+ ```
+ 找不到AsyncTaskCompatl类 NoClassDefFoundError: support/v4/os/AsyncTaskCompat 
+ ```
+ https://blog.csdn.net/qq_26467059/article/details/79336276
+ 
+ - 6.AS异常:
+ ```
+ android 配置报错：Program type already present: android.support.v4.app.BackStackRecord$Op
+ ```
+ 解决办法: https://blog.csdn.net/zww986736788/article/details/80840803
+ 
+
+
+# 音乐播放器相关资料收集
+- https://blog.csdn.net/a751608624/article/details/47807529 MediaButtonReceiver---独特的媒体广播接收器
 
 
 # 未完成的部分以及待学习的地方
 - 1.MultiScrollDemoActivity页面显示存在滑动冲突问题；
 - 2.https://www.jianshu.com/p/2badfbb3a33b RxJava1.X升级到RxJava2.X笔记
+
+# 后台管理系统
+-1.https://github.com/lenve/vhr  微人事是一个前后端分离的人力资源管理系统，项目采用SpringBoot+Vue开发。
 
 
