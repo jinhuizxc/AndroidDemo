@@ -31,6 +31,8 @@ import butterknife.OnClick;
 /**
  * Created by jinhui on 2018/2/5.
  * Email:1004260403@qq.com
+ *
+ * 界面优化4
  */
 
 public class UiOptimize4Activity extends AppCompatActivity {

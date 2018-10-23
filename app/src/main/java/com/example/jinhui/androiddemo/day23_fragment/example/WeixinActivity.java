@@ -24,6 +24,8 @@ import butterknife.OnClick;
 /**
  * Created by jinhui on 2018/2/5.
  * Email:1004260403@qq.com
+ *
+ * 微信底部导航效果
  */
 
 public class WeixinActivity extends AppCompatActivity {
@@ -56,6 +58,10 @@ public class WeixinActivity extends AppCompatActivity {
         // FragmentPagerAdapter仅仅支持v4包
         // import android.support.v4.app.FragmentPagerAdapter;
 
+        /**
+         * java.lang.NullPointerException:
+         * Attempt to invoke virtual method 'void android.widget.Button.setBackgroundResource(int)'
+         */
         for (int i = 0; i < bts.length; i++) {
             // 这里还必须写findViewById，不然会报空指针异常
             bts[i] = (Button) findViewById(ids[i]);
