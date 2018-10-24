@@ -164,6 +164,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
  # Android打开Doc、Pdf打开文档
 - https://blog.csdn.net/u010123643/article/details/52777293 Android 开发之多种方案PDF阅读
 - https://www.cnblogs.com/wangfeng520/p/7814974.html Android打开doc、xlsx、ppt等office文档解决方案
+- https://github.com/ZhongXiaoHong/superFileView 基于腾讯浏览服务Tbs,使用X5Webkit内核,实现文件的展示功能，支持多种文件格式
 
 
 
