@@ -204,6 +204,9 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/square/leakcanary 内存检测框架
 - https://github.com/CymChad/BaseRecyclerViewAdapterHelper 是一个强大的RecyclerAdapter框架
 
+# 关于Android屏幕适配
+-https://github.com/JessYanCoding/AndroidAutoSize A low-cost Android screen adaptation solution (今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案).
+
 
 # Android面试资料
 - https://github.com/karmalove/AndroidInterview Android面试资料
