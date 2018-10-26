@@ -161,6 +161,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 
 
+
  # Android打开Doc、Pdf打开文档
 - https://blog.csdn.net/u010123643/article/details/52777293 Android 开发之多种方案PDF阅读
 - https://www.cnblogs.com/wangfeng520/p/7814974.html Android打开doc、xlsx、ppt等office文档解决方案
@@ -203,6 +204,10 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/rengwuxian/RxJavaSamples RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例 
 - https://github.com/square/leakcanary 内存检测框架
 - https://github.com/CymChad/BaseRecyclerViewAdapterHelper 是一个强大的RecyclerAdapter框架
+- https://github.com/Dalanger/MyBaseProject Android开发常用工具第三方库集合以及Demo集锦，持续更新中
+
+
+
 
 # 关于Android屏幕适配
 -https://github.com/JessYanCoding/AndroidAutoSize A low-cost Android screen adaptation solution (今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案).
