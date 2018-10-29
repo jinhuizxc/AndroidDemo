@@ -216,6 +216,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 # 数据库
 - https://github.com/greenrobot/greenDAO 
+- https://www.jianshu.com/p/53083f782ea2 一篇好文之Android数据库 GreenDao的完全解析
 
 
 
