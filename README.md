@@ -170,6 +170,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://www.cnblogs.com/wangfeng520/p/7814974.html Android打开doc、xlsx、ppt等office文档解决方案
 - https://github.com/ZhongXiaoHong/superFileView 基于腾讯浏览服务Tbs,使用X5Webkit内核,实现文件的展示功能，支持多种文件格式
 - https://github.com/Victory-Over/SuperWeb Android基于腾讯X5内核的WebView(超级浏览器)，拥有文件上传、下载、浏览（支持PDF/PPT/DOC/EXCEL/TXT格式）、Android与JS的交互、视频播放、自定义进度条、下拉回弹等功能
+- https://www.jianshu.com/p/608b270a1ab8 Android加载PDF文件的使用
 
 
 
@@ -208,6 +209,10 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/square/leakcanary 内存检测框架
 - https://github.com/CymChad/BaseRecyclerViewAdapterHelper 是一个强大的RecyclerAdapter框架
 - https://github.com/Dalanger/MyBaseProject Android开发常用工具第三方库集合以及Demo集锦，持续更新中
+- https://www.jianshu.com/p/f01c4c6af214 Android 版本更新
+
+# 热更新
+- https://www.jianshu.com/p/f142698a34e1 腾讯Bugly集成热更新
 
 # 数据库
 - https://github.com/greenrobot/greenDAO 
