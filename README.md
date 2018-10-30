@@ -161,7 +161,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/facebook/fresco facebook提供的图片加载框架fresco
 - https://github.com/GcsSloop/rclayout Android通用圆角布局
 - https://github.com/cachapa/ExpandableLayout 可扩展布局库
-- https://github.com/PhilJay/MPAndroidChart 基于MPAndroidChart库制作K线图
+- https://github.com/PhilJay/MPAndroidChart 基于MPAndroidChart库制作K线图 （https://www.jianshu.com/p/5526e90d5d3e?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=weixin）
 
 
 
