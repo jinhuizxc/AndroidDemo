@@ -215,6 +215,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/CymChad/BaseRecyclerViewAdapterHelper 是一个强大的RecyclerAdapter框架
 - https://github.com/Dalanger/MyBaseProject Android开发常用工具第三方库集合以及Demo集锦，持续更新中
 - https://www.jianshu.com/p/f01c4c6af214 Android 版本更新
+- https://blog.csdn.net/CSDN2497242041/article/details/79250688 Android 25种开源炫酷UI动画框架
 
 
 
