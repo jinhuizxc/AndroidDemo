@@ -110,6 +110,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/GeekGhost/Ghost 微影，一款纯粹的在线视频App，基于Material Design + MVP + RxJava + Retrofit + Realm + Glide
 - https://github.com/XXApple/AndroidLibs  Android开源大全（长期更新 Star）
 - https://github.com/wingjay/jianshi 一款优雅的中国风Android App，包括Android端和Server端，支持登录注册，数据云端同步，离线数据存储和截屏分享等功能
+- https://github.com/cachecats/LikeMeiTuan 仿美团 Android 客户端的开源项目 
 
 
 
