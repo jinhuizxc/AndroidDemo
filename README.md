@@ -264,6 +264,9 @@ https://github.com/yipianfengye/androidProject android产品研发过程中常�
 # 搭建后台服务器
 - https://www.imooc.com/article/261733?block_id=tuijian_wz 献给移动端的服务器搭建
 
+# 图片压缩网站
+- https://tinypng.com/
+
 # 异常问题及解决办法:
 - 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
 - 2.解决gradle "Error:Cause: unable to find valid certification path to requested target" https://blog.csdn.net/hzh_csdn/article/details/60572145
