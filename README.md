@@ -112,6 +112,7 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/wingjay/jianshi 一款优雅的中国风Android App，包括Android端和Server端，支持登录注册，数据云端同步，离线数据存储和截屏分享等功能
 - https://github.com/cachecats/LikeMeiTuan 仿美团 Android 客户端的开源项目 
 - https://github.com/howshea/GeekNews 这是一个基于 MVVM 结构的练习项目，使用 Kotlin 语言开发，主要尝试了 Andorid Jetpack 中的 DataBinding, ViewModel, LiveData 和 Room. 另外练习了一下 viewGroup 的绘制（见项目中的SToolbar和NineGridImageLayout)
+- https://github.com/PandaQAQ/PandaEye 一款基于 mvp+rxjava+retrofit+Picasso 的应用，内容来自知乎日报，网易新闻，咪咕视频。实现了新闻列表的磁盘缓存 
 
 
 
