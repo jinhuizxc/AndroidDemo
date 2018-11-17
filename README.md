@@ -262,6 +262,7 @@ https://github.com/yipianfengye/androidProject android产品研发过程中常�
 - https://github.com/yangchong211 （alibaba）
 - https://github.com/DingMouRen 钉某人💻 全栈工程师
 - https://github.com/markzhai Alipay 慕课讲师
+- https://github.com/pinguo-zhouwei 公众号: Android技术杂货铺
 
 
 # 搭建后台服务器
