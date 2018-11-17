@@ -194,6 +194,8 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 # 状态栏
 - https://github.com/yanzhenjie/Sofia Android沉浸式效果的实现，状态栏和导航栏均支持设置颜色、渐变色、图片、透明度、内容入侵和状态栏深色字体；兼容竖屏、横屏，当屏幕旋转时会自动适配。
 
+# 自定义View篇
+- https://github.com/toly1994328/CoolCount Android原生绘图之炫酷倒计时 
 
  # 开机导航页效果合集
  - https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
