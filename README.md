@@ -109,6 +109,16 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/samuelhuahui/OdyAndroidStore 安卓开发宝典项目
 - https://github.com/GeekGhost/Ghost 微影，一款纯粹的在线视频App，基于Material Design + MVP + RxJava + Retrofit + Realm + Glide
 - https://github.com/XXApple/AndroidLibs  Android开源大全（长期更新 Star）
+- https://github.com/wingjay/jianshi 一款优雅的中国风Android App，包括Android端和Server端，支持登录注册，数据云端同步，离线数据存储和截屏分享等功能
+- https://github.com/cachecats/LikeMeiTuan 仿美团 Android 客户端的开源项目 
+- https://github.com/howshea/GeekNews 这是一个基于 MVVM 结构的练习项目，使用 Kotlin 语言开发，主要尝试了 Andorid Jetpack 中的 DataBinding, ViewModel, LiveData 和 Room. 另外练习了一下 viewGroup 的绘制（见项目中的SToolbar和NineGridImageLayout)
+- https://github.com/PandaQAQ/PandaEye 一款基于 mvp+rxjava+retrofit+Picasso 的应用，内容来自知乎日报，网易新闻，咪咕视频。实现了新闻列表的磁盘缓存 
+
+
+
+# RN项目
+- https://github.com/crazycodeboy/GitHubPopular 用来查看GitHub最受欢迎与最热项目的App
+- https://github.com/crazycodeboy (慕课网有对应rn课程)
 
 
 
@@ -158,12 +168,18 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/facebook/fresco facebook提供的图片加载框架fresco
 - https://github.com/GcsSloop/rclayout Android通用圆角布局
 - https://github.com/cachapa/ExpandableLayout 可扩展布局库
+- https://github.com/PhilJay/MPAndroidChart 基于MPAndroidChart库制作K线图 （https://www.jianshu.com/p/5526e90d5d3e?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=weixin）
+- https://www.jianshu.com/c/7a3817fa2dce?utm_source=desktop&utm_medium=notes-included-collection Material Design专题
+
 
 
 
  # Android打开Doc、Pdf打开文档
 - https://blog.csdn.net/u010123643/article/details/52777293 Android 开发之多种方案PDF阅读
 - https://www.cnblogs.com/wangfeng520/p/7814974.html Android打开doc、xlsx、ppt等office文档解决方案
+- https://github.com/ZhongXiaoHong/superFileView 基于腾讯浏览服务Tbs,使用X5Webkit内核,实现文件的展示功能，支持多种文件格式
+- https://github.com/Victory-Over/SuperWeb Android基于腾讯X5内核的WebView(超级浏览器)，拥有文件上传、下载、浏览（支持PDF/PPT/DOC/EXCEL/TXT格式）、Android与JS的交互、视频播放、自定义进度条、下拉回弹等功能
+- https://www.jianshu.com/p/608b270a1ab8 Android加载PDF文件的使用
 
 
 
@@ -176,7 +192,11 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 
 
 
+# 状态栏
+- https://github.com/yanzhenjie/Sofia Android沉浸式效果的实现，状态栏和导航栏均支持设置颜色、渐变色、图片、透明度、内容入侵和状态栏深色字体；兼容竖屏、横屏，当屏幕旋转时会自动适配。
 
+# 自定义View篇
+- https://github.com/toly1994328/CoolCount Android原生绘图之炫酷倒计时 
 
  # 开机导航页效果合集
  - https://github.com/JeasonWong/LiulishuoPreview 用VideoView实现英语流利说炫酷引导页
@@ -201,6 +221,25 @@ Fragment的动画效果、Fragment的生命周期、ViewPager + Fragment实现�
 - https://github.com/rengwuxian/RxJavaSamples RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例 
 - https://github.com/square/leakcanary 内存检测框架
 - https://github.com/CymChad/BaseRecyclerViewAdapterHelper 是一个强大的RecyclerAdapter框架
+- https://github.com/Dalanger/MyBaseProject Android开发常用工具第三方库集合以及Demo集锦，持续更新中
+- https://www.jianshu.com/p/f01c4c6af214 Android 版本更新
+- https://blog.csdn.net/CSDN2497242041/article/details/79250688 Android 25种开源炫酷UI动画框架
+
+
+
+
+# 热更新
+- https://www.jianshu.com/p/f142698a34e1 腾讯Bugly集成热更新
+
+# 数据库
+- https://github.com/greenrobot/greenDAO 
+- https://www.jianshu.com/p/53083f782ea2 一篇好文之Android数据库 GreenDao的完全解析
+
+
+
+
+# 关于Android屏幕适配
+-https://github.com/JessYanCoding/AndroidAutoSize A low-cost Android screen adaptation solution (今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案).
 
 
 # Android面试资料
@@ -220,7 +259,18 @@ https://github.com/yipianfengye/androidProject android产品研发过程中常�
 - https://github.com/yipianfengye (小米公司)
 - https://github.com/javaexception 
 - https://github.com/24Kshign (卖好车)
+- https://github.com/bingoogolapple 王浩(美团) 
+- https://github.com/yangchong211 （alibaba）
+- https://github.com/DingMouRen 钉某人💻 全栈工程师
+- https://github.com/markzhai Alipay 慕课讲师
+- https://github.com/pinguo-zhouwei 公众号: Android技术杂货铺
 
+
+# 搭建后台服务器
+- https://www.imooc.com/article/261733?block_id=tuijian_wz 献给移动端的服务器搭建
+
+# 图片压缩网站
+- https://tinypng.com/
 
 # 异常问题及解决办法:
 - 1.解决kotlin.KotlinNullPointerException以及问题分析 https://blog.csdn.net/BigBoySunshine/article/details/79299065 
