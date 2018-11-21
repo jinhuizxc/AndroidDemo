@@ -15,6 +15,7 @@ import static com.example.jinhui.androiddemo.day20_adapter.contact.MySqliteOpenH
 /**
  * Created by jinhui on 2018/3/12.
  * Email:1004260403@qq.com
+ *
  */
 
 public class MyContentProvider extends ContentProvider {
